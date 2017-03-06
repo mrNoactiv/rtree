@@ -1,0 +1,1259 @@
+******************** RTREE ******************
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 167055.7 Inserts/s
+Index Size: 1598.91 MB
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 31813.4 Queries/s
+#Logical Access Read: 32.60 (#IN: 25.73, #Rel.IN: 4.00, #LN: 6.87, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 15.34 (Rel. IN: 15.54, Rel. LN: 14.56)
+#Compare: 2803.10
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 3306.4 Queries/s
+#Logical Access Read: 182.83 (#IN: 81.13, #Rel.IN: 4.10, #LN: 101.70, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 2.81 (Rel. IN: 5.05, Rel. LN: 1.02)
+#Compare: 30152.37
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 2392.3 Queries/s
+#Logical Access Read: 246.20 (#IN: 96.20, #Rel.IN: 4.00, #LN: 150.00, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 2.03 (Rel. IN: 4.16, Rel. LN: 0.67)
+#Compare: 38502.80
+******************** VARIABLE_BITCOUNT ******************
+******************** LEVEL 0 ******************
+******************** BITS: 1
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 139118.4 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] : 1: 138.48 (18.69 + 119.79);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 797349 Zero Sigs.: (0; 0; 0)
+Avg L.:		386.67 (408; 408; 344)
+Avg W.:		60.76 (64.66; 64.64; 52.98)
+Avg W [%].:	15.71
+Uniques:	64.26 (67.92; 67.89; 56.98)
+Conflicts [%]:	5 (4; 4; 7)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 43750.9 Queries/s
+#Logical Access Read: 26.73 (#IN: 25.73, #Rel.IN: 4.00, #LN: 1.00, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 18.70 (Rel. IN: 15.54, Rel. LN: 100.00)
+#Logical Access Read in Signature Array: 6.87 (for InvLvl 0: 6.87; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 2029.30
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 7955.9 Queries/s
+#Logical Access Read: 85.93 (#IN: 81.13, #Rel.IN: 4.10, #LN: 4.80, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 5.97 (Rel. IN: 5.05, Rel. LN: 21.53)
+#Logical Access Read in Signature Array: 101.70 (for InvLvl 0: 101.70; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 10109.73
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 6435.0 Queries/s
+#Logical Access Read: 101.30 (#IN: 96.20, #Rel.IN: 4.00, #LN: 5.10, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 4.94 (Rel. IN: 4.16, Rel. LN: 19.61)
+#Logical Access Read in Signature Array: 150.00 (for InvLvl 0: 150.00; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 11134.80
+******************** BITS: 2
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 138985.9 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] : 1: 138.48 (18.69 + 119.79);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 797349 Zero Sigs.: (0; 0; 0)
+Avg L.:		386.67 (408; 408; 344)
+Avg W.:		111.38 (118.56; 118.54; 97.06)
+Avg W [%].:	28.81
+Uniques:	64.26 (67.92; 67.89; 56.98)
+Conflicts [%]:	13 (12; 12; 14)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 43146.8 Queries/s
+#Logical Access Read: 26.77 (#IN: 25.73, #Rel.IN: 4.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 18.68 (Rel. IN: 15.54, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 6.87 (for InvLvl 0: 6.87; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 2041.37
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 8361.2 Queries/s
+#Logical Access Read: 83.97 (#IN: 81.13, #Rel.IN: 4.10, #LN: 2.83, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 6.11 (Rel. IN: 5.05, Rel. LN: 36.47)
+#Logical Access Read in Signature Array: 101.70 (for InvLvl 0: 101.70; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 9686.13
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 6689.4 Queries/s
+#Logical Access Read: 99.17 (#IN: 96.20, #Rel.IN: 4.00, #LN: 2.97, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 5.04 (Rel. IN: 4.16, Rel. LN: 33.71)
+#Logical Access Read in Signature Array: 150.00 (for InvLvl 0: 150.00; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 10753.13
+******************** BITS: 3
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 132824.5 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] : 1: 138.48 (18.69 + 119.79);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 797349 Zero Sigs.: (0; 0; 0)
+Avg L.:		386.67 (408; 408; 344)
+Avg W.:		153.29 (163.06; 163.04; 133.76)
+Avg W [%].:	39.64
+Uniques:	64.26 (67.92; 67.89; 56.98)
+Conflicts [%]:	20 (19; 19; 21)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 44111.2 Queries/s
+#Logical Access Read: 26.73 (#IN: 25.73, #Rel.IN: 4.00, #LN: 1.00, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 18.70 (Rel. IN: 15.54, Rel. LN: 100.00)
+#Logical Access Read in Signature Array: 6.87 (for InvLvl 0: 6.87; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 2038.97
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 8496.2 Queries/s
+#Logical Access Read: 83.37 (#IN: 81.13, #Rel.IN: 4.10, #LN: 2.23, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 6.16 (Rel. IN: 5.05, Rel. LN: 46.27)
+#Logical Access Read in Signature Array: 101.70 (for InvLvl 0: 101.70; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 9623.67
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 6665.5 Queries/s
+#Logical Access Read: 98.97 (#IN: 96.20, #Rel.IN: 4.00, #LN: 2.77, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 5.05 (Rel. IN: 4.16, Rel. LN: 36.14)
+#Logical Access Read in Signature Array: 150.00 (for InvLvl 0: 150.00; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 10788.57
+******************** BITS: 4
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 128527.4 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] : 1: 138.48 (18.69 + 119.79);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 797349 Zero Sigs.: (0; 0; 0)
+Avg L.:		386.67 (408; 408; 344)
+Avg W.:		186.96 (198.41; 198.37; 164.11)
+Avg W [%].:	48.35
+Uniques:	64.26 (67.92; 67.89; 56.98)
+Conflicts [%]:	27 (26; 26; 27)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 43465.7 Queries/s
+#Logical Access Read: 26.73 (#IN: 25.73, #Rel.IN: 4.00, #LN: 1.00, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 18.70 (Rel. IN: 15.54, Rel. LN: 100.00)
+#Logical Access Read in Signature Array: 6.87 (for InvLvl 0: 6.87; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 2044.53
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 8315.5 Queries/s
+#Logical Access Read: 83.37 (#IN: 81.13, #Rel.IN: 4.10, #LN: 2.23, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 6.16 (Rel. IN: 5.05, Rel. LN: 46.27)
+#Logical Access Read in Signature Array: 101.70 (for InvLvl 0: 101.70; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 9672.90
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 6608.2 Queries/s
+#Logical Access Read: 98.67 (#IN: 96.20, #Rel.IN: 4.00, #LN: 2.47, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 5.07 (Rel. IN: 4.16, Rel. LN: 40.54)
+#Logical Access Read in Signature Array: 150.00 (for InvLvl 0: 150.00; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 10808.63
+******************** BITS: 5
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 122839.1 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] : 1: 138.48 (18.69 + 119.79);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 797349 Zero Sigs.: (0; 0; 0)
+Avg L.:		386.67 (408; 408; 344)
+Avg W.:		217.01 (230.59; 230.55; 189.88)
+Avg W [%].:	56.12
+Uniques:	64.26 (67.92; 67.89; 56.98)
+Conflicts [%]:	32 (32; 32; 33)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 43923.9 Queries/s
+#Logical Access Read: 26.73 (#IN: 25.73, #Rel.IN: 4.00, #LN: 1.00, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 18.70 (Rel. IN: 15.54, Rel. LN: 100.00)
+#Logical Access Read in Signature Array: 6.87 (for InvLvl 0: 6.87; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 2050.37
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 8207.9 Queries/s
+#Logical Access Read: 83.80 (#IN: 81.13, #Rel.IN: 4.10, #LN: 2.67, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 6.13 (Rel. IN: 5.05, Rel. LN: 38.75)
+#Logical Access Read in Signature Array: 101.70 (for InvLvl 0: 101.70; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 9796.97
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 6556.2 Queries/s
+#Logical Access Read: 99.47 (#IN: 96.20, #Rel.IN: 4.00, #LN: 3.27, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 5.03 (Rel. IN: 4.16, Rel. LN: 30.61)
+#Logical Access Read in Signature Array: 150.00 (for InvLvl 0: 150.00; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 11036.07
+******************** BITS: 6
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 118967.7 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] : 1: 138.48 (18.69 + 119.79);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 797349 Zero Sigs.: (0; 0; 0)
+Avg L.:		386.67 (408; 408; 344)
+Avg W.:		238.81 (252.48; 252.41; 211.53)
+Avg W [%].:	61.76
+Uniques:	64.26 (67.92; 67.89; 56.98)
+Conflicts [%]:	38 (38; 38; 38)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 43352.6 Queries/s
+#Logical Access Read: 26.80 (#IN: 25.73, #Rel.IN: 4.00, #LN: 1.07, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 18.66 (Rel. IN: 15.54, Rel. LN: 93.75)
+#Logical Access Read in Signature Array: 6.87 (for InvLvl 0: 6.87; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 2069.43
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 8080.4 Queries/s
+#Logical Access Read: 83.80 (#IN: 81.13, #Rel.IN: 4.10, #LN: 2.67, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 6.13 (Rel. IN: 5.05, Rel. LN: 38.75)
+#Logical Access Read in Signature Array: 101.70 (for InvLvl 0: 101.70; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 9871.67
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 6345.6 Queries/s
+#Logical Access Read: 100.20 (#IN: 96.20, #Rel.IN: 4.00, #LN: 4.00, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 4.99 (Rel. IN: 4.16, Rel. LN: 25.00)
+#Logical Access Read in Signature Array: 150.00 (for InvLvl 0: 150.00; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 11247.47
+******************** BITS: 7
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 113969.2 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] : 1: 138.48 (18.69 + 119.79);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 797349 Zero Sigs.: (0; 0; 0)
+Avg L.:		386.67 (408; 408; 344)
+Avg W.:		260.67 (276.06; 275.99; 229.96)
+Avg W [%].:	67.41
+Uniques:	64.26 (67.92; 67.89; 56.98)
+Conflicts [%]:	42 (41; 41; 42)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 42259.5 Queries/s
+#Logical Access Read: 26.83 (#IN: 25.73, #Rel.IN: 4.00, #LN: 1.10, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 18.63 (Rel. IN: 15.54, Rel. LN: 90.91)
+#Logical Access Read in Signature Array: 6.87 (for InvLvl 0: 6.87; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 2080.33
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 7779.7 Queries/s
+#Logical Access Read: 85.13 (#IN: 81.13, #Rel.IN: 4.10, #LN: 4.00, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 6.03 (Rel. IN: 5.05, Rel. LN: 25.83)
+#Logical Access Read in Signature Array: 101.70 (for InvLvl 0: 101.70; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 10254.93
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 6013.3 Queries/s
+#Logical Access Read: 101.77 (#IN: 96.20, #Rel.IN: 4.00, #LN: 5.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 4.91 (Rel. IN: 4.16, Rel. LN: 17.96)
+#Logical Access Read in Signature Array: 150.00 (for InvLvl 0: 150.00; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 11683.60
+******************** BITS: 8
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 112157.5 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] : 1: 138.48 (18.69 + 119.79);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 797349 Zero Sigs.: (0; 0; 0)
+Avg L.:		386.67 (408; 408; 344)
+Avg W.:		275.16 (290.62; 290.51; 244.37)
+Avg W [%].:	71.16
+Uniques:	64.26 (67.92; 67.89; 56.98)
+Conflicts [%]:	46 (46; 46; 46)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 43054.0 Queries/s
+#Logical Access Read: 26.87 (#IN: 25.73, #Rel.IN: 4.00, #LN: 1.13, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 18.61 (Rel. IN: 15.54, Rel. LN: 88.24)
+#Logical Access Read in Signature Array: 6.87 (for InvLvl 0: 6.87; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 2094.70
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 7624.7 Queries/s
+#Logical Access Read: 86.70 (#IN: 81.13, #Rel.IN: 4.10, #LN: 5.57, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 5.92 (Rel. IN: 5.05, Rel. LN: 18.56)
+#Logical Access Read in Signature Array: 101.70 (for InvLvl 0: 101.70; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 10719.20
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 6084.1 Queries/s
+#Logical Access Read: 103.07 (#IN: 96.20, #Rel.IN: 4.00, #LN: 6.87, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 4.85 (Rel. IN: 4.16, Rel. LN: 14.56)
+#Logical Access Read in Signature Array: 150.00 (for InvLvl 0: 150.00; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 12104.37
+******************** BITS: 9
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 108684.9 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] : 1: 138.48 (18.69 + 119.79);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 797349 Zero Sigs.: (0; 0; 0)
+Avg L.:		386.67 (408; 408; 344)
+Avg W.:		289.44 (305.39; 305.27; 257.66)
+Avg W [%].:	74.85
+Uniques:	64.26 (67.92; 67.89; 56.98)
+Conflicts [%]:	49 (50; 50; 49)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 42378.9 Queries/s
+#Logical Access Read: 26.97 (#IN: 25.73, #Rel.IN: 4.00, #LN: 1.23, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 18.54 (Rel. IN: 15.54, Rel. LN: 81.08)
+#Logical Access Read in Signature Array: 6.87 (for InvLvl 0: 6.87; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 2127.63
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 7469.7 Queries/s
+#Logical Access Read: 87.77 (#IN: 81.13, #Rel.IN: 4.10, #LN: 6.63, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 5.85 (Rel. IN: 5.05, Rel. LN: 15.58)
+#Logical Access Read in Signature Array: 101.70 (for InvLvl 0: 101.70; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 10985.03
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 5900.7 Queries/s
+#Logical Access Read: 104.90 (#IN: 96.20, #Rel.IN: 4.00, #LN: 8.70, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 4.77 (Rel. IN: 4.16, Rel. LN: 11.49)
+#Logical Access Read in Signature Array: 150.00 (for InvLvl 0: 150.00; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 12628.13
+******************** BITS: 10
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 105442.7 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] : 1: 138.48 (18.69 + 119.79);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 797349 Zero Sigs.: (0; 0; 0)
+Avg L.:		386.67 (408; 408; 344)
+Avg W.:		302.22 (318.96; 318.83; 268.88)
+Avg W [%].:	78.16
+Uniques:	64.26 (67.92; 67.89; 56.98)
+Conflicts [%]:	52 (53; 53; 52)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 39520.5 Queries/s
+#Logical Access Read: 27.13 (#IN: 25.73, #Rel.IN: 4.00, #LN: 1.40, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 18.43 (Rel. IN: 15.54, Rel. LN: 71.43)
+#Logical Access Read in Signature Array: 6.87 (for InvLvl 0: 6.87; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 2165.17
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 7226.0 Queries/s
+#Logical Access Read: 89.80 (#IN: 81.13, #Rel.IN: 4.10, #LN: 8.67, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 5.72 (Rel. IN: 5.05, Rel. LN: 11.92)
+#Logical Access Read in Signature Array: 101.70 (for InvLvl 0: 101.70; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 11550.63
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 5702.0 Queries/s
+#Logical Access Read: 106.83 (#IN: 96.20, #Rel.IN: 4.00, #LN: 10.63, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 4.68 (Rel. IN: 4.16, Rel. LN: 9.40)
+#Logical Access Read in Signature Array: 150.00 (for InvLvl 0: 150.00; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 13106.93
+******************** LEVEL 1 ******************
+******************** BITS: 1
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 138094.5 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :; 2: 123.79 (1.96 + 121.83); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 62379 Zero Sigs.: (0; 0; 0)
+Avg L.:		12861.33 (13968; 13936; 10680)
+Avg W.:		2098.61 (2283.50; 2279.95; 1732.37)
+Avg W [%].:	16.32
+Uniques:	2143.03 (2327.37; 2322.43; 1779.29)
+Conflicts [%]:	2 (1; 1; 2)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 62500.0 Queries/s
+#Logical Access Read: 15.90 (#IN: 14.47, #Rel.IN: 4.00, #LN: 1.43, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 31.45 (Rel. IN: 27.65, Rel. LN: 69.77)
+#Logical Access Read in Signature Array: 17.03 (for InvLvl ; 1: 17.03; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 1294.90
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 17396.3 Queries/s
+#Logical Access Read: 33.33 (#IN: 25.73, #Rel.IN: 4.10, #LN: 7.60, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 15.40 (Rel. IN: 15.93, Rel. LN: 13.60)
+#Logical Access Read in Signature Array: 70.43 (for InvLvl ; 1: 70.43; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 4384.03
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 14238.9 Queries/s
+#Logical Access Read: 37.87 (#IN: 28.33, #Rel.IN: 4.00, #LN: 9.53, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 13.20 (Rel. IN: 14.12, Rel. LN: 10.49)
+#Logical Access Read in Signature Array: 85.93 (for InvLvl ; 1: 85.93; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 4994.00
+******************** BITS: 2
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 133476.1 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :; 2: 123.79 (1.96 + 121.83); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 62379 Zero Sigs.: (0; 0; 0)
+Avg L.:		12861.33 (13968; 13936; 10680)
+Avg W.:		3800.22 (4163.62; 4156.94; 3080.11)
+Avg W [%].:	29.55
+Uniques:	2143.03 (2327.37; 2322.43; 1779.29)
+Conflicts [%]:	11 (10; 10; 13)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 63465.2 Queries/s
+#Logical Access Read: 15.73 (#IN: 14.33, #Rel.IN: 4.00, #LN: 1.40, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 31.78 (Rel. IN: 27.91, Rel. LN: 71.43)
+#Logical Access Read in Signature Array: 16.33 (for InvLvl ; 1: 16.33; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 1288.27
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 18283.8 Queries/s
+#Logical Access Read: 31.40 (#IN: 24.80, #Rel.IN: 4.10, #LN: 6.60, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 16.35 (Rel. IN: 16.53, Rel. LN: 15.66)
+#Logical Access Read in Signature Array: 66.70 (for InvLvl ; 1: 66.70; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 4069.73
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 14466.2 Queries/s
+#Logical Access Read: 37.07 (#IN: 27.17, #Rel.IN: 4.00, #LN: 9.90, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 13.49 (Rel. IN: 14.72, Rel. LN: 10.10)
+#Logical Access Read in Signature Array: 81.17 (for InvLvl ; 1: 81.17; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 4856.53
+******************** BITS: 3
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 129867.7 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :; 2: 123.79 (1.96 + 121.83); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 62379 Zero Sigs.: (0; 0; 0)
+Avg L.:		12861.33 (13968; 13936; 10680)
+Avg W.:		5194.70 (5688.13; 5730.24; 4165.73)
+Avg W [%].:	40.39
+Uniques:	2143.03 (2327.37; 2322.43; 1779.29)
+Conflicts [%]:	19 (18; 17; 21)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 62656.6 Queries/s
+#Logical Access Read: 15.87 (#IN: 14.40, #Rel.IN: 4.00, #LN: 1.47, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 31.51 (Rel. IN: 27.78, Rel. LN: 68.18)
+#Logical Access Read in Signature Array: 16.27 (for InvLvl ; 1: 16.27; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 1312.20
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 18990.9 Queries/s
+#Logical Access Read: 30.87 (#IN: 24.87, #Rel.IN: 4.10, #LN: 6.00, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 16.63 (Rel. IN: 16.49, Rel. LN: 17.22)
+#Logical Access Read in Signature Array: 65.90 (for InvLvl ; 1: 65.90; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 3903.03
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 14968.6 Queries/s
+#Logical Access Read: 35.30 (#IN: 26.97, #Rel.IN: 4.00, #LN: 8.33, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 14.16 (Rel. IN: 14.83, Rel. LN: 12.00)
+#Logical Access Read in Signature Array: 80.30 (for InvLvl ; 1: 80.30; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 4502.90
+******************** BITS: 4
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 126051.7 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :; 2: 123.79 (1.96 + 121.83); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 62379 Zero Sigs.: (0; 0; 0)
+Avg L.:		12861.33 (13968; 13936; 10680)
+Avg W.:		6185.31 (6792.42; 6823.82; 4939.68)
+Avg W [%].:	48.09
+Uniques:	2143.03 (2327.37; 2322.43; 1779.29)
+Conflicts [%]:	27 (27; 26; 30)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 62370.1 Queries/s
+#Logical Access Read: 15.83 (#IN: 14.37, #Rel.IN: 4.00, #LN: 1.47, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 31.58 (Rel. IN: 27.84, Rel. LN: 68.18)
+#Logical Access Read in Signature Array: 15.93 (for InvLvl ; 1: 15.93; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 1317.00
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 17153.6 Queries/s
+#Logical Access Read: 33.43 (#IN: 25.43, #Rel.IN: 4.10, #LN: 8.00, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 15.35 (Rel. IN: 16.12, Rel. LN: 12.92)
+#Logical Access Read in Signature Array: 66.57 (for InvLvl ; 1: 66.57; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 4410.87
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 14665.6 Queries/s
+#Logical Access Read: 35.43 (#IN: 27.43, #Rel.IN: 4.00, #LN: 8.00, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 14.11 (Rel. IN: 14.58, Rel. LN: 12.50)
+#Logical Access Read in Signature Array: 80.87 (for InvLvl ; 1: 80.87; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 4710.93
+******************** BITS: 5
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 121861.9 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :; 2: 123.79 (1.96 + 121.83); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 62379 Zero Sigs.: (0; 0; 0)
+Avg L.:		12861.33 (13968; 13936; 10680)
+Avg W.:		7182.03 (7933.99; 7960.02; 5652.08)
+Avg W [%].:	55.84
+Uniques:	2143.03 (2327.37; 2322.43; 1779.29)
+Conflicts [%]:	32 (31; 31; 36)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 61500.6 Queries/s
+#Logical Access Read: 15.93 (#IN: 14.47, #Rel.IN: 4.00, #LN: 1.47, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 31.38 (Rel. IN: 27.65, Rel. LN: 68.18)
+#Logical Access Read in Signature Array: 15.73 (for InvLvl ; 1: 15.73; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 1333.20
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 15303.0 Queries/s
+#Logical Access Read: 36.03 (#IN: 25.83, #Rel.IN: 4.10, #LN: 10.20, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 14.25 (Rel. IN: 15.87, Rel. LN: 10.13)
+#Logical Access Read in Signature Array: 68.10 (for InvLvl ; 1: 68.10; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 4960.17
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 14345.1 Queries/s
+#Logical Access Read: 36.50 (#IN: 28.00, #Rel.IN: 4.00, #LN: 8.50, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 13.70 (Rel. IN: 14.29, Rel. LN: 11.76)
+#Logical Access Read in Signature Array: 81.63 (for InvLvl ; 1: 81.63; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 4886.33
+******************** BITS: 6
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 118321.3 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :; 2: 123.79 (1.96 + 121.83); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 62379 Zero Sigs.: (0; 0; 0)
+Avg L.:		12861.33 (13968; 13936; 10680)
+Avg W.:		7747.17 (8485.85; 8720.83; 6034.83)
+Avg W [%].:	60.24
+Uniques:	2143.03 (2327.37; 2322.43; 1779.29)
+Conflicts [%]:	39 (39; 37; 43)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 61349.7 Queries/s
+#Logical Access Read: 15.97 (#IN: 14.47, #Rel.IN: 4.00, #LN: 1.50, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 31.32 (Rel. IN: 27.65, Rel. LN: 66.67)
+#Logical Access Read in Signature Array: 16.17 (for InvLvl ; 1: 16.17; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 1346.87
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 15428.9 Queries/s
+#Logical Access Read: 36.67 (#IN: 26.60, #Rel.IN: 4.10, #LN: 10.07, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 14.00 (Rel. IN: 15.41, Rel. LN: 10.26)
+#Logical Access Read in Signature Array: 68.60 (for InvLvl ; 1: 68.60; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 5034.53
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 13921.8 Queries/s
+#Logical Access Read: 38.00 (#IN: 28.43, #Rel.IN: 4.00, #LN: 9.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 13.16 (Rel. IN: 14.07, Rel. LN: 10.45)
+#Logical Access Read in Signature Array: 82.20 (for InvLvl ; 1: 82.20; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 5231.57
+******************** BITS: 7
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 115848.3 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :; 2: 123.79 (1.96 + 121.83); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 62379 Zero Sigs.: (0; 0; 0)
+Avg L.:		12861.33 (13968; 13936; 10680)
+Avg W.:		8529.56 (9342.07; 9530.22; 6716.39)
+Avg W [%].:	66.32
+Uniques:	2143.03 (2327.37; 2322.43; 1779.29)
+Conflicts [%]:	43 (42; 41; 46)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 60313.6 Queries/s
+#Logical Access Read: 16.03 (#IN: 14.53, #Rel.IN: 4.00, #LN: 1.50, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 31.19 (Rel. IN: 27.52, Rel. LN: 66.67)
+#Logical Access Read in Signature Array: 16.57 (for InvLvl ; 1: 16.57; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 1364.93
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 15464.7 Queries/s
+#Logical Access Read: 35.97 (#IN: 26.83, #Rel.IN: 4.10, #LN: 9.13, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 14.27 (Rel. IN: 15.28, Rel. LN: 11.31)
+#Logical Access Read in Signature Array: 69.13 (for InvLvl ; 1: 69.13; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 4853.97
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 12964.6 Queries/s
+#Logical Access Read: 40.23 (#IN: 29.10, #Rel.IN: 4.00, #LN: 11.13, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 12.43 (Rel. IN: 13.75, Rel. LN: 8.98)
+#Logical Access Read in Signature Array: 83.87 (for InvLvl ; 1: 83.87; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 5580.43
+******************** BITS: 8
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 112527.9 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :; 2: 123.79 (1.96 + 121.83); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 62379 Zero Sigs.: (0; 0; 0)
+Avg L.:		12861.33 (13968; 13936; 10680)
+Avg W.:		8830.45 (9687.00; 9846.89; 6957.46)
+Avg W [%].:	68.66
+Uniques:	2143.03 (2327.37; 2322.43; 1779.29)
+Conflicts [%]:	48 (47; 47; 51)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 59500.2 Queries/s
+#Logical Access Read: 16.27 (#IN: 14.67, #Rel.IN: 4.00, #LN: 1.60, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 30.74 (Rel. IN: 27.27, Rel. LN: 62.50)
+#Logical Access Read in Signature Array: 17.17 (for InvLvl ; 1: 17.17; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 1409.07
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 14994.0 Queries/s
+#Logical Access Read: 37.47 (#IN: 27.57, #Rel.IN: 4.10, #LN: 9.90, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 13.70 (Rel. IN: 14.87, Rel. LN: 10.44)
+#Logical Access Read in Signature Array: 69.77 (for InvLvl ; 1: 69.77; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 5125.70
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 12017.8 Queries/s
+#Logical Access Read: 42.73 (#IN: 30.13, #Rel.IN: 4.00, #LN: 12.60, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 11.70 (Rel. IN: 13.27, Rel. LN: 7.94)
+#Logical Access Read in Signature Array: 85.07 (for InvLvl ; 1: 85.07; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 6046.83
+******************** BITS: 9
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 109877.4 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :; 2: 123.79 (1.96 + 121.83); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 62379 Zero Sigs.: (0; 0; 0)
+Avg L.:		12861.33 (13968; 13936; 10680)
+Avg W.:		9263.98 (10031.06; 10469.30; 7291.60)
+Avg W [%].:	72.03
+Uniques:	2143.03 (2327.37; 2322.43; 1779.29)
+Conflicts [%]:	51 (52; 49; 54)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 57681.2 Queries/s
+#Logical Access Read: 16.47 (#IN: 14.77, #Rel.IN: 4.00, #LN: 1.70, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 30.36 (Rel. IN: 27.09, Rel. LN: 58.82)
+#Logical Access Read in Signature Array: 17.50 (for InvLvl ; 1: 17.50; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 1442.07
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 14105.0 Queries/s
+#Logical Access Read: 39.17 (#IN: 28.27, #Rel.IN: 4.10, #LN: 10.90, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 13.11 (Rel. IN: 14.50, Rel. LN: 9.48)
+#Logical Access Read in Signature Array: 71.67 (for InvLvl ; 1: 71.67; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 5485.13
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 10700.5 Queries/s
+#Logical Access Read: 47.07 (#IN: 31.03, #Rel.IN: 4.00, #LN: 16.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 10.62 (Rel. IN: 12.89, Rel. LN: 6.24)
+#Logical Access Read in Signature Array: 86.17 (for InvLvl ; 1: 86.17; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 7095.33
+******************** BITS: 10
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 106917.5 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :; 2: 123.79 (1.96 + 121.83); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 62379 Zero Sigs.: (0; 0; 0)
+Avg L.:		12861.33 (13968; 13936; 10680)
+Avg W.:		9586.98 (10477.64; 10839.39; 7443.91)
+Avg W [%].:	74.54
+Uniques:	2143.03 (2327.37; 2322.43; 1779.29)
+Conflicts [%]:	55 (54; 53; 58)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 55938.8 Queries/s
+#Logical Access Read: 16.77 (#IN: 14.97, #Rel.IN: 4.00, #LN: 1.80, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 29.82 (Rel. IN: 26.73, Rel. LN: 55.56)
+#Logical Access Read in Signature Array: 17.97 (for InvLvl ; 1: 17.97; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 1495.93
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 12264.9 Queries/s
+#Logical Access Read: 44.70 (#IN: 30.27, #Rel.IN: 4.10, #LN: 14.43, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 11.48 (Rel. IN: 13.55, Rel. LN: 7.16)
+#Logical Access Read in Signature Array: 73.53 (for InvLvl ; 1: 73.53; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 6432.57
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 9791.4 Queries/s
+#Logical Access Read: 51.13 (#IN: 32.53, #Rel.IN: 4.00, #LN: 18.60, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 9.78 (Rel. IN: 12.30, Rel. LN: 5.38)
+#Logical Access Read in Signature Array: 88.30 (for InvLvl ; 1: 88.30; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 7789.90
+******************** LEVEL 2 ******************
+******************** BITS: 1
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 112516.8 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :;; 3: 47.92 (0.92 + 47.00) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 24065 Zero Sigs.: (0; 0; 0)
+Avg L.:		395952.00 (536976; 536976; 113904)
+Avg W.:		65006.91 (87997.75; 87013.56; 20009.42)
+Avg W [%].:	16.42
+Uniques:	66124.95 (89596.13; 88749.34; 20029.38)
+Conflicts [%]:	1 (1; 1; 0)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 66949.3 Queries/s
+#Logical Access Read: 13.70 (#IN: 10.73, #Rel.IN: 4.00, #LN: 2.97, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 36.50 (Rel. IN: 37.27, Rel. LN: 33.71)
+#Logical Access Read in Signature Array: 11.30 (for InvLvl ; ; 2: 11.30)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 1166.90
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 15700.2 Queries/s
+#Logical Access Read: 41.13 (#IN: 21.50, #Rel.IN: 4.10, #LN: 19.63, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 12.48 (Rel. IN: 19.07, Rel. LN: 5.26)
+#Logical Access Read in Signature Array: 19.50 (for InvLvl ; ; 2: 19.50)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 5927.67
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 11687.2 Queries/s
+#Logical Access Read: 52.27 (#IN: 24.93, #Rel.IN: 4.00, #LN: 27.33, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 9.57 (Rel. IN: 16.04, Rel. LN: 3.66)
+#Logical Access Read in Signature Array: 21.23 (for InvLvl ; ; 2: 21.23)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 7780.20
+******************** BITS: 2
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 94430.5 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :;; 3: 64.18 (1.24 + 62.94) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 32224 Zero Sigs.: (0; 0; 0)
+Avg L.:		395952.00 (536976; 536976; 113904)
+Avg W.:		116269.99 (159725.27; 158387.20; 30697.49)
+Avg W [%].:	29.36
+Uniques:	66124.95 (89596.13; 88749.34; 20029.38)
+Conflicts [%]:	12 (10; 10; 23)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 65402.2 Queries/s
+#Logical Access Read: 13.50 (#IN: 10.53, #Rel.IN: 4.00, #LN: 2.97, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 37.04 (Rel. IN: 37.97, Rel. LN: 33.71)
+#Logical Access Read in Signature Array: 16.03 (for InvLvl ; ; 2: 16.03)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 1161.93
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 15787.8 Queries/s
+#Logical Access Read: 39.53 (#IN: 19.90, #Rel.IN: 4.10, #LN: 19.63, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 12.98 (Rel. IN: 20.60, Rel. LN: 5.26)
+#Logical Access Read in Signature Array: 27.00 (for InvLvl ; ; 2: 27.00)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 5758.57
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 11974.6 Queries/s
+#Logical Access Read: 49.97 (#IN: 23.53, #Rel.IN: 4.00, #LN: 26.43, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 10.01 (Rel. IN: 17.00, Rel. LN: 3.78)
+#Logical Access Read in Signature Array: 28.73 (for InvLvl ; ; 2: 28.73)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 7444.97
+******************** BITS: 3
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 88911.1 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :;; 3: 68.98 (1.34 + 67.64) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 34629 Zero Sigs.: (0; 0; 0)
+Avg L.:		395952.00 (536976; 536976; 113904)
+Avg W.:		158429.50 (218207.08; 216743.78; 40337.67)
+Avg W [%].:	40.01
+Uniques:	66124.95 (89596.13; 88749.34; 20029.38)
+Conflicts [%]:	20 (18; 18; 32)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 62774.6 Queries/s
+#Logical Access Read: 13.53 (#IN: 10.53, #Rel.IN: 4.00, #LN: 3.00, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 36.95 (Rel. IN: 37.97, Rel. LN: 33.33)
+#Logical Access Read in Signature Array: 20.90 (for InvLvl ; ; 2: 20.90)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 1168.60
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 16073.7 Queries/s
+#Logical Access Read: 38.20 (#IN: 19.23, #Rel.IN: 4.10, #LN: 18.97, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 13.44 (Rel. IN: 21.32, Rel. LN: 5.45)
+#Logical Access Read in Signature Array: 33.77 (for InvLvl ; ; 2: 33.77)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 5575.13
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 11810.6 Queries/s
+#Logical Access Read: 48.67 (#IN: 21.87, #Rel.IN: 4.00, #LN: 26.80, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 10.27 (Rel. IN: 18.29, Rel. LN: 3.73)
+#Logical Access Read in Signature Array: 36.37 (for InvLvl ; ; 2: 36.37)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 7585.60
+******************** BITS: 4
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 85171.8 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :;; 3: 70.10 (1.36 + 68.74) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 35195 Zero Sigs.: (0; 0; 0)
+Avg L.:		395952.00 (536976; 536976; 113904)
+Avg W.:		188455.83 (260032.71; 258310.26; 47024.53)
+Avg W [%].:	47.60
+Uniques:	66124.95 (89596.13; 88749.34; 20029.38)
+Conflicts [%]:	28 (27; 27; 41)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 55066.1 Queries/s
+#Logical Access Read: 13.83 (#IN: 10.83, #Rel.IN: 4.00, #LN: 3.00, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 36.14 (Rel. IN: 36.92, Rel. LN: 33.33)
+#Logical Access Read in Signature Array: 27.43 (for InvLvl ; ; 2: 27.43)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 1205.67
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 16380.9 Queries/s
+#Logical Access Read: 37.43 (#IN: 19.27, #Rel.IN: 4.10, #LN: 18.17, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 13.71 (Rel. IN: 21.28, Rel. LN: 5.69)
+#Logical Access Read in Signature Array: 41.90 (for InvLvl ; ; 2: 41.90)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 5316.67
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 10868.4 Queries/s
+#Logical Access Read: 53.03 (#IN: 24.23, #Rel.IN: 4.00, #LN: 28.80, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 9.43 (Rel. IN: 16.51, Rel. LN: 3.47)
+#Logical Access Read in Signature Array: 44.43 (for InvLvl ; ; 2: 44.43)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 8098.17
+******************** BITS: 5
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 79679.8 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :;; 3: 70.45 (1.37 + 69.08) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 35368 Zero Sigs.: (0; 0; 0)
+Avg L.:		395952.00 (536976; 536976; 113904)
+Avg W.:		220170.75 (303397.08; 301411.91; 55703.28)
+Avg W [%].:	55.61
+Uniques:	66124.95 (89596.13; 88749.34; 20029.38)
+Conflicts [%]:	33 (32; 32; 44)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 55824.3 Queries/s
+#Logical Access Read: 13.80 (#IN: 10.83, #Rel.IN: 4.00, #LN: 2.97, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 36.23 (Rel. IN: 36.92, Rel. LN: 33.71)
+#Logical Access Read in Signature Array: 34.27 (for InvLvl ; ; 2: 34.27)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 1206.20
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 9349.9 Queries/s
+#Logical Access Read: 58.43 (#IN: 22.60, #Rel.IN: 4.10, #LN: 35.83, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 8.78 (Rel. IN: 18.14, Rel. LN: 2.88)
+#Logical Access Read in Signature Array: 51.07 (for InvLvl ; ; 2: 51.07)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 10525.73
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 10724.6 Queries/s
+#Logical Access Read: 52.03 (#IN: 23.40, #Rel.IN: 4.00, #LN: 28.63, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 9.61 (Rel. IN: 17.09, Rel. LN: 3.49)
+#Logical Access Read in Signature Array: 53.17 (for InvLvl ; ; 2: 53.17)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 7770.90
+******************** BITS: 6
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 75617.1 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :;; 3: 70.58 (1.37 + 69.21) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 35435 Zero Sigs.: (0; 0; 0)
+Avg L.:		395952.00 (536976; 536976; 113904)
+Avg W.:		234609.52 (323558.04; 321234.61; 59035.91)
+Avg W [%].:	59.25
+Uniques:	66124.95 (89596.13; 88749.34; 20029.38)
+Conflicts [%]:	40 (39; 39; 50)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 53390.3 Queries/s
+#Logical Access Read: 13.57 (#IN: 10.63, #Rel.IN: 4.00, #LN: 2.93, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 36.86 (Rel. IN: 37.62, Rel. LN: 34.09)
+#Logical Access Read in Signature Array: 40.07 (for InvLvl ; ; 2: 40.07)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 1192.13
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 8776.8 Queries/s
+#Logical Access Read: 60.90 (#IN: 23.63, #Rel.IN: 4.10, #LN: 37.27, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 8.43 (Rel. IN: 17.35, Rel. LN: 2.77)
+#Logical Access Read in Signature Array: 59.83 (for InvLvl ; ; 2: 59.83)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 11054.77
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 10400.8 Queries/s
+#Logical Access Read: 53.20 (#IN: 24.77, #Rel.IN: 4.00, #LN: 28.43, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 9.40 (Rel. IN: 16.15, Rel. LN: 3.52)
+#Logical Access Read in Signature Array: 62.43 (for InvLvl ; ; 2: 62.43)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 7880.63
+******************** BITS: 7
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 70912.9 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :;; 3: 70.68 (1.37 + 69.31) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 35484 Zero Sigs.: (0; 0; 0)
+Avg L.:		395952.00 (536976; 536976; 113904)
+Avg W.:		257992.61 (355854.85; 353572.93; 64550.07)
+Avg W [%].:	65.16
+Uniques:	66124.95 (89596.13; 88749.34; 20029.38)
+Conflicts [%]:	44 (43; 43; 53)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 50268.1 Queries/s
+#Logical Access Read: 13.73 (#IN: 10.73, #Rel.IN: 4.00, #LN: 3.00, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 36.41 (Rel. IN: 37.27, Rel. LN: 33.33)
+#Logical Access Read in Signature Array: 47.03 (for InvLvl ; ; 2: 47.03)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 1217.43
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 12080.2 Queries/s
+#Logical Access Read: 46.53 (#IN: 23.90, #Rel.IN: 4.10, #LN: 22.63, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 11.03 (Rel. IN: 17.15, Rel. LN: 4.57)
+#Logical Access Read in Signature Array: 72.47 (for InvLvl ; ; 2: 72.47)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 6879.57
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 10161.6 Queries/s
+#Logical Access Read: 55.00 (#IN: 26.87, #Rel.IN: 4.00, #LN: 28.13, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 9.09 (Rel. IN: 14.89, Rel. LN: 3.55)
+#Logical Access Read in Signature Array: 74.53 (for InvLvl ; ; 2: 74.53)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 8022.63
+******************** BITS: 8
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 67224.0 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :;; 3: 70.74 (1.37 + 69.37) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 35515 Zero Sigs.: (0; 0; 0)
+Avg L.:		395952.00 (536976; 536976; 113904)
+Avg W.:		267115.84 (368532.17; 366005.63; 66809.77)
+Avg W [%].:	67.46
+Uniques:	66124.95 (89596.13; 88749.34; 20029.38)
+Conflicts [%]:	49 (48; 48; 58)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 46175.2 Queries/s
+#Logical Access Read: 14.27 (#IN: 11.13, #Rel.IN: 4.00, #LN: 3.13, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 35.05 (Rel. IN: 35.93, Rel. LN: 31.91)
+#Logical Access Read in Signature Array: 56.27 (for InvLvl ; ; 2: 56.27)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 1271.77
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 10600.3 Queries/s
+#Logical Access Read: 51.93 (#IN: 27.47, #Rel.IN: 4.10, #LN: 24.47, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 9.88 (Rel. IN: 14.93, Rel. LN: 4.22)
+#Logical Access Read in Signature Array: 87.90 (for InvLvl ; ; 2: 87.90)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 7635.30
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 8744.8 Queries/s
+#Logical Access Read: 61.80 (#IN: 29.50, #Rel.IN: 4.00, #LN: 32.30, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 8.09 (Rel. IN: 13.56, Rel. LN: 3.10)
+#Logical Access Read in Signature Array: 88.40 (for InvLvl ; ; 2: 88.40)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 8989.80
+******************** BITS: 9
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 62982.5 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :;; 3: 70.79 (1.37 + 69.42) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 35544 Zero Sigs.: (0; 0; 0)
+Avg L.:		395952.00 (536976; 536976; 113904)
+Avg W.:		276744.03 (381707.58; 379167.13; 69357.36)
+Avg W [%].:	69.89
+Uniques:	66124.95 (89596.13; 88749.34; 20029.38)
+Conflicts [%]:	53 (52; 52; 61)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 42893.9 Queries/s
+#Logical Access Read: 14.60 (#IN: 11.40, #Rel.IN: 4.00, #LN: 3.20, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 34.25 (Rel. IN: 35.09, Rel. LN: 31.25)
+#Logical Access Read in Signature Array: 65.43 (for InvLvl ; ; 2: 65.43)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 1313.93
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 9674.6 Queries/s
+#Logical Access Read: 54.63 (#IN: 28.50, #Rel.IN: 4.10, #LN: 26.13, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 9.40 (Rel. IN: 14.39, Rel. LN: 3.95)
+#Logical Access Read in Signature Array: 100.17 (for InvLvl ; ; 2: 100.17)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 8050.33
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 8085.4 Queries/s
+#Logical Access Read: 66.67 (#IN: 32.30, #Rel.IN: 4.00, #LN: 34.37, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 7.50 (Rel. IN: 12.38, Rel. LN: 2.91)
+#Logical Access Read in Signature Array: 104.30 (for InvLvl ; ; 2: 104.30)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 9654.40
+******************** BITS: 10
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000Inserts: 6000000Inserts: 7000000Inserts: 8000000Inserts: 9000000Inserts: 10000000Inserts: 11000000Inserts: 12000000Inserts: 13000000Inserts: 14000000Inserts: 15000000Inserts: 16000000Inserts: 17000000Inserts: 18000000Inserts: 19000000Inserts: 20000000Inserts: 21000000Inserts: 22000000Inserts: 23000000Inserts: 24000000Inserts: 25000000Inserts: 26000000Inserts: 27000000Inserts: 28000000Inserts: 29000000Inserts: 30000000Inserts: 31000000Inserts: 32000000Inserts: 33000000Inserts: 34000000Inserts: 35000000Inserts: 36000000Inserts: 37000000Inserts: 38000000Inserts: 39000000Inserts: 40000000Inserts: 41000000Inserts: 42000000Inserts: 43000000Inserts: 44000000Inserts: 45000000Inserts: 46000000Inserts: 47000000Inserts: 48000000Inserts: 49000000Inserts: 50000000Inserts: 51000000Inserts: 52000000Inserts: 53000000Inserts: 54000000Inserts: 55000000Inserts: 56000000Inserts: 57000000Inserts: 58000000
+Performance: 60195.3 Inserts/s
+Index Size: 1598.91
+#Signature Storages [MB] :;; 3: 70.83 (1.38 + 69.45) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 35559 Zero Sigs.: (0; 0; 0)
+Avg L.:		395952.00 (536976; 536976; 113904)
+Avg W.:		288517.66 (397923.39; 395511.77; 72117.84)
+Avg W [%].:	72.87
+Uniques:	66124.95 (89596.13; 88749.34; 20029.38)
+Conflicts [%]:	56 (55; 55; 63)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pointqueries.qtf
+RS: 1.03 
+Performance: 37046.2 Queries/s
+#Logical Access Read: 15.20 (#IN: 11.93, #Rel.IN: 4.00, #LN: 3.27, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 32.89 (Rel. IN: 33.52, Rel. LN: 30.61)
+#Logical Access Read in Signature Array: 76.10 (for InvLvl ; ; 2: 76.10)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 1375.70
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\nrq2.qtf
+RS: 1.07 
+Performance: 5643.2 Queries/s
+#Logical Access Read: 89.37 (#IN: 31.80, #Rel.IN: 4.10, #LN: 57.57, #Rel.LN: 1.03)
+#Relevancy of Scanned Subtrees [%]: 5.74 (Rel. IN: 12.89, Rel. LN: 1.80)
+#Logical Access Read in Signature Array: 113.27 (for InvLvl ; ; 2: 113.27)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 16739.17
+
+k:\users\cho247\Collections\USA_ROADS\sig_test\pmq2.qtf
+RS: 1.00 
+Performance: 7622.7 Queries/s
+#Logical Access Read: 70.10 (#IN: 34.63, #Rel.IN: 4.00, #LN: 35.47, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 7.13 (Rel. IN: 11.55, Rel. LN: 2.82)
+#Logical Access Read in Signature Array: 119.87 (for InvLvl ; ; 2: 119.87)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 9892.67

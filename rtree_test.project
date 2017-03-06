@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="rtree_test" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00040001N0005Debug0000000000000001N0010Debug_CUDA0000000000000001N0007Release0000000000000001N0012Release_CUDA000000000000]]>
+    </Plugin>
+    <Plugin Name="CMakePlugin">
+      <![CDATA[[{
+  "name": "Debug",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "Debug_CUDA",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "Release",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "Release_CUDA",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }]]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="common">
+    <VirtualDirectory Name="stream">
+      <File Name="../../../common/stream/cFileStream.cpp"/>
+      <File Name="../../../common/stream/cFileStream.h"/>
+      <File Name="../../../common/stream/cCharStream.cpp"/>
+      <File Name="../../../common/stream/cCharStream.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="compression">
+      <File Name="../../../common/compression/cCoderCommon.cpp"/>
+      <File Name="../../../common/compression/cCoderCommon.h"/>
+      <File Name="../../../common/compression/Coder.cpp"/>
+      <File Name="../../../common/compression/Coder.h"/>
+      <File Name="../../../common/compression/cUniversalCoderEliasDelta.cpp"/>
+      <File Name="../../../common/compression/cUniversalCoderEliasDelta.h"/>
+      <File Name="../../../common/compression/cUniversalCoderEliasFibonacci.cpp"/>
+      <File Name="../../../common/compression/cUniversalCoderEliasFibonacci.h"/>
+      <File Name="../../../common/compression/cUniversalCoderFastEliasDelta.cpp"/>
+      <File Name="../../../common/compression/cUniversalCoderFastEliasDelta.h"/>
+      <File Name="../../../common/compression/cUniversalCoderFastEliasFibonacci.cpp"/>
+      <File Name="../../../common/compression/cUniversalCoderFastEliasFibonacci.h"/>
+      <File Name="../../../common/compression/cUniversalCoderFastFibonacci2.cpp"/>
+      <File Name="../../../common/compression/cUniversalCoderFastFibonacci2.h"/>
+      <File Name="../../../common/compression/cUniversalCoderFastFibonacci3.cpp"/>
+      <File Name="../../../common/compression/cUniversalCoderFastFibonacci3.h"/>
+      <File Name="../../../common/compression/cUniversalCoderFibonacci2.cpp"/>
+      <File Name="../../../common/compression/cUniversalCoderFibonacci2.h"/>
+      <File Name="../../../common/compression/cUniversalCoderFibonacci3.cpp"/>
+      <File Name="../../../common/compression/cUniversalCoderFibonacci3.h"/>
+      <File Name="../../../common/compression/log256table.h"/>
+      <File Name="../../../common/compression/cUniversalCoderFixedLength.cpp"/>
+      <File Name="../../../common/compression/cUniversalCoderFixedLength.h"/>
+    </VirtualDirectory>
+    <File Name="../../../common/cBitString.cpp"/>
+    <File Name="../../../common/cBitString.h"/>
+    <File Name="../../../common/cMemory.cpp"/>
+    <File Name="../../../common/cMemory.h"/>
+    <File Name="../../../common/cNumber.cpp"/>
+    <File Name="../../../common/cNumber.h"/>
+    <VirtualDirectory Name="utils">
+      <File Name="../../../common/utils/cCounter.cpp"/>
+      <File Name="../../../common/utils/cCounter.h"/>
+      <File Name="../../../common/utils/cTimer.cpp"/>
+      <File Name="../../../common/utils/cTimer.h"/>
+      <File Name="../../../common/utils/cHistogram.cpp"/>
+      <File Name="../../../common/utils/cHistogram.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="random">
+      <File Name="../../../common/random/cGaussRandomGenerator.cpp"/>
+      <File Name="../../../common/random/cGaussRandomGenerator.h"/>
+      <File Name="../../../common/random/cUniformRandomGenerator.cpp"/>
+      <File Name="../../../common/random/cUniformRandomGenerator.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="datatype">
+      <File Name="../../../common/datatype/cBasicType.cpp"/>
+      <File Name="../../../common/datatype/cBasicType.h"/>
+      <File Name="../../../common/datatype/cDataType.cpp"/>
+      <File Name="../../../common/datatype/cDataType.h"/>
+      <VirtualDirectory Name="tuple">
+        <File Name="../../../common/datatype/tuple/cSpaceDescriptor.cpp"/>
+        <File Name="../../../common/datatype/tuple/cSpaceDescriptor.h"/>
+        <File Name="../../../common/datatype/tuple/cTuple.cpp"/>
+        <File Name="../../../common/datatype/tuple/cTuple.h"/>
+        <File Name="../../../common/datatype/tuple/cMBRectangle.cpp"/>
+        <File Name="../../../common/datatype/tuple/cMBRectangle.h"/>
+        <File Name="../../../common/datatype/tuple/cHNTuple.cpp"/>
+        <File Name="../../../common/datatype/tuple/cHNTuple.h"/>
+        <File Name="../../../common/datatype/tuple/cMbrSideSizeOrder.cpp"/>
+        <File Name="../../../common/datatype/tuple/cMbrSideSizeOrder.h"/>
+      </VirtualDirectory>
+      <File Name="../../../dstruct/paged/core/cTreeNodeHeader.h"/>
+      <File Name="../../../common/datatype/cDTDescriptor.h"/>
+      <File Name="../../../common/datatype/cDTDescriptor.cpp"/>
+      <File Name="../../../common/datatype/cCharString.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="memdatstruct">
+      <File Name="../../../common/memdatstruct/cBlockLinkedList.cpp"/>
+      <File Name="../../../common/memdatstruct/cBlockLinkedList.h"/>
+      <File Name="../../../common/memdatstruct/cHeapMemoryBlock.cpp"/>
+      <File Name="../../../common/memdatstruct/cHeapMemoryBlock.h"/>
+      <File Name="../../../common/memdatstruct/cMemoryBlock.cpp"/>
+      <File Name="../../../common/memdatstruct/cMemoryBlock.h"/>
+      <File Name="../../../common/memdatstruct/cMemoryManager.cpp"/>
+      <File Name="../../../common/memdatstruct/cMemoryManager.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="memorystructures">
+      <File Name="../../../common/memorystructures/cArray.cpp"/>
+      <File Name="../../../common/memorystructures/cArray.h"/>
+    </VirtualDirectory>
+    <File Name="../../../common/cSignature.cpp"/>
+    <File Name="../../../common/cSignature.h"/>
+    <File Name="../../../common/cCommon.cpp"/>
+    <File Name="../../../common/cCommon.h"/>
+    <File Name="../../../common/cBitArray.cpp"/>
+    <File Name="../../../common/cBitArray.h"/>
+    <VirtualDirectory Name="thread">
+      <File Name="../../../common/thread/spinlock_mutex.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="dstruct">
+    <VirtualDirectory Name="paged">
+      <VirtualDirectory Name="cuda">
+        <File Name="../../../dstruct/paged/cuda/cCudaCommonKernels.cuh"/>
+        <File Name="../../../dstruct/paged/cuda/cCudaGlobalDefs.cuh"/>
+        <File Name="../../../dstruct/paged/cuda/cCudaCommonKernels.cuh"/>
+        <File Name="../../../dstruct/paged/cuda/cCudaProcessor.cuh"/>
+        <File Name="../../../dstruct/paged/cuda/cCudaProcessor35.cuh"/>
+        <File Name="../../../dstruct/paged/cuda/cCudaProcessor.cu"/>
+        <File Name="../../../dstruct/paged/cuda/cCudaProcessor35.cu"/>
+        <File Name="../../../dstruct/paged/cuda/cGpuConst.cpp"/>
+        <File Name="../../../dstruct/paged/cuda/cGpuConst.h"/>
+        <File Name="../../../dstruct/paged/cuda/cMemoryManagerCuda.h"/>
+        <File Name="../../../dstruct/paged/cuda/cGlobalDefs.h"/>
+        <File Name="../../../dstruct/paged/cuda/cCudaParams.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="core">
+        <File Name="../../../dstruct/paged/core/cBucketHeader.cpp"/>
+        <File Name="../../../dstruct/paged/core/cBucketHeader.h"/>
+        <File Name="../../../dstruct/paged/core/cBucketHeaderStorage.cpp"/>
+        <File Name="../../../dstruct/paged/core/cBucketHeaderStorage.h"/>
+        <File Name="../../../dstruct/paged/core/cCacheStatistics.cpp"/>
+        <File Name="../../../dstruct/paged/core/cCacheStatistics.h"/>
+        <File Name="../../../dstruct/paged/core/cDStructHeader.cpp"/>
+        <File Name="../../../dstruct/paged/core/cDStructHeader.h"/>
+        <File Name="../../../dstruct/paged/core/cItemStream.h"/>
+        <File Name="../../../dstruct/paged/core/cMemoryPool.cpp"/>
+        <File Name="../../../dstruct/paged/core/cMemoryPool.h"/>
+        <File Name="../../../dstruct/paged/core/cNode.cpp"/>
+        <File Name="../../../dstruct/paged/core/cNode.h"/>
+        <File Name="../../../dstruct/paged/core/cNodeHeader.cpp"/>
+        <File Name="../../../dstruct/paged/core/cNodeHeader.h"/>
+        <File Name="../../../dstruct/paged/core/cQueryStatistics.cpp"/>
+        <File Name="../../../dstruct/paged/core/cQueryStatistics.h"/>
+        <File Name="../../../dstruct/paged/core/cQuickDB.cpp"/>
+        <File Name="../../../dstruct/paged/core/cQuickDB.h"/>
+        <File Name="../../../dstruct/paged/core/cTreeHeader.cpp"/>
+        <File Name="../../../dstruct/paged/core/cTreeHeader.h"/>
+        <File Name="../../../dstruct/paged/core/cTreeNodeHeader.cpp"/>
+        <File Name="../../../dstruct/paged/core/cPagedTree.h"/>
+        <File Name="../../../dstruct/paged/core/cDSCriticalException.h"/>
+        <File Name="../../../dstruct/paged/core/cTreeNode.h"/>
+        <File Name="../../../dstruct/paged/core/cTreeNode_coding.h"/>
+        <File Name="../../../dstruct/paged/core/cTreeNode_rebuild.h"/>
+        <File Name="../../../dstruct/paged/core/cTreeNode_ri.h"/>
+        <File Name="../../../dstruct/paged/core/cTreeNode_SubNode.h"/>
+        <File Name="../../../dstruct/paged/core/cNodeCache.cpp"/>
+        <File Name="../../../dstruct/paged/core/cNodeCache.h"/>
+        <File Name="../../../dstruct/paged/core/cTreeItemStream.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="sequentialarray">
+        <File Name="../../../dstruct/paged/sequentialarray/cSequentialArray.h"/>
+        <File Name="../../../dstruct/paged/sequentialarray/cSequentialArrayContext.h"/>
+        <File Name="../../../dstruct/paged/sequentialarray/cSequentialArrayHeader.h"/>
+        <File Name="../../../dstruct/paged/sequentialarray/cSequentialArrayNode.h"/>
+        <File Name="../../../dstruct/paged/sequentialarray/cSequentialArrayNodeHeader.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="rtree">
+        <File Name="../../../dstruct/paged/rtree/cCommonRTree.cpp"/>
+        <File Name="../../../dstruct/paged/rtree/cCommonRTree.h"/>
+        <File Name="../../../dstruct/paged/rtree/cCommonRTree_Insert.h"/>
+        <File Name="../../../dstruct/paged/rtree/cCommonRTreeNode.h"/>
+        <File Name="../../../dstruct/paged/rtree/cCommonRTree_Query.h"/>
+        <File Name="../../../dstruct/paged/rtree/cInsertBuffers.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTree.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeConst.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeHeader.cpp"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeHeader.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeLeafNode.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeLeafNode_Gpu.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeLeafNodeHeader.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeNode.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeNode_Gpu.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeNodeHeader.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeOrderIndex.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeSignatureIndex.h"/>
+        <File Name="../../../dstruct/paged/rtree/cSignatureController.cpp"/>
+        <File Name="../../../dstruct/paged/rtree/cSignatureController.h"/>
+        <File Name="../../../dstruct/paged/rtree/cSignatureRecord.h"/>
+        <File Name="../../../dstruct/paged/rtree/sItemIdRecord.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeLog.cpp"/>
+        <File Name="../../../dstruct/paged/rtree/cRTreeLog.h"/>
+        <File Name="../../../dstruct/paged/rtree/cSignatureKey.cpp"/>
+        <File Name="../../../dstruct/paged/rtree/cSignatureKey.h"/>
+        <File Name="../../../dstruct/paged/rtree/cSignatureRecord.cpp"/>
+        <File Name="../../../dstruct/paged/rtree/cSignatureStorage.cpp"/>
+        <File Name="../../../dstruct/paged/rtree/cSignatureStorage.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="queryprocessing">
+        <File Name="../../../dstruct/paged/queryprocessing/cRangeQueryProcessor.h"/>
+        <File Name="../../../dstruct/paged/queryprocessing/cQueryProcStat.cpp"/>
+        <File Name="../../../dstruct/paged/queryprocessing/cQueryProcStat.h"/>
+        <File Name="../../../dstruct/paged/queryprocessing/cRangeQueryProcessor.h"/>
+        <File Name="../../../dstruct/paged/queryprocessing/cRangeQueryProcessor_Gpu.h"/>
+        <File Name="../../../dstruct/paged/queryprocessing/cRangeQueryProcessor_Phi.h"/>
+        <File Name="../../../dstruct/paged/queryprocessing/cRangeQueryProcessorConstants.h"/>
+        <File Name="../../../dstruct/paged/rtree/cDbfsLevel.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRangeQueryConfig.cpp"/>
+        <File Name="../../../dstruct/paged/rtree/cRangeQueryConfig.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRangeQueryConfig_Gpu.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRangeQueryConfig_Phi.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRangeQueryContext.cpp"/>
+        <File Name="../../../dstruct/paged/rtree/cRangeQueryContext.h"/>
+        <File Name="../../../dstruct/paged/rtree/cRQBuffers.h"/>
+        <File Name="../../../dstruct/paged/rtree/sBatchRQ.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <File Name="rtree.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g; -Wall; -std=c++0x; -DLINUX -msse4.1 -mavx" C_Options="-O0; -Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="../../../"/>
+      </Compiler>
+      <Linker Options="-lrt" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="/usr/bin/gdb" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>make clean all DEBUG=1</RebuildCommand>
+        <CleanCommand>make clean DEBUG=1</CleanCommand>
+        <BuildCommand>make all DEBUG=1</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Debug_CUDA" CompilerType="nvcc" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g; -Wall; -std=c++0x; -DLINUX -msse4.1 -mavx -DCUDA_ENABLED -I/usr/local/cuda/include" C_Options="-O0; -Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="../../../"/>
+      </Compiler>
+      <Linker Options="-lrt -L/usr/local/cuda/lib64 -lcudart" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>make clean  all CUDA=1 DEBUG=1</RebuildCommand>
+        <CleanCommand>make clean CUDA=1 DEBUG=1</CleanCommand>
+        <BuildCommand>make all CUDA=1 DEBUG=1</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall; -std=c++0x; -DLINUX -msse4.1 -mavx" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="../../../"/>
+      </Compiler>
+      <Linker Options="-lrt" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>make all</RebuildCommand>
+        <CleanCommand>make clean
+</CleanCommand>
+        <BuildCommand>make all</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release_CUDA" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g; -Wall; -std=c++0x; -DLINUX -msse4.1 -mavx -DCUDA_ENABLED -I/usr/local/cuda/include" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="../../../"/>
+      </Compiler>
+      <Linker Options="-lrt -L/usr/local/cuda/lib64 -lcudart" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>make clean all CUDA=1</RebuildCommand>
+        <CleanCommand>make clean CUDA=1</CleanCommand>
+        <BuildCommand>make all CUDA=1</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

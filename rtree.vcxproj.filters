@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\dstruct">
+      <UniqueIdentifier>{3d42fd92-4505-4e6a-9281-58e63986d4aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dstruct\datacache">
+      <UniqueIdentifier>{8115a950-e314-4abb-ac45-3374f19268af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{ff3e4f1f-3075-4eb3-8ca6-8308421c5dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\stream">
+      <UniqueIdentifier>{2632d5d4-3b10-4179-b48a-022afbfbcba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\random">
+      <UniqueIdentifier>{8eac4108-847c-41c2-819a-e3fc982952a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\datatype">
+      <UniqueIdentifier>{a820acc4-c0d1-4aa3-9f43-1e974f6b54a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\datatype\tuple">
+      <UniqueIdentifier>{427d7862-be1c-46e8-9e93-b4b085c00965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dstruct\paged">
+      <UniqueIdentifier>{fa4c231a-0627-4dc7-be99-53d9a352979f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dstruct\paged\core">
+      <UniqueIdentifier>{13ae91ed-eb1a-40fc-8ce7-18a9adec8eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dstruct\paged\rtree">
+      <UniqueIdentifier>{5284df60-8e0b-4645-9a04-8e453bb685b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\utils">
+      <UniqueIdentifier>{fcf98bab-f41f-4944-8e16-ea5602cf4c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\data">
+      <UniqueIdentifier>{c1cd74d0-762a-4827-9782-49c7b8f02d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\memorystructures">
+      <UniqueIdentifier>{f996add9-b636-40ea-9953-2ecbbf3eef3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\compression">
+      <UniqueIdentifier>{a89f18c3-0674-4246-98a1-a66e583c1f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\memdatstruct">
+      <UniqueIdentifier>{c363243b-04ad-40f8-a64a-43b03786f635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dstruct\paged\queryprocessing">
+      <UniqueIdentifier>{5cd31fad-a92e-4cf4-a044-b7cf8c099d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dstruct\paged\cuda">
+      <UniqueIdentifier>{a8b3ffb5-102c-4347-9680-031b42977647}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\common\datatype\tuple\cSpaceDescriptor.cpp">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\datatype\tuple\cTuple.cpp">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\core\cCacheStatistics.cpp">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\core\cDStructHeader.cpp">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\core\cMemoryPool.cpp">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\core\cNode.cpp">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\core\cNodeHeader.cpp">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\core\cTreeHeader.cpp">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cRTreeLog.cpp">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\cNumber.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\cMemory.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\random\cUniformRandomGenerator.cpp">
+      <Filter>Source Files\common\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\utils\cCounter.cpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\stream\cCharStream.cpp">
+      <Filter>Source Files\common\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\cBitString.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\datatype\cBasicType.cpp">
+      <Filter>Source Files\common\datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\datatype\cDataType.cpp">
+      <Filter>Source Files\common\datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\cFastBitArray.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\core\cQuickDB.cpp">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\random\cGaussRandomGenerator.cpp">
+      <Filter>Source Files\common\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\utils\cHistogram.cpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\utils\cMemCheckUtil.cpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\core\cTreeNodeHeader.cpp">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClCompile>
+    <ClCompile Include="rtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\datatype\tuple\cHNTuple.cpp">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\compression\coder.cpp">
+      <Filter>Source Files\common\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderEliasDelta.cpp">
+      <Filter>Source Files\common\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderEliasFibonacci.cpp">
+      <Filter>Source Files\common\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFastEliasDelta.cpp">
+      <Filter>Source Files\common\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFastEliasFibonacci.cpp">
+      <Filter>Source Files\common\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFastFibonacci2.cpp">
+      <Filter>Source Files\common\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFastFibonacci3.cpp">
+      <Filter>Source Files\common\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFibonacci2.cpp">
+      <Filter>Source Files\common\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFibonacci3.cpp">
+      <Filter>Source Files\common\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cCommonRTree.cpp">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\memdatstruct\cBlockLinkedList.cpp">
+      <Filter>Source Files\common\memdatstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\memdatstruct\cHeapMemoryBlock.cpp">
+      <Filter>Source Files\common\memdatstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\memdatstruct\cMemoryBlock.cpp">
+      <Filter>Source Files\common\memdatstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\memdatstruct\cMemoryManager.cpp">
+      <Filter>Source Files\common\memdatstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\memdatstruct\MeteredSection.cpp">
+      <Filter>Source Files\common\memdatstruct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\cSignature.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\random\cExponentialRandomGenerator.cpp">
+      <Filter>Source Files\common\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cSignatureController.cpp">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\memorystructures\cArray.cpp">
+      <Filter>Source Files\common\memorystructures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\datatype\tuple\cMbrSideSizeOrder.cpp">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\cCommon.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\compression\cCoderCommon.cpp">
+      <Filter>Source Files\common\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\core\cBucketHeader.cpp">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\core\cBucketHeaderStorage.cpp">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClCompile>
+    <ClCompile Include="rtree_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\utils\cTimer.cpp">
+      <Filter>Source Files\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\stream\cFileStream.cpp">
+      <Filter>Source Files\common\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFixedLength.cpp">
+      <Filter>Source Files\common\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\core\cNodeCache.cpp">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\queryprocessing\cQueryProcStat.cpp">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\cBitArray.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\cuda\cCudaTimer.cpp">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\cuda\cGpuConst.cpp">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\datatype\cDTDescriptor.cpp">
+      <Filter>Source Files\common\datatype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryConfig.cpp">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryContext.cpp">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\cuda\cMemoryManagerCuda.cpp">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cSignatureKey.cpp">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cSignatureRecord.cpp">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cSignatureStorage.cpp">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\dstruct\atom\datacache\cBasicPersistentData.h">
+      <Filter>Source Files\dstruct\datacache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dstruct\atom\datacache\cCachedBlock.h">
+      <Filter>Source Files\dstruct\datacache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dstruct\atom\datacache\cCacheHeader.h">
+      <Filter>Source Files\dstruct\datacache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dstruct\atom\datacache\cCachingStrategy.h">
+      <Filter>Source Files\dstruct\datacache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dstruct\atom\datacache\cDataCache.h">
+      <Filter>Source Files\dstruct\datacache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dstruct\atom\datacache\cHashFunction.h">
+      <Filter>Source Files\dstruct\datacache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dstruct\atom\datacache\cPersistentData.h">
+      <Filter>Source Files\dstruct\datacache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\datatype\tuple\cSpaceDescriptor.h">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\datatype\tuple\cTuple.h">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cCacheStatistics.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cDataStructureContext.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cDStructHeader.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cExceptionDataStructureCreate.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cExceptionDataStructureOpen.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cItemStream.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cMemoryPool.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cNode.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cNodeCache.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cNodeHeader.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cNodeItem.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cObjTreeItem.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cPagedTree.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cPersistentArray.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cQueryResult.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeHeader.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTree.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTreeNode.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTree.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeConst.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeHeader.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeLeafNode.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeLeafNodeHeader.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeLog.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeNode.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeNodeHeader.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\cNumber.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\cMemory.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\random\cUniformRandomGenerator.h">
+      <Filter>Source Files\common\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\utils\cCounter.h">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\utils\cTimer.h">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\stream\cCharStream.h">
+      <Filter>Source Files\common\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\stream\cStream.h">
+      <Filter>Source Files\common\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\cBitString.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\datatype\cBasicType.h">
+      <Filter>Source Files\common\datatype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\datatype\cDataType.h">
+      <Filter>Source Files\common\datatype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\cFastBitArray.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cQuickDB.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\random\cGaussRandomGenerator.h">
+      <Filter>Source Files\common\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\cBitStringNew.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\data\cTuplesGenerator.h">
+      <Filter>Source Files\common\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\utils\cHistogram.h">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\utils\cMemCheckUtil.h">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNodeHeader.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNode.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\memorystructures\cStack.h">
+      <Filter>Source Files\common\memorystructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTree_Query.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTree_Insert.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\sItemIdRecord.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\datatype\tuple\cHNTuple.h">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cEliasDeltaDecodeTab.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cEliasDeltaEncodeTab.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cEliasFibonacciDecodeTab.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cEliasFibonacciEncodeTab.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cFibonacci2.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cFibonacci2DecodeTab.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cFibonacci2EncodeTab.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cFibonacci3.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cFibonacci3DecodeTab.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cFibonacci3EncodeTab.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\coder.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderEliasDelta.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderEliasFibonacci.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFastEliasDelta.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFastEliasFibonacci.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFastFibonacci2.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFastFibonacci3.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFibonacci2.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFibonacci3.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cDStructConst.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\memdatstruct\cBlockLinkedList.h">
+      <Filter>Source Files\common\memdatstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\memdatstruct\cHeapMemoryBlock.h">
+      <Filter>Source Files\common\memdatstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\memdatstruct\cMemoryBlock.h">
+      <Filter>Source Files\common\memdatstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\memdatstruct\cMemoryManager.h">
+      <Filter>Source Files\common\memdatstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\memdatstruct\MeteredSection.h">
+      <Filter>Source Files\common\memdatstruct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\memorystructures\cArray.h">
+      <Filter>Source Files\common\memorystructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeSignatureIndex.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\cSignature.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\random\cExponentialRandomGenerator.h">
+      <Filter>Source Files\common\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryProcessor.h">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cSignatureRecord.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cSignatureController.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\datatype\tuple\cMbrSideSizeOrder.h">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\cCommon.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cInsertBuffers.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNode_ri.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cCoderCommon.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cBucketHeader.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cBucketHeaderStorage.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\memorystructures\cLinkedList.h">
+      <Filter>Source Files\common\memorystructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\stream\cFileStream.h">
+      <Filter>Source Files\common\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\datatype\tuple\cCommonNTuple.h">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFixedLength.h">
+      <Filter>Source Files\common\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cQueryProcStat.h">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryProcessorConstants.h">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNode_coding.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNode_rebuild.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNode_SubNode.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\cBitArray.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\data\cDataCollection.h">
+      <Filter>Source Files\common\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\utils\cSSEUtils.h">
+      <Filter>Source Files\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeItemStream.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaParams.h">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaTimer.h">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cGpuConst.h">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cMemoryManagerCuda.h">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\datatype\cDTDescriptor.h">
+      <Filter>Source Files\common\datatype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaProcessor.cuh">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\memorystructures\cHashTable.h">
+      <Filter>Source Files\common\memorystructures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryConfig.h">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryContext.h">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRQBuffers.h">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cDbfsLevel.h">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaProcessor35.cuh">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaGlobalDefs.cuh">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaCommonKernels.cuh">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryProcessor_Gpu.h">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryProcessor_Phi.h">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeLeafNode_Gpu.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeNode_Gpu.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryConfig_Gpu.h">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryConfig_Phi.h">
+      <Filter>Source Files\dstruct\paged\queryprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTree_Gpu.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\datatype\tuple\cMBRectangle_AVX.h">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\datatype\tuple\cMBRectangle_SSE.h">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\datatype\tuple\cMBRectangle.h">
+      <Filter>Source Files\common\datatype\tuple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cSignatureKey.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cSignatureStorage.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cBulkLoad.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\core\cBulkLoadArray.h">
+      <Filter>Source Files\dstruct\paged\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTree_Delete.h">
+      <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\..\..\dstruct\paged\cuda\cCudaProcessor35.cu">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\..\dstruct\paged\cuda\cCudaProcessor.cu">
+      <Filter>Source Files\dstruct\paged\cuda</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

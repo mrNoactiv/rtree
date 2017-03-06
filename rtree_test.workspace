@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="rtree_test" Database="./rtree_test.tags">
+  <Project Name="rtree_test" Path="rtree_test.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="rtree_test" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="rtree_test" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="DEBUG_CUDA" Selected="no">
+      <Project Name="rtree_test" ConfigName="Debug_CUDA"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release_CUDA" Selected="yes">
+      <Project Name="rtree_test" ConfigName="Release_CUDA"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

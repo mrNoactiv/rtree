@@ -1,0 +1,1536 @@
+******************** RTREE ******************
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 193082.4 Inserts/s
+Index Size: 105.41 MB
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 113593.3 Queries/s
+#Logical Access Read: 6.87 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.73, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 58.25 (Rel. IN: 58.44, Rel. LN: 57.69)
+#Compare: 788.13
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 1893.9 Queries/s
+#Logical Access Read: 197.20 (#IN: 31.13, #Rel.IN: 4.00, #LN: 166.07, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 2.87 (Rel. IN: 12.85, Rel. LN: 1.00)
+#Compare: 49676.80
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 113464.4 Queries/s
+#Logical Access Read: 6.87 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.73, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 58.25 (Rel. IN: 58.44, Rel. LN: 57.69)
+#Compare: 788.13
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 1527.5 Queries/s
+#Logical Access Read: 237.27 (#IN: 37.60, #Rel.IN: 4.23, #LN: 199.67, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 2.53 (Rel. IN: 11.26, Rel. LN: 0.88)
+#Compare: 63778.80
+******************** VARIABLE_BITCOUNT ******************
+******************** LEVEL 0 ******************
+******************** BITS: 1
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 170077.6 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] : 1: 9.90 (1.24 + 8.65);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 53154 Zero Sigs.: (0; 0)
+Avg L.:		648.00 (648; 648)
+Avg W.:		99.45 (99.46; 99.44)
+Avg W [%].:	15.35
+Uniques:	108.07 (108.07; 108.07)
+Conflicts [%]:	7 (7; 7)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 128369.7 Queries/s
+#Logical Access Read: 6.20 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.07, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.52 (Rel. IN: 58.44, Rel. LN: 93.75)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 692.80
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 6160.2 Queries/s
+#Logical Access Read: 58.73 (#IN: 31.13, #Rel.IN: 4.00, #LN: 27.60, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 9.65 (Rel. IN: 12.85, Rel. LN: 6.04)
+#Logical Access Read in Signature Array: 166.07 (for InvLvl 0: 166.07; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 13182.17
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 128810.6 Queries/s
+#Logical Access Read: 6.20 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.07, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.52 (Rel. IN: 58.44, Rel. LN: 93.75)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 691.67
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 4926.1 Queries/s
+#Logical Access Read: 71.23 (#IN: 37.60, #Rel.IN: 4.23, #LN: 33.63, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 8.42 (Rel. IN: 11.26, Rel. LN: 5.25)
+#Logical Access Read in Signature Array: 199.67 (for InvLvl 0: 199.67; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 16836.77
+******************** BITS: 2
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 166773.9 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] : 1: 9.90 (1.24 + 8.65);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 53154 Zero Sigs.: (0; 0)
+Avg L.:		648.00 (648; 648)
+Avg W.:		183.27 (183.28; 183.25)
+Avg W [%].:	28.28
+Uniques:	108.07 (108.07; 108.07)
+Conflicts [%]:	15 (15; 15)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 128205.1 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 686.93
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 7732.0 Queries/s
+#Logical Access Read: 47.27 (#IN: 31.13, #Rel.IN: 4.00, #LN: 16.13, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 11.99 (Rel. IN: 12.85, Rel. LN: 10.33)
+#Logical Access Read in Signature Array: 166.07 (for InvLvl 0: 166.07; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 10053.80
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 126475.5 Queries/s
+#Logical Access Read: 6.23 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.10, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.17 (Rel. IN: 58.44, Rel. LN: 90.91)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 697.37
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 6355.9 Queries/s
+#Logical Access Read: 55.77 (#IN: 37.60, #Rel.IN: 4.23, #LN: 18.17, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 10.76 (Rel. IN: 11.26, Rel. LN: 9.72)
+#Logical Access Read in Signature Array: 199.67 (for InvLvl 0: 199.67; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 12250.30
+******************** BITS: 3
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 163741.6 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] : 1: 9.90 (1.24 + 8.65);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 53154 Zero Sigs.: (0; 0)
+Avg L.:		648.00 (648; 648)
+Avg W.:		253.80 (253.80; 253.80)
+Avg W [%].:	39.17
+Uniques:	108.07 (108.07; 108.07)
+Conflicts [%]:	21 (21; 21)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 129310.3 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 689.20
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 8427.0 Queries/s
+#Logical Access Read: 44.50 (#IN: 31.13, #Rel.IN: 4.00, #LN: 13.37, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 12.73 (Rel. IN: 12.85, Rel. LN: 12.47)
+#Logical Access Read in Signature Array: 166.07 (for InvLvl 0: 166.07; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 9411.50
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 130548.3 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 686.07
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 6993.0 Queries/s
+#Logical Access Read: 52.03 (#IN: 37.60, #Rel.IN: 4.23, #LN: 14.43, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 11.53 (Rel. IN: 11.26, Rel. LN: 12.24)
+#Logical Access Read in Signature Array: 199.67 (for InvLvl 0: 199.67; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 11224.53
+******************** BITS: 4
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 158955.7 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] : 1: 9.90 (1.24 + 8.65);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 53154 Zero Sigs.: (0; 0)
+Avg L.:		648.00 (648; 648)
+Avg W.:		313.10 (313.08; 313.11)
+Avg W [%].:	48.32
+Uniques:	108.07 (108.07; 108.07)
+Conflicts [%]:	27 (27; 27)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 128810.6 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 691.57
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 8427.0 Queries/s
+#Logical Access Read: 43.93 (#IN: 31.13, #Rel.IN: 4.00, #LN: 12.80, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 12.90 (Rel. IN: 12.85, Rel. LN: 13.02)
+#Logical Access Read in Signature Array: 166.07 (for InvLvl 0: 166.07; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 9269.53
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 130605.1 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 687.43
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 6711.4 Queries/s
+#Logical Access Read: 53.03 (#IN: 37.60, #Rel.IN: 4.23, #LN: 15.43, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 11.31 (Rel. IN: 11.26, Rel. LN: 11.45)
+#Logical Access Read in Signature Array: 199.67 (for InvLvl 0: 199.67; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 11752.47
+******************** BITS: 5
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 154263.6 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] : 1: 9.90 (1.24 + 8.65);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 53154 Zero Sigs.: (0; 0)
+Avg L.:		648.00 (648; 648)
+Avg W.:		363.00 (362.99; 363.01)
+Avg W [%].:	56.02
+Uniques:	108.07 (108.07; 108.07)
+Conflicts [%]:	32 (32; 32)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 127551.0 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 693.90
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 7957.6 Queries/s
+#Logical Access Read: 45.60 (#IN: 31.13, #Rel.IN: 4.00, #LN: 14.47, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 12.43 (Rel. IN: 12.85, Rel. LN: 11.52)
+#Logical Access Read in Signature Array: 166.07 (for InvLvl 0: 166.07; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 9862.10
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 129757.8 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 688.60
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 6622.5 Queries/s
+#Logical Access Read: 53.20 (#IN: 37.60, #Rel.IN: 4.23, #LN: 15.60, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 11.28 (Rel. IN: 11.26, Rel. LN: 11.32)
+#Logical Access Read in Signature Array: 199.67 (for InvLvl 0: 199.67; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 11952.90
+******************** BITS: 6
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 152533.8 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] : 1: 9.90 (1.24 + 8.65);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 53154 Zero Sigs.: (0; 0)
+Avg L.:		648.00 (648; 648)
+Avg W.:		405.19 (405.15; 405.22)
+Avg W [%].:	62.53
+Uniques:	108.07 (108.07; 108.07)
+Conflicts [%]:	37 (37; 37)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 128041.0 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 694.33
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 7614.2 Queries/s
+#Logical Access Read: 47.00 (#IN: 31.13, #Rel.IN: 4.00, #LN: 15.87, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 12.06 (Rel. IN: 12.85, Rel. LN: 10.50)
+#Logical Access Read in Signature Array: 166.07 (for InvLvl 0: 166.07; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 10503.60
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 129870.1 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 688.20
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 6276.1 Queries/s
+#Logical Access Read: 55.40 (#IN: 37.60, #Rel.IN: 4.23, #LN: 17.80, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 10.83 (Rel. IN: 11.26, Rel. LN: 9.93)
+#Logical Access Read in Signature Array: 199.67 (for InvLvl 0: 199.67; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 12774.47
+******************** BITS: 7
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 147721.1 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] : 1: 9.90 (1.24 + 8.65);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 53154 Zero Sigs.: (0; 0)
+Avg L.:		648.00 (648; 648)
+Avg W.:		440.90 (440.87; 440.92)
+Avg W [%].:	68.04
+Uniques:	108.07 (108.07; 108.07)
+Conflicts [%]:	41 (41; 41)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 125628.1 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 696.57
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 7211.5 Queries/s
+#Logical Access Read: 48.73 (#IN: 31.13, #Rel.IN: 4.00, #LN: 17.60, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 11.63 (Rel. IN: 12.85, Rel. LN: 9.47)
+#Logical Access Read in Signature Array: 166.07 (for InvLvl 0: 166.07; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 11076.00
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 127118.6 Queries/s
+#Logical Access Read: 6.20 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.07, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.52 (Rel. IN: 58.44, Rel. LN: 93.75)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 692.67
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 5747.1 Queries/s
+#Logical Access Read: 58.53 (#IN: 37.60, #Rel.IN: 4.23, #LN: 20.93, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 10.25 (Rel. IN: 11.26, Rel. LN: 8.44)
+#Logical Access Read in Signature Array: 199.67 (for InvLvl 0: 199.67; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 14000.20
+******************** BITS: 8
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 144064.4 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] : 1: 9.90 (1.24 + 8.65);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 53154 Zero Sigs.: (0; 0)
+Avg L.:		648.00 (648; 648)
+Avg W.:		471.06 (471.03; 471.09)
+Avg W [%].:	72.69
+Uniques:	108.07 (108.07; 108.07)
+Conflicts [%]:	45 (45; 45)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 125891.7 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 698.67
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 6772.0 Queries/s
+#Logical Access Read: 51.23 (#IN: 31.13, #Rel.IN: 4.00, #LN: 20.10, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 11.06 (Rel. IN: 12.85, Rel. LN: 8.29)
+#Logical Access Read in Signature Array: 166.07 (for InvLvl 0: 166.07; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 11950.13
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 128644.9 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 690.47
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 5464.5 Queries/s
+#Logical Access Read: 61.23 (#IN: 37.60, #Rel.IN: 4.23, #LN: 23.63, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 9.80 (Rel. IN: 11.26, Rel. LN: 7.48)
+#Logical Access Read in Signature Array: 199.67 (for InvLvl 0: 199.67; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 15108.97
+******************** BITS: 9
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 141245.3 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] : 1: 9.90 (1.24 + 8.65);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 53154 Zero Sigs.: (0; 0)
+Avg L.:		648.00 (648; 648)
+Avg W.:		496.49 (496.48; 496.50)
+Avg W [%].:	76.62
+Uniques:	108.07 (108.07; 108.07)
+Conflicts [%]:	48 (48; 48)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 126635.7 Queries/s
+#Logical Access Read: 6.13 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.00, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 65.22 (Rel. IN: 58.44, Rel. LN: 100.00)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 696.57
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 6250.0 Queries/s
+#Logical Access Read: 54.73 (#IN: 31.13, #Rel.IN: 4.00, #LN: 23.60, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 10.35 (Rel. IN: 12.85, Rel. LN: 7.06)
+#Logical Access Read in Signature Array: 166.07 (for InvLvl 0: 166.07; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 12994.53
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 126689.2 Queries/s
+#Logical Access Read: 6.23 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.10, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.17 (Rel. IN: 58.44, Rel. LN: 90.91)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 705.77
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 5050.5 Queries/s
+#Logical Access Read: 65.07 (#IN: 37.60, #Rel.IN: 4.23, #LN: 27.47, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 9.22 (Rel. IN: 11.26, Rel. LN: 6.43)
+#Logical Access Read in Signature Array: 199.67 (for InvLvl 0: 199.67; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 16689.30
+******************** BITS: 10
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 139018.2 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] : 1: 9.90 (1.24 + 8.65);; MB
+
+#Signature statistics:
+InvLvl 0:	Sigs: 53154 Zero Sigs.: (0; 0)
+Avg L.:		648.00 (648; 648)
+Avg W.:		518.16 (518.14; 518.17)
+Avg W [%].:	79.96
+Uniques:	108.07 (108.07; 108.07)
+Conflicts [%]:	52 (52; 52)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 117831.9 Queries/s
+#Logical Access Read: 6.17 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.03, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.86 (Rel. IN: 58.44, Rel. LN: 96.77)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 706.90
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 5235.6 Queries/s
+#Logical Access Read: 58.60 (#IN: 31.13, #Rel.IN: 4.00, #LN: 27.47, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 9.67 (Rel. IN: 12.85, Rel. LN: 6.07)
+#Logical Access Read in Signature Array: 166.07 (for InvLvl 0: 166.07; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 14371.93
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 126315.8 Queries/s
+#Logical Access Read: 6.23 (#IN: 5.13, #Rel.IN: 3.00, #LN: 1.10, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 64.17 (Rel. IN: 58.44, Rel. LN: 90.91)
+#Logical Access Read in Signature Array: 1.73 (for InvLvl 0: 1.73; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 706.97
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 4518.1 Queries/s
+#Logical Access Read: 71.33 (#IN: 37.60, #Rel.IN: 4.23, #LN: 33.73, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 8.41 (Rel. IN: 11.26, Rel. LN: 5.24)
+#Logical Access Read in Signature Array: 199.67 (for InvLvl 0: 199.67; ; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl 0: 0.00; ; )
+#Compare: 18979.07
+******************** LEVEL 1 ******************
+******************** BITS: 1
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 165304.1 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :; 3: 9.57 (0.19 + 9.39); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 4806 Zero Sigs.: (0; 0)
+Avg L.:		48816.00 (48816; 48816)
+Avg W.:		6636.49 (6637.31; 6635.67)
+Avg W [%].:	13.59
+Uniques:	7047.48 (7046.22; 7048.74)
+Conflicts [%]:	5 (5; 5)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 142925.2 Queries/s
+#Logical Access Read: 5.10 (#IN: 3.87, #Rel.IN: 3.00, #LN: 1.23, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 78.43 (Rel. IN: 77.59, Rel. LN: 81.08)
+#Logical Access Read in Signature Array: 3.37 (for InvLvl ; 1: 3.37; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 567.17
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 9901.0 Queries/s
+#Logical Access Read: 38.13 (#IN: 9.30, #Rel.IN: 4.00, #LN: 28.83, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 14.86 (Rel. IN: 43.01, Rel. LN: 5.78)
+#Logical Access Read in Signature Array: 26.50 (for InvLvl ; 1: 26.50; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 9384.10
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 141911.1 Queries/s
+#Logical Access Read: 5.23 (#IN: 3.97, #Rel.IN: 3.00, #LN: 1.27, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 76.43 (Rel. IN: 75.63, Rel. LN: 78.95)
+#Logical Access Read in Signature Array: 2.27 (for InvLvl ; 1: 2.27; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 582.47
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 7281.6 Queries/s
+#Logical Access Read: 50.00 (#IN: 10.77, #Rel.IN: 4.23, #LN: 39.23, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 12.00 (Rel. IN: 39.32, Rel. LN: 4.50)
+#Logical Access Read in Signature Array: 32.53 (for InvLvl ; 1: 32.53; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 12959.83
+******************** BITS: 2
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 149680.7 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :; 3: 9.57 (0.19 + 9.39); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 4806 Zero Sigs.: (0; 0)
+Avg L.:		48816.00 (48816; 48816)
+Avg W.:		12328.41 (12329.89; 12326.93)
+Avg W [%].:	25.25
+Uniques:	7047.48 (7046.22; 7048.74)
+Conflicts [%]:	12 (12; 12)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 137111.5 Queries/s
+#Logical Access Read: 5.13 (#IN: 3.90, #Rel.IN: 3.00, #LN: 1.23, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 77.92 (Rel. IN: 76.92, Rel. LN: 81.08)
+#Logical Access Read in Signature Array: 5.10 (for InvLvl ; 1: 5.10; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 574.87
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 12552.3 Queries/s
+#Logical Access Read: 30.10 (#IN: 7.80, #Rel.IN: 4.00, #LN: 22.30, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 18.83 (Rel. IN: 51.28, Rel. LN: 7.47)
+#Logical Access Read in Signature Array: 30.40 (for InvLvl ; 1: 30.40; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 7453.73
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 139599.8 Queries/s
+#Logical Access Read: 5.23 (#IN: 3.97, #Rel.IN: 3.00, #LN: 1.27, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 76.43 (Rel. IN: 75.63, Rel. LN: 78.95)
+#Logical Access Read in Signature Array: 3.00 (for InvLvl ; 1: 3.00; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 587.30
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 8596.0 Queries/s
+#Logical Access Read: 41.90 (#IN: 9.37, #Rel.IN: 4.23, #LN: 32.53, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 14.32 (Rel. IN: 45.20, Rel. LN: 5.43)
+#Logical Access Read in Signature Array: 40.50 (for InvLvl ; 1: 40.50; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 10790.97
+******************** BITS: 3
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 139604.8 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :; 3: 9.57 (0.19 + 9.39); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 4806 Zero Sigs.: (0; 0)
+Avg L.:		48816.00 (48816; 48816)
+Avg W.:		17211.58 (17212.46; 17210.71)
+Avg W [%].:	35.26
+Uniques:	7047.48 (7046.22; 7048.74)
+Conflicts [%]:	18 (18; 18)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 131463.6 Queries/s
+#Logical Access Read: 5.17 (#IN: 3.90, #Rel.IN: 3.00, #LN: 1.27, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 77.42 (Rel. IN: 76.92, Rel. LN: 78.95)
+#Logical Access Read in Signature Array: 6.87 (for InvLvl ; 1: 6.87; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 581.17
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 13157.9 Queries/s
+#Logical Access Read: 28.20 (#IN: 7.70, #Rel.IN: 4.00, #LN: 20.50, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 20.09 (Rel. IN: 51.95, Rel. LN: 8.13)
+#Logical Access Read in Signature Array: 33.77 (for InvLvl ; 1: 33.77; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 7166.17
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 138824.6 Queries/s
+#Logical Access Read: 5.17 (#IN: 3.90, #Rel.IN: 3.00, #LN: 1.27, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 77.42 (Rel. IN: 76.92, Rel. LN: 78.95)
+#Logical Access Read in Signature Array: 4.00 (for InvLvl ; 1: 4.00; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 577.90
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 9646.3 Queries/s
+#Logical Access Read: 37.00 (#IN: 8.63, #Rel.IN: 4.23, #LN: 28.37, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 16.22 (Rel. IN: 49.03, Rel. LN: 6.23)
+#Logical Access Read in Signature Array: 47.87 (for InvLvl ; 1: 47.87; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 9466.70
+******************** BITS: 4
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 126970.6 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :; 3: 9.57 (0.19 + 9.39); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 4806 Zero Sigs.: (0; 0)
+Avg L.:		48816.00 (48816; 48816)
+Avg W.:		21380.81 (21379.30; 21382.33)
+Avg W [%].:	43.80
+Uniques:	7047.48 (7046.22; 7048.74)
+Conflicts [%]:	24 (24; 24)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 127011.0 Queries/s
+#Logical Access Read: 5.17 (#IN: 3.90, #Rel.IN: 3.00, #LN: 1.27, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 77.42 (Rel. IN: 76.92, Rel. LN: 78.95)
+#Logical Access Read in Signature Array: 8.50 (for InvLvl ; 1: 8.50; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 583.73
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 13888.9 Queries/s
+#Logical Access Read: 26.13 (#IN: 7.40, #Rel.IN: 4.00, #LN: 18.73, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 21.68 (Rel. IN: 54.05, Rel. LN: 8.90)
+#Logical Access Read in Signature Array: 38.70 (for InvLvl ; 1: 38.70; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 6750.93
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 136116.2 Queries/s
+#Logical Access Read: 5.17 (#IN: 3.90, #Rel.IN: 3.00, #LN: 1.27, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 77.42 (Rel. IN: 76.92, Rel. LN: 78.95)
+#Logical Access Read in Signature Array: 4.70 (for InvLvl ; 1: 4.70; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 579.23
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 9740.3 Queries/s
+#Logical Access Read: 35.80 (#IN: 8.53, #Rel.IN: 4.23, #LN: 27.27, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 16.76 (Rel. IN: 49.61, Rel. LN: 6.48)
+#Logical Access Read in Signature Array: 55.73 (for InvLvl ; 1: 55.73; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 9437.53
+******************** BITS: 5
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 119340.0 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :; 3: 9.57 (0.19 + 9.39); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 4806 Zero Sigs.: (0; 0)
+Avg L.:		48816.00 (48816; 48816)
+Avg W.:		25005.60 (25003.45; 25007.75)
+Avg W [%].:	51.22
+Uniques:	7047.48 (7046.22; 7048.74)
+Conflicts [%]:	29 (29; 29)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 123813.4 Queries/s
+#Logical Access Read: 5.13 (#IN: 3.90, #Rel.IN: 3.00, #LN: 1.23, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 77.92 (Rel. IN: 76.92, Rel. LN: 81.08)
+#Logical Access Read in Signature Array: 10.50 (for InvLvl ; 1: 10.50; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 582.03
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 11904.8 Queries/s
+#Logical Access Read: 28.33 (#IN: 7.53, #Rel.IN: 4.00, #LN: 20.80, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 20.00 (Rel. IN: 53.10, Rel. LN: 8.01)
+#Logical Access Read in Signature Array: 43.30 (for InvLvl ; 1: 43.30; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 7192.37
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 123102.2 Queries/s
+#Logical Access Read: 5.27 (#IN: 3.97, #Rel.IN: 3.00, #LN: 1.30, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 75.95 (Rel. IN: 75.63, Rel. LN: 76.92)
+#Logical Access Read in Signature Array: 6.07 (for InvLvl ; 1: 6.07; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 592.50
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 9836.1 Queries/s
+#Logical Access Read: 33.17 (#IN: 8.33, #Rel.IN: 4.23, #LN: 24.83, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 18.09 (Rel. IN: 50.80, Rel. LN: 7.11)
+#Logical Access Read in Signature Array: 63.07 (for InvLvl ; 1: 63.07; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 8581.40
+******************** BITS: 6
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 111576.4 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :; 3: 9.57 (0.19 + 9.39); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 4806 Zero Sigs.: (0; 0)
+Avg L.:		48816.00 (48816; 48816)
+Avg W.:		28036.32 (28029.54; 28043.11)
+Avg W [%].:	57.43
+Uniques:	7047.48 (7046.22; 7048.74)
+Conflicts [%]:	33 (33; 33)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 121016.5 Queries/s
+#Logical Access Read: 5.10 (#IN: 3.87, #Rel.IN: 3.00, #LN: 1.23, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 78.43 (Rel. IN: 77.59, Rel. LN: 81.08)
+#Logical Access Read in Signature Array: 12.37 (for InvLvl ; 1: 12.37; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 579.73
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 12096.8 Queries/s
+#Logical Access Read: 29.70 (#IN: 7.77, #Rel.IN: 4.00, #LN: 21.93, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 19.08 (Rel. IN: 51.50, Rel. LN: 7.60)
+#Logical Access Read in Signature Array: 49.03 (for InvLvl ; 1: 49.03; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 7471.20
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 128205.1 Queries/s
+#Logical Access Read: 5.27 (#IN: 3.97, #Rel.IN: 3.00, #LN: 1.30, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 75.95 (Rel. IN: 75.63, Rel. LN: 76.92)
+#Logical Access Read in Signature Array: 7.03 (for InvLvl ; 1: 7.03; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 598.40
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 9901.0 Queries/s
+#Logical Access Read: 34.27 (#IN: 8.40, #Rel.IN: 4.23, #LN: 25.87, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 17.51 (Rel. IN: 50.40, Rel. LN: 6.83)
+#Logical Access Read in Signature Array: 72.10 (for InvLvl ; 1: 72.10; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 9039.57
+******************** BITS: 7
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 103396.7 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :; 3: 9.57 (0.19 + 9.39); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 4806 Zero Sigs.: (0; 0)
+Avg L.:		48816.00 (48816; 48816)
+Avg W.:		30748.23 (30744.67; 30751.79)
+Avg W [%].:	62.99
+Uniques:	7047.48 (7046.22; 7048.74)
+Conflicts [%]:	37 (37; 37)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 118017.3 Queries/s
+#Logical Access Read: 5.13 (#IN: 3.90, #Rel.IN: 3.00, #LN: 1.23, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 77.92 (Rel. IN: 76.92, Rel. LN: 81.08)
+#Logical Access Read in Signature Array: 14.00 (for InvLvl ; 1: 14.00; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 587.03
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 12820.5 Queries/s
+#Logical Access Read: 27.47 (#IN: 7.43, #Rel.IN: 4.00, #LN: 20.03, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 20.63 (Rel. IN: 53.81, Rel. LN: 8.32)
+#Logical Access Read in Signature Array: 54.60 (for InvLvl ; 1: 54.60; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 7033.47
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 125838.9 Queries/s
+#Logical Access Read: 5.30 (#IN: 4.00, #Rel.IN: 3.00, #LN: 1.30, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 75.47 (Rel. IN: 75.00, Rel. LN: 76.92)
+#Logical Access Read in Signature Array: 7.77 (for InvLvl ; 1: 7.77; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 604.53
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 9036.1 Queries/s
+#Logical Access Read: 37.40 (#IN: 8.70, #Rel.IN: 4.23, #LN: 28.70, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 16.04 (Rel. IN: 48.66, Rel. LN: 6.16)
+#Logical Access Read in Signature Array: 82.00 (for InvLvl ; 1: 82.00; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 9814.63
+******************** BITS: 8
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 97600.3 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :; 3: 9.57 (0.19 + 9.39); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 4806 Zero Sigs.: (0; 0)
+Avg L.:		48816.00 (48816; 48816)
+Avg W.:		32953.34 (32944.40; 32962.28)
+Avg W [%].:	67.51
+Uniques:	7047.48 (7046.22; 7048.74)
+Conflicts [%]:	41 (41; 41)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 108342.4 Queries/s
+#Logical Access Read: 5.13 (#IN: 3.90, #Rel.IN: 3.00, #LN: 1.23, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 77.92 (Rel. IN: 76.92, Rel. LN: 81.08)
+#Logical Access Read in Signature Array: 15.80 (for InvLvl ; 1: 15.80; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 589.63
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 10948.9 Queries/s
+#Logical Access Read: 29.73 (#IN: 7.67, #Rel.IN: 4.00, #LN: 22.07, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 19.06 (Rel. IN: 52.17, Rel. LN: 7.55)
+#Logical Access Read in Signature Array: 60.87 (for InvLvl ; 1: 60.87; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 7606.27
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 118624.0 Queries/s
+#Logical Access Read: 5.33 (#IN: 4.03, #Rel.IN: 3.00, #LN: 1.30, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 75.00 (Rel. IN: 74.38, Rel. LN: 76.92)
+#Logical Access Read in Signature Array: 8.67 (for InvLvl ; 1: 8.67; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 607.93
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 8021.4 Queries/s
+#Logical Access Read: 41.43 (#IN: 9.07, #Rel.IN: 4.23, #LN: 32.37, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 14.48 (Rel. IN: 46.69, Rel. LN: 5.46)
+#Logical Access Read in Signature Array: 93.27 (for InvLvl ; 1: 93.27; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 11010.03
+******************** BITS: 9
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 91691.2 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :; 3: 9.57 (0.19 + 9.39); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 4806 Zero Sigs.: (0; 0)
+Avg L.:		48816.00 (48816; 48816)
+Avg W.:		34869.60 (34857.72; 34881.48)
+Avg W [%].:	71.43
+Uniques:	7047.48 (7046.22; 7048.74)
+Conflicts [%]:	45 (45; 45)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 110823.8 Queries/s
+#Logical Access Read: 5.10 (#IN: 3.87, #Rel.IN: 3.00, #LN: 1.23, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 78.43 (Rel. IN: 77.59, Rel. LN: 81.08)
+#Logical Access Read in Signature Array: 17.60 (for InvLvl ; 1: 17.60; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 587.37
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 10489.5 Queries/s
+#Logical Access Read: 32.60 (#IN: 8.00, #Rel.IN: 4.00, #LN: 24.60, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 17.38 (Rel. IN: 50.00, Rel. LN: 6.78)
+#Logical Access Read in Signature Array: 67.03 (for InvLvl ; 1: 67.03; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 8613.53
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 120919.0 Queries/s
+#Logical Access Read: 5.30 (#IN: 4.00, #Rel.IN: 3.00, #LN: 1.30, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 75.47 (Rel. IN: 75.00, Rel. LN: 76.92)
+#Logical Access Read in Signature Array: 9.90 (for InvLvl ; 1: 9.90; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 604.90
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 7246.4 Queries/s
+#Logical Access Read: 45.27 (#IN: 9.70, #Rel.IN: 4.23, #LN: 35.57, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 13.25 (Rel. IN: 43.64, Rel. LN: 4.97)
+#Logical Access Read in Signature Array: 104.50 (for InvLvl ; 1: 104.50; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 12308.40
+******************** BITS: 10
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 88637.5 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :; 3: 9.57 (0.19 + 9.39); MB
+
+#Signature statistics:
+InvLvl 1:	Sigs: 4806 Zero Sigs.: (0; 0)
+Avg L.:		48816.00 (48816; 48816)
+Avg W.:		36647.67 (36637.70; 36657.64)
+Avg W [%].:	75.07
+Uniques:	7047.48 (7046.22; 7048.74)
+Conflicts [%]:	47 (48; 47)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 105189.3 Queries/s
+#Logical Access Read: 5.20 (#IN: 3.93, #Rel.IN: 3.00, #LN: 1.27, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 76.92 (Rel. IN: 76.27, Rel. LN: 78.95)
+#Logical Access Read in Signature Array: 20.17 (for InvLvl ; 1: 20.17; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 603.63
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 9493.7 Queries/s
+#Logical Access Read: 36.27 (#IN: 8.50, #Rel.IN: 4.00, #LN: 27.77, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 15.63 (Rel. IN: 47.06, Rel. LN: 6.00)
+#Logical Access Read in Signature Array: 75.37 (for InvLvl ; 1: 75.37; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 9278.77
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 119569.5 Queries/s
+#Logical Access Read: 5.30 (#IN: 4.00, #Rel.IN: 3.00, #LN: 1.30, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 75.47 (Rel. IN: 75.00, Rel. LN: 76.92)
+#Logical Access Read in Signature Array: 10.90 (for InvLvl ; 1: 10.90; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 604.27
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 6666.7 Queries/s
+#Logical Access Read: 49.30 (#IN: 10.23, #Rel.IN: 4.23, #LN: 39.07, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 12.17 (Rel. IN: 41.37, Rel. LN: 4.52)
+#Logical Access Read in Signature Array: 117.43 (for InvLvl ; 1: 117.43; )
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; 1: 0.00; )
+#Compare: 13187.57
+******************** LEVEL 2 ******************
+******************** BITS: 1
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 64527.2 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :;; 3: 6.46 (0.10 + 6.36) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 3256 Zero Sigs.: (0; 0)
+Avg L.:		2343168.00 (2310624; 2375712)
+Avg W.:		381410.56 (378064.92; 384756.23)
+Avg W [%].:	16.28
+Uniques:	391100.92 (386430.78; 395771.06)
+Conflicts [%]:	2 (2; 2)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 126156.4 Queries/s
+#Logical Access Read: 5.50 (#IN: 3.93, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 72.73 (Rel. IN: 76.27, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 2.97 (for InvLvl ; ; 2: 2.97)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 652.23
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 3562.9 Queries/s
+#Logical Access Read: 104.50 (#IN: 16.07, #Rel.IN: 4.00, #LN: 88.43, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 5.42 (Rel. IN: 24.90, Rel. LN: 1.88)
+#Logical Access Read in Signature Array: 3.63 (for InvLvl ; ; 2: 3.63)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 26793.60
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 123406.0 Queries/s
+#Logical Access Read: 5.80 (#IN: 4.20, #Rel.IN: 3.00, #LN: 1.60, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 68.97 (Rel. IN: 71.43, Rel. LN: 62.50)
+#Logical Access Read in Signature Array: 1.87 (for InvLvl ; ; 2: 1.87)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 682.60
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 2457.0 Queries/s
+#Logical Access Read: 145.80 (#IN: 21.00, #Rel.IN: 4.23, #LN: 124.80, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 4.12 (Rel. IN: 20.16, Rel. LN: 1.42)
+#Logical Access Read in Signature Array: 4.00 (for InvLvl ; ; 2: 4.00)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 39563.93
+******************** BITS: 2
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 97138.3 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :;; 3: 7.44 (0.12 + 7.31) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 3744 Zero Sigs.: (0; 0)
+Avg L.:		2343168.00 (2310624; 2375712)
+Avg W.:		695843.25 (684174.77; 707511.69)
+Avg W [%].:	29.70
+Uniques:	391100.92 (386430.78; 395771.06)
+Conflicts [%]:	11 (11; 10)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 122449.0 Queries/s
+#Logical Access Read: 5.50 (#IN: 3.93, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 72.73 (Rel. IN: 76.27, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 4.97 (for InvLvl ; ; 2: 4.97)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 654.33
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 3452.2 Queries/s
+#Logical Access Read: 107.40 (#IN: 16.40, #Rel.IN: 4.00, #LN: 91.00, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 5.28 (Rel. IN: 24.39, Rel. LN: 1.83)
+#Logical Access Read in Signature Array: 5.60 (for InvLvl ; ; 2: 5.60)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 27872.20
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 121506.7 Queries/s
+#Logical Access Read: 5.77 (#IN: 4.17, #Rel.IN: 3.00, #LN: 1.60, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 69.36 (Rel. IN: 72.00, Rel. LN: 62.50)
+#Logical Access Read in Signature Array: 3.07 (for InvLvl ; ; 2: 3.07)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 680.40
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 2431.1 Queries/s
+#Logical Access Read: 142.57 (#IN: 20.57, #Rel.IN: 4.23, #LN: 122.00, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 4.21 (Rel. IN: 20.58, Rel. LN: 1.45)
+#Logical Access Read in Signature Array: 5.87 (for InvLvl ; ; 2: 5.87)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 38322.27
+******************** BITS: 3
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 112889.5 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :;; 3: 7.43 (0.12 + 7.31) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 3744 Zero Sigs.: (0; 0)
+Avg L.:		2343168.00 (2310624; 2375712)
+Avg W.:		949692.63 (935119.31; 964266.00)
+Avg W [%].:	40.53
+Uniques:	391100.92 (386430.78; 395771.06)
+Conflicts [%]:	19 (19; 18)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 116234.0 Queries/s
+#Logical Access Read: 5.63 (#IN: 4.03, #Rel.IN: 3.00, #LN: 1.60, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 71.01 (Rel. IN: 74.38, Rel. LN: 62.50)
+#Logical Access Read in Signature Array: 7.23 (for InvLvl ; ; 2: 7.23)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 672.40
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 3167.9 Queries/s
+#Logical Access Read: 116.97 (#IN: 17.67, #Rel.IN: 4.00, #LN: 99.30, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 4.84 (Rel. IN: 22.64, Rel. LN: 1.68)
+#Logical Access Read in Signature Array: 7.53 (for InvLvl ; ; 2: 7.53)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 29520.43
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 120288.7 Queries/s
+#Logical Access Read: 5.73 (#IN: 4.13, #Rel.IN: 3.00, #LN: 1.60, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 69.77 (Rel. IN: 72.58, Rel. LN: 62.50)
+#Logical Access Read in Signature Array: 4.30 (for InvLvl ; ; 2: 4.30)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 678.50
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 2529.5 Queries/s
+#Logical Access Read: 142.17 (#IN: 20.47, #Rel.IN: 4.23, #LN: 121.70, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 4.22 (Rel. IN: 20.68, Rel. LN: 1.45)
+#Logical Access Read in Signature Array: 7.90 (for InvLvl ; ; 2: 7.90)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 38255.73
+******************** BITS: 4
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 111907.2 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :;; 3: 7.44 (0.12 + 7.31) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 3744 Zero Sigs.: (0; 0)
+Avg L.:		2343168.00 (2310624; 2375712)
+Avg W.:		1139792.88 (1121370.62; 1158215.15)
+Avg W [%].:	48.64
+Uniques:	391100.92 (386430.78; 395771.06)
+Conflicts [%]:	27 (27; 26)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 114503.8 Queries/s
+#Logical Access Read: 5.50 (#IN: 3.93, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 72.73 (Rel. IN: 76.27, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 9.30 (for InvLvl ; ; 2: 9.30)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 658.77
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 3055.0 Queries/s
+#Logical Access Read: 120.47 (#IN: 18.37, #Rel.IN: 4.00, #LN: 102.10, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 4.70 (Rel. IN: 21.78, Rel. LN: 1.63)
+#Logical Access Read in Signature Array: 9.77 (for InvLvl ; ; 2: 9.77)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 31137.13
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 120000.0 Queries/s
+#Logical Access Read: 5.60 (#IN: 4.03, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 71.43 (Rel. IN: 74.38, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 5.57 (for InvLvl ; ; 2: 5.57)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 664.00
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 2493.8 Queries/s
+#Logical Access Read: 144.37 (#IN: 20.87, #Rel.IN: 4.23, #LN: 123.50, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 4.16 (Rel. IN: 20.29, Rel. LN: 1.43)
+#Logical Access Read in Signature Array: 10.07 (for InvLvl ; ; 2: 10.07)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 38619.17
+******************** BITS: 5
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 105582.0 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :;; 3: 7.43 (0.12 + 7.31) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 3744 Zero Sigs.: (0; 0)
+Avg L.:		2343168.00 (2310624; 2375712)
+Avg W.:		1326789.50 (1306281.85; 1347297.15)
+Avg W [%].:	56.62
+Uniques:	391100.92 (386430.78; 395771.06)
+Conflicts [%]:	32 (32; 31)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 110415.9 Queries/s
+#Logical Access Read: 5.53 (#IN: 3.97, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 72.29 (Rel. IN: 75.63, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 11.50 (for InvLvl ; ; 2: 11.50)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 663.67
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 3121.7 Queries/s
+#Logical Access Read: 118.40 (#IN: 18.07, #Rel.IN: 4.00, #LN: 100.33, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 4.79 (Rel. IN: 22.14, Rel. LN: 1.66)
+#Logical Access Read in Signature Array: 11.77 (for InvLvl ; ; 2: 11.77)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 30386.63
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 117785.6 Queries/s
+#Logical Access Read: 5.63 (#IN: 4.07, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 71.01 (Rel. IN: 73.77, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 6.80 (for InvLvl ; ; 2: 6.80)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 667.93
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 2390.4 Queries/s
+#Logical Access Read: 149.23 (#IN: 21.63, #Rel.IN: 4.23, #LN: 127.60, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 4.02 (Rel. IN: 19.57, Rel. LN: 1.38)
+#Logical Access Read in Signature Array: 12.53 (for InvLvl ; ; 2: 12.53)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 40502.30
+******************** BITS: 6
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 101964.7 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :;; 3: 7.43 (0.12 + 7.31) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 3744 Zero Sigs.: (0; 0)
+Avg L.:		2343168.00 (2310624; 2375712)
+Avg W.:		1430225.50 (1406818.92; 1453632.15)
+Avg W [%].:	61.04
+Uniques:	391100.92 (386430.78; 395771.06)
+Conflicts [%]:	39 (39; 38)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 108069.2 Queries/s
+#Logical Access Read: 5.53 (#IN: 3.97, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 72.29 (Rel. IN: 75.63, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 13.70 (for InvLvl ; ; 2: 13.70)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 666.00
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 3164.6 Queries/s
+#Logical Access Read: 116.63 (#IN: 17.80, #Rel.IN: 4.00, #LN: 98.83, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 4.86 (Rel. IN: 22.47, Rel. LN: 1.69)
+#Logical Access Read in Signature Array: 14.20 (for InvLvl ; ; 2: 14.20)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 29857.10
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 110823.8 Queries/s
+#Logical Access Read: 5.63 (#IN: 4.07, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 71.01 (Rel. IN: 73.77, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 8.07 (for InvLvl ; ; 2: 8.07)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 669.27
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 2212.4 Queries/s
+#Logical Access Read: 154.17 (#IN: 22.50, #Rel.IN: 4.23, #LN: 131.67, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 3.89 (Rel. IN: 18.81, Rel. LN: 1.34)
+#Logical Access Read in Signature Array: 15.33 (for InvLvl ; ; 2: 15.33)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 42284.67
+******************** BITS: 7
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 96587.1 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :;; 3: 7.43 (0.11 + 7.31) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 3744 Zero Sigs.: (0; 0)
+Avg L.:		2343168.00 (2310624; 2375712)
+Avg W.:		1573536.25 (1551492.23; 1595580.15)
+Avg W [%].:	67.15
+Uniques:	391100.92 (386430.78; 395771.06)
+Conflicts [%]:	42 (42; 42)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 104602.5 Queries/s
+#Logical Access Read: 5.53 (#IN: 3.97, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 72.29 (Rel. IN: 75.63, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 16.13 (for InvLvl ; ; 2: 16.13)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 668.43
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 3300.3 Queries/s
+#Logical Access Read: 111.97 (#IN: 17.10, #Rel.IN: 4.00, #LN: 94.87, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 5.06 (Rel. IN: 23.39, Rel. LN: 1.76)
+#Logical Access Read in Signature Array: 16.90 (for InvLvl ; ; 2: 16.90)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 28806.80
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 113765.6 Queries/s
+#Logical Access Read: 5.63 (#IN: 4.07, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 71.01 (Rel. IN: 73.77, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 9.70 (for InvLvl ; ; 2: 9.70)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 670.90
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 2238.8 Queries/s
+#Logical Access Read: 158.43 (#IN: 23.30, #Rel.IN: 4.23, #LN: 135.13, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 3.79 (Rel. IN: 18.17, Rel. LN: 1.31)
+#Logical Access Read in Signature Array: 17.97 (for InvLvl ; ; 2: 17.97)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 43859.43
+******************** BITS: 8
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 89887.5 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :;; 3: 7.43 (0.12 + 7.31) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 3744 Zero Sigs.: (0; 0)
+Avg L.:		2343168.00 (2310624; 2375712)
+Avg W.:		1637834.75 (1613492.85; 1662176.69)
+Avg W [%].:	69.90
+Uniques:	391100.92 (386430.78; 395771.06)
+Conflicts [%]:	47 (47; 47)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 102075.5 Queries/s
+#Logical Access Read: 5.53 (#IN: 3.97, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 72.29 (Rel. IN: 75.63, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 18.10 (for InvLvl ; ; 2: 18.10)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 670.50
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 3212.0 Queries/s
+#Logical Access Read: 114.50 (#IN: 17.60, #Rel.IN: 4.00, #LN: 96.90, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 4.95 (Rel. IN: 22.73, Rel. LN: 1.72)
+#Logical Access Read in Signature Array: 18.97 (for InvLvl ; ; 2: 18.97)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 29590.37
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 111898.5 Queries/s
+#Logical Access Read: 5.63 (#IN: 4.07, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 71.01 (Rel. IN: 73.77, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 10.87 (for InvLvl ; ; 2: 10.87)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 672.10
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 2111.2 Queries/s
+#Logical Access Read: 167.50 (#IN: 24.63, #Rel.IN: 4.23, #LN: 142.87, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 3.58 (Rel. IN: 17.19, Rel. LN: 1.24)
+#Logical Access Read in Signature Array: 20.80 (for InvLvl ; ; 2: 20.80)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 46251.30
+******************** BITS: 9
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 85031.4 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :;; 3: 7.43 (0.12 + 7.31) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 3744 Zero Sigs.: (0; 0)
+Avg L.:		2343168.00 (2310624; 2375712)
+Avg W.:		1699717.25 (1674650.69; 1724783.92)
+Avg W [%].:	72.54
+Uniques:	391100.92 (386430.78; 395771.06)
+Conflicts [%]:	51 (51; 51)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 97943.2 Queries/s
+#Logical Access Read: 5.53 (#IN: 3.97, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 72.29 (Rel. IN: 75.63, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 20.33 (for InvLvl ; ; 2: 20.33)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 672.73
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 3102.4 Queries/s
+#Logical Access Read: 118.30 (#IN: 18.17, #Rel.IN: 4.00, #LN: 100.13, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 4.79 (Rel. IN: 22.02, Rel. LN: 1.66)
+#Logical Access Read in Signature Array: 21.13 (for InvLvl ; ; 2: 21.13)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 30897.10
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 109569.0 Queries/s
+#Logical Access Read: 5.63 (#IN: 4.07, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 71.01 (Rel. IN: 73.77, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 12.13 (for InvLvl ; ; 2: 12.13)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 673.37
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 2067.5 Queries/s
+#Logical Access Read: 171.03 (#IN: 25.27, #Rel.IN: 4.23, #LN: 145.77, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 3.51 (Rel. IN: 16.75, Rel. LN: 1.21)
+#Logical Access Read in Signature Array: 23.33 (for InvLvl ; ; 2: 23.33)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 47394.80
+******************** BITS: 10
+Inserts: 0Inserts: 1000000Inserts: 2000000Inserts: 3000000Inserts: 4000000Inserts: 5000000
+Performance: 80490.1 Inserts/s
+Index Size: 105.41
+#Signature Storages [MB] :;; 3: 7.42 (0.11 + 7.31) MB
+
+#Signature statistics:
+InvLvl 2:	Sigs: 3744 Zero Sigs.: (0; 0)
+Avg L.:		2343168.00 (2310624; 2375712)
+Avg W.:		1776970.63 (1747705.46; 1806235.85)
+Avg W [%].:	75.84
+Uniques:	391100.92 (386430.78; 395771.06)
+Conflicts [%]:	54 (54; 54)
+--------------------------------------------------------------------------------
+
+k:\users\cho247\Collections\TIGER\sig_test\pointqueries.qtf
+RS: 1.00 
+Performance: 96556.2 Queries/s
+#Logical Access Read: 5.53 (#IN: 3.97, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 72.29 (Rel. IN: 75.63, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 22.53 (for InvLvl ; ; 2: 22.53)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 675.03
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq.qtf
+RS: 1.77 
+Performance: 3058.1 Queries/s
+#Logical Access Read: 119.43 (#IN: 18.33, #Rel.IN: 4.00, #LN: 101.10, #Rel.LN: 1.67)
+#Relevancy of Scanned Subtrees [%]: 4.74 (Rel. IN: 21.82, Rel. LN: 1.65)
+#Logical Access Read in Signature Array: 23.67 (for InvLvl ; ; 2: 23.67)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 31123.00
+
+k:\users\cho247\Collections\TIGER\sig_test\nrq2.qtf
+RS: 1.00 
+Performance: 107874.9 Queries/s
+#Logical Access Read: 5.63 (#IN: 4.07, #Rel.IN: 3.00, #LN: 1.57, #Rel.LN: 1.00)
+#Relevancy of Scanned Subtrees [%]: 71.01 (Rel. IN: 73.77, Rel. LN: 63.83)
+#Logical Access Read in Signature Array: 13.43 (for InvLvl ; ; 2: 13.43)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 674.70
+
+k:\users\cho247\Collections\TIGER\sig_test\pmq.qtf
+RS: 1.93 
+Performance: 2039.4 Queries/s
+#Logical Access Read: 173.30 (#IN: 25.80, #Rel.IN: 4.23, #LN: 147.50, #Rel.LN: 1.77)
+#Relevancy of Scanned Subtrees [%]: 3.46 (Rel. IN: 16.41, Rel. LN: 1.20)
+#Logical Access Read in Signature Array: 27.13 (for InvLvl ; ; 2: 27.13)
+#Logical Access Read in Signature Conversion Table: 0.00 (for InvLvl ; ; 2: 0.00)
+#Compare: 47734.20

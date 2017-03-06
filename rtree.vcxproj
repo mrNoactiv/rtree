@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <CUDATOOLKIT_VERSION>0</CUDATOOLKIT_VERSION>
+    <CUDATOOLKIT_VERSION Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 5.5.props')">5.5</CUDATOOLKIT_VERSION>
+    <CUDATOOLKIT_VERSION Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 6.0.props')">6.0</CUDATOOLKIT_VERSION>
+    <CUDATOOLKIT_VERSION Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 6.5.props')">6.5</CUDATOOLKIT_VERSION>
+    <CUDATOOLKIT_VERSION Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 7.5.props')">7.5</CUDATOOLKIT_VERSION>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug CUDA|Win32">
+      <Configuration>Debug CUDA</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug CUDA|x64">
+      <Configuration>Debug CUDA</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug SSE AVX|Win32">
+      <Configuration>Debug SSE AVX</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug SSE AVX|x64">
+      <Configuration>Debug SSE AVX</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release CUDA|Win32">
+      <Configuration>Release CUDA</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release CUDA|x64">
+      <Configuration>Release CUDA</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release SSE AVX|Win32">
+      <Configuration>Release SSE AVX</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release SSE AVX|x64">
+      <Configuration>Release SSE AVX</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4873C408-5BB8-4608-88EC-077B1F0D9A87}</ProjectGuid>
+    <RootNamespace>rtree</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)|$(Configuration)' == '12.0|Debug CUDA' And '$(CUDATOOLKIT_VERSION)' &lt; 6.5">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)|$(Configuration)' == '12.0|Release CUDA' And '$(CUDATOOLKIT_VERSION)' &lt; 6.5">v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|Win32'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|x64'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|x64'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|Win32'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|x64'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|Win32'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release CUDA|x64'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release CUDA|Win32'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" Condition=" ('$(Configuration)'=='Debug CUDA') Or ('$(Configuration)'=='Release CUDA')">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 5.5.props" Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 5.5.props') And '$(CUDATOOLKIT_VERSION)'=='5.5'" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 6.0.props" Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 6.0.props') And '$(CUDATOOLKIT_VERSION)'=='6.0'" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 6.5.props" Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 6.5.props') And '$(CUDATOOLKIT_VERSION)'=='6.5'" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 7.5.props" Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 7.5.props') And '$(CUDATOOLKIT_VERSION)'=='7.5'" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" Condition="('$(Configuration)'=='Debug CUDA') Or ('$(Configuration)'=='Release CUDA')">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 5.5.targets" Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 5.5.targets') And '$(CUDATOOLKIT_VERSION)'=='5.5'" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 6.0.targets" Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 6.0.targets') And '$(CUDATOOLKIT_VERSION)'=='6.0'" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 6.5.targets" Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 6.5.targets') And '$(CUDATOOLKIT_VERSION)'=='6.5'" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 7.5.targets" Condition="Exists('$(VCTargetsPath)\BuildCustomizations\CUDA 7.5.targets') And '$(CUDATOOLKIT_VERSION)'=='7.5'" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|Win32'">Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|Win32'">Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|Win32'">Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release CUDA|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|Win32'">Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release CUDA|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release CUDA|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release CUDA|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|x64'">
+    <OutDir>$(Platform)\Debug</OutDir>
+    <IntDir>$(Platform)\Debug</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release CUDA|x64'">
+    <OutDir>$(Platform)\Release\</OutDir>
+    <IntDir>$(Platform)\Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/D "_WIN32_WINNT=0x0501" %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)rtree.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OptimizeReferences>false</OptimizeReferences>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/D "_WIN32_WINNT=0x0501" %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SSE_ENABLED;AVX_ENABLED;WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)rtree.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OptimizeReferences>false</OptimizeReferences>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CUDA_ENABLED;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\;%(AdditionalIncludeDirectories);$(CudaToolkitIncludeDir);$(NVTOOLSEXT_PATH)\include</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)rtree.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CudaCompile>
+      <CodeGeneration>compute_30,sm_30</CodeGeneration>
+      <GPUDebugInfo>true</GPUDebugInfo>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>/D "_WIN32_WINNT=0x0501" %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)rtree.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <OptimizeReferences>false</OptimizeReferences>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|x64'">
+    <ClCompile>
+      <AdditionalOptions>/D "_WIN32_WINNT=0x0501" %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)rtree.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <OptimizeReferences>false</OptimizeReferences>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|x64'">
+    <ClCompile>
+      <AdditionalOptions>/D "_WIN32_WINNT=0x0501" %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\;$(CudaToolkitIncludeDir);$(NVTOOLSEXT_PATH)\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;CUDA_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)rtree.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <OptimizeReferences>false</OptimizeReferences>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <AdditionalDependencies>cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CudaCompile>
+      <CodeGeneration>compute_30,sm_30</CodeGeneration>
+      <GPUDebugInfo>true</GPUDebugInfo>
+      <MaxRegCount>20</MaxRegCount>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/D "NODEBUG" %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\..\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/D "NODEBUG" %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\..\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SSE_ENABLED;AVX_ENABLED;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release CUDA|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/D "NODEBUG" %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\..\;$(CudaToolkitIncludeDir);$(NVTOOLSEXT_PATH)\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;CUDA_ENABLED;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>true</Profile>
+      <AdditionalDependencies>cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CudaCompile>
+      <CodeGeneration>compute_30,sm_30</CodeGeneration>
+      <GPUDebugInfo>false</GPUDebugInfo>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>/D "NODEBUG" %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\..\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|x64'">
+    <ClCompile>
+      <AdditionalOptions>/D "NODEBUG" %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\..\</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release CUDA|x64'">
+    <ClCompile>
+      <AdditionalOptions>/D "NODEBUG" %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\..\;$(CudaToolkitIncludeDir);$(NVTOOLSEXT_PATH)\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;CUDA_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)rtree.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <Profile>true</Profile>
+      <AdditionalDependencies>cudart.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CudaCompile>
+      <CodeGeneration>compute_30,sm_30;compute_35,sm_35</CodeGeneration>
+      <MaxRegCount>20</MaxRegCount>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\common\cBitArray.cpp" />
+    <ClCompile Include="..\..\..\common\cBitString.cpp" />
+    <ClCompile Include="..\..\..\common\cCommon.cpp" />
+    <ClCompile Include="..\..\..\common\cFastBitArray.cpp" />
+    <ClCompile Include="..\..\..\common\cMemory.cpp" />
+    <ClCompile Include="..\..\..\common\cNumber.cpp" />
+    <ClCompile Include="..\..\..\common\compression\cCoderCommon.cpp" />
+    <ClCompile Include="..\..\..\common\compression\coder.cpp" />
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderEliasDelta.cpp" />
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderEliasFibonacci.cpp" />
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFastEliasDelta.cpp" />
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFastEliasFibonacci.cpp" />
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFastFibonacci2.cpp" />
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFastFibonacci3.cpp" />
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFibonacci2.cpp" />
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFibonacci3.cpp" />
+    <ClCompile Include="..\..\..\common\compression\cUniversalCoderFixedLength.cpp" />
+    <ClCompile Include="..\..\..\common\cSignature.cpp" />
+    <ClCompile Include="..\..\..\common\datatype\cBasicType.cpp" />
+    <ClCompile Include="..\..\..\common\datatype\cDataType.cpp" />
+    <ClCompile Include="..\..\..\common\datatype\cDTDescriptor.cpp" />
+    <ClCompile Include="..\..\..\common\datatype\tuple\cHNTuple.cpp" />
+    <ClCompile Include="..\..\..\common\datatype\tuple\cMbrSideSizeOrder.cpp" />
+    <ClCompile Include="..\..\..\common\datatype\tuple\cSpaceDescriptor.cpp" />
+    <ClCompile Include="..\..\..\common\datatype\tuple\cTuple.cpp" />
+    <ClCompile Include="..\..\..\common\memdatstruct\cBlockLinkedList.cpp" />
+    <ClCompile Include="..\..\..\common\memdatstruct\cHeapMemoryBlock.cpp" />
+    <ClCompile Include="..\..\..\common\memdatstruct\cMemoryBlock.cpp" />
+    <ClCompile Include="..\..\..\common\memdatstruct\cMemoryManager.cpp" />
+    <ClCompile Include="..\..\..\common\memdatstruct\MeteredSection.cpp" />
+    <ClCompile Include="..\..\..\common\memorystructures\cArray.cpp" />
+    <ClCompile Include="..\..\..\common\random\cExponentialRandomGenerator.cpp" />
+    <ClCompile Include="..\..\..\common\random\cGaussRandomGenerator.cpp" />
+    <ClCompile Include="..\..\..\common\random\cUniformRandomGenerator.cpp" />
+    <ClCompile Include="..\..\..\common\stream\cCharStream.cpp" />
+    <ClCompile Include="..\..\..\common\stream\cFileStream.cpp" />
+    <ClCompile Include="..\..\..\common\utils\cCounter.cpp" />
+    <ClCompile Include="..\..\..\common\utils\cHistogram.cpp" />
+    <ClCompile Include="..\..\..\common\utils\cMemCheckUtil.cpp" />
+    <ClCompile Include="..\..\..\common\utils\cTimer.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\core\cBucketHeader.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\core\cBucketHeaderStorage.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\core\cCacheStatistics.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\core\cDStructHeader.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\core\cMemoryPool.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\core\cNode.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\core\cNodeCache.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\core\cNodeHeader.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\core\cQuickDB.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\core\cTreeHeader.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\core\cTreeNodeHeader.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\cuda\cCudaTimer.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\cuda\cGpuConst.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\cuda\cMemoryManagerCuda.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\queryprocessing\cQueryProcStat.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryConfig.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryContext.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cCommonRTree.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cRTreeLog.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cSignatureController.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cSignatureKey.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cSignatureRecord.cpp" />
+    <ClCompile Include="..\..\..\dstruct\paged\rtree\cSignatureStorage.cpp" />
+    <ClCompile Include="rtree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release CUDA|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release CUDA|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="rtree_thread.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release CUDA|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug SSE AVX|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug CUDA|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release SSE AVX|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release CUDA|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\common\cBitArray.h" />
+    <ClInclude Include="..\..\..\common\cBitString.h" />
+    <ClInclude Include="..\..\..\common\cBitStringNew.h" />
+    <ClInclude Include="..\..\..\common\cCommon.h" />
+    <ClInclude Include="..\..\..\common\cFastBitArray.h" />
+    <ClInclude Include="..\..\..\common\cMemory.h" />
+    <ClInclude Include="..\..\..\common\cNumber.h" />
+    <ClInclude Include="..\..\..\common\compression\cCoderCommon.h" />
+    <ClInclude Include="..\..\..\common\compression\cEliasDeltaDecodeTab.h" />
+    <ClInclude Include="..\..\..\common\compression\cEliasDeltaEncodeTab.h" />
+    <ClInclude Include="..\..\..\common\compression\cEliasFibonacciDecodeTab.h" />
+    <ClInclude Include="..\..\..\common\compression\cEliasFibonacciEncodeTab.h" />
+    <ClInclude Include="..\..\..\common\compression\cFibonacci2.h" />
+    <ClInclude Include="..\..\..\common\compression\cFibonacci2DecodeTab.h" />
+    <ClInclude Include="..\..\..\common\compression\cFibonacci2EncodeTab.h" />
+    <ClInclude Include="..\..\..\common\compression\cFibonacci3.h" />
+    <ClInclude Include="..\..\..\common\compression\cFibonacci3DecodeTab.h" />
+    <ClInclude Include="..\..\..\common\compression\cFibonacci3EncodeTab.h" />
+    <ClInclude Include="..\..\..\common\compression\coder.h" />
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderEliasDelta.h" />
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderEliasFibonacci.h" />
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFastEliasDelta.h" />
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFastEliasFibonacci.h" />
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFastFibonacci2.h" />
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFastFibonacci3.h" />
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFibonacci2.h" />
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFibonacci3.h" />
+    <ClInclude Include="..\..\..\common\compression\cUniversalCoderFixedLength.h" />
+    <ClInclude Include="..\..\..\common\cSignature.h" />
+    <ClInclude Include="..\..\..\common\datatype\cBasicType.h" />
+    <ClInclude Include="..\..\..\common\datatype\cDataType.h" />
+    <ClInclude Include="..\..\..\common\datatype\cDTDescriptor.h" />
+    <ClInclude Include="..\..\..\common\datatype\tuple\cCommonNTuple.h" />
+    <ClInclude Include="..\..\..\common\datatype\tuple\cHNTuple.h" />
+    <ClInclude Include="..\..\..\common\datatype\tuple\cMBRectangle.h" />
+    <ClInclude Include="..\..\..\common\datatype\tuple\cMBRectangle_AVX.h" />
+    <ClInclude Include="..\..\..\common\datatype\tuple\cMBRectangle_SSE.h" />
+    <ClInclude Include="..\..\..\common\datatype\tuple\cMbrSideSizeOrder.h" />
+    <ClInclude Include="..\..\..\common\datatype\tuple\cSpaceDescriptor.h" />
+    <ClInclude Include="..\..\..\common\datatype\tuple\cTuple.h" />
+    <ClInclude Include="..\..\..\common\data\cDataCollection.h" />
+    <ClInclude Include="..\..\..\common\data\cTuplesGenerator.h" />
+    <ClInclude Include="..\..\..\common\memdatstruct\cBlockLinkedList.h" />
+    <ClInclude Include="..\..\..\common\memdatstruct\cHeapMemoryBlock.h" />
+    <ClInclude Include="..\..\..\common\memdatstruct\cMemoryBlock.h" />
+    <ClInclude Include="..\..\..\common\memdatstruct\cMemoryManager.h" />
+    <ClInclude Include="..\..\..\common\memdatstruct\MeteredSection.h" />
+    <ClInclude Include="..\..\..\common\memorystructures\cArray.h" />
+    <ClInclude Include="..\..\..\common\memorystructures\cHashTable.h" />
+    <ClInclude Include="..\..\..\common\memorystructures\cLinkedList.h" />
+    <ClInclude Include="..\..\..\common\memorystructures\cStack.h" />
+    <ClInclude Include="..\..\..\common\random\cExponentialRandomGenerator.h" />
+    <ClInclude Include="..\..\..\common\random\cGaussRandomGenerator.h" />
+    <ClInclude Include="..\..\..\common\random\cUniformRandomGenerator.h" />
+    <CustomBuildStep Include="..\..\dstruct\atom\cExceptionDataStructureCreate.h" />
+    <CustomBuildStep Include="..\..\dstruct\atom\cExceptionDataStructureOpen.h" />
+    <ClInclude Include="..\..\..\common\stream\cCharStream.h" />
+    <ClInclude Include="..\..\..\common\stream\cFileStream.h" />
+    <ClInclude Include="..\..\..\common\stream\cStream.h" />
+    <ClInclude Include="..\..\..\common\utils\cCounter.h" />
+    <ClInclude Include="..\..\..\common\utils\cHistogram.h" />
+    <ClInclude Include="..\..\..\common\utils\cMemCheckUtil.h" />
+    <ClInclude Include="..\..\..\common\utils\cSSEUtils.h" />
+    <ClInclude Include="..\..\..\common\utils\cTimer.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cBucketHeader.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cBucketHeaderStorage.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cBulkLoad.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cBulkLoadArray.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cCacheStatistics.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cDataStructureContext.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cDStructConst.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cDStructHeader.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cExceptionDataStructureCreate.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cExceptionDataStructureOpen.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cItemStream.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cMemoryPool.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cNode.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cNodeCache.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cNodeHeader.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cNodeItem.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cObjTreeItem.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cPagedTree.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cPersistentArray.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cQueryResult.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cQuickDB.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeHeader.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeItemStream.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNode.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNodeHeader.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNode_coding.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNode_rebuild.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNode_ri.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\core\cTreeNode_SubNode.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaCommonKernels.cuh" />
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaParams.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaProcessor.cuh" />
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaProcessor35.cuh" />
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaTimer.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cGpuConst.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cMemoryManagerCuda.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\cuda\cCudaGlobalDefs.cuh" />
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cDbfsLevel.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cQueryProcStat.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryConfig.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryConfig_Gpu.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryConfig_Phi.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryContext.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryProcessor.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryProcessorConstants.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryProcessor_Gpu.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRangeQueryProcessor_Phi.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\queryprocessing\cRQBuffers.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTree.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTreeNode.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTree_Delete.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTree_Gpu.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTree_Insert.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTree_Query.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cInsertBuffers.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTree.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeConst.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeHeader.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeLeafNode.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeLeafNodeHeader.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeLeafNode_Gpu.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeLog.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeNode.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeNodeHeader.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeNode_Gpu.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cRTreeSignatureIndex.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cSignatureController.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cSignatureKey.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cSignatureRecord.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\cSignatureStorage.h" />
+    <ClInclude Include="..\..\..\dstruct\paged\rtree\sItemIdRecord.h" />
+    <ClInclude Include="..\..\dstruct\atom\datacache\cBasicPersistentData.h" />
+    <ClInclude Include="..\..\dstruct\atom\datacache\cCachedBlock.h" />
+    <ClInclude Include="..\..\dstruct\atom\datacache\cCacheHeader.h" />
+    <ClInclude Include="..\..\dstruct\atom\datacache\cCachingStrategy.h" />
+    <ClInclude Include="..\..\dstruct\atom\datacache\cDataCache.h" />
+    <ClInclude Include="..\..\dstruct\atom\datacache\cHashFunction.h" />
+    <ClInclude Include="..\..\dstruct\atom\datacache\cPersistentData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Condition="'$(Configuration)'=='Release CUDA'" Include="..\..\..\dstruct\paged\cuda\cCudaProcessor.cu" />
+    <CudaCompile Include="..\..\..\dstruct\paged\cuda\cCudaProcessor.cu" />
+    <CudaCompile Include="..\..\..\dstruct\paged\cuda\cCudaProcessor35.cu" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
