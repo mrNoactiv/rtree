@@ -4,6 +4,9 @@
 #include "common/utils/cSSEUtils.h"
 #include "dstruct/paged/core/cBulkLoad.h"
 #include "dstruct/paged/core/cBulkLoadArray.h"
+#include "cTable.h"
+
+
 
 #ifdef CUDA_ENABLED
 #include "dstruct/paged/cuda/cCudaTimer.h"
@@ -146,7 +149,27 @@ int main(int argc, char *argv[])
 	_CrtSetReportMode(_CRT_ASSERT, _CRTDBG_MODE_FILE);
 	_CrtSetReportFile(_CRT_ASSERT, _CRTDBG_FILE_STDOUT);*/
 
+	/**/
 
+	/*my code*/
+
+	mQuickDB = new cQuickDB();
+	if (!mQuickDB->Create(dbPath, CACHE_SIZE, MAX_NODE_INMEM_SIZE, BLOCK_SIZE))
+	{
+		printf("Critical Error: Cache Data File was not open!\n");
+		exit(1);
+	}
+
+	string query = "CREATE TABLE ahoj(ID INT PRIMARY KEY,AGE INT NOT NULL";
+	cTable *table1 = new cTable();
+
+
+	table1->CreateTable(query, mQuickDB, BLOCK_SIZE, DSMODE, COMPRESSION_RATIO, CODETYPE, RUNTIME_MODE, HISTOGRAMS, 0);
+
+
+
+
+	/*zdroj*/
 	ParseCommandLineArguments(argc, argv);
 	if (COLLECTION == cCollection::RANDOM && collectionFile == NULL && queryFile == NULL)
 	{

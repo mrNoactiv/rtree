@@ -676,6 +676,12 @@
     <ClInclude Include="..\..\..\common\random\cExponentialRandomGenerator.h" />
     <ClInclude Include="..\..\..\common\random\cGaussRandomGenerator.h" />
     <ClInclude Include="..\..\..\common\random\cUniformRandomGenerator.h" />
+    <ClInclude Include="cColumn.h" />
+    <ClInclude Include="cCompleteRTree.h" />
+    <ClInclude Include="cTable.h" />
+    <ClInclude Include="cTranslatorCreate.h" />
+    <ClInclude Include="cTranslatorIndex.h" />
+    <ClInclude Include="cTypeOfTranslator.h" />
     <CustomBuildStep Include="..\..\dstruct\atom\cExceptionDataStructureCreate.h" />
     <CustomBuildStep Include="..\..\dstruct\atom\cExceptionDataStructureOpen.h" />
     <ClInclude Include="..\..\..\common\stream\cCharStream.h" />

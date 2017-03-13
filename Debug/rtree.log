@@ -1,2 +1,191 @@
-﻿  rtree.vcxproj -> D:\skola\bakalářka\vzorové zdrojáky\rtree_test\Debug\rtree.exe
-  rtree.vcxproj -> Debug\rtree.pdb (Full PDB)
+﻿  rtree.cpp
+D:\skola\common/cCRCStatic.h(68): warning C4018: '<': signed/unsigned mismatch
+D:\skola\common/stream/cCharStream.h(118): warning C4244: '=': conversion from 'const common::llong' to 'common::uint', possible loss of data
+D:\skola\common/cBitString.h(477): warning C4018: '<': signed/unsigned mismatch
+D:\skola\dstruct/paged/core/cNode.h(130): warning C4800: 'unsigned int': forcing value to bool 'true' or 'false' (performance warning)
+D:\skola\common/datatype/tuple/cTuple.h(377): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(378): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(383): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(389): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(390): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(406): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(407): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(527): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(528): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(533): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(538): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(539): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(548): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(549): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\skola\common/datatype/tuple/cTuple.h(670): warning C4018: '<=': signed/unsigned mismatch
+D:\skola\common/datatype/tuple/cTuple.h(1182): warning C4477: 'sprintf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'int'
+D:\skola\common/datatype/tuple/cTuple.h(2322): warning C4552: '<<': operator has no effect; expected operator with side-effect
+D:\skola\common/datatype/tuple/cTuple.h(2332): warning C4552: '<<': operator has no effect; expected operator with side-effect
+D:\skola\common/datatype/tuple/cTuple.h(2348): warning C4018: '<': signed/unsigned mismatch
+D:\skola\dstruct/paged/queryprocessing/cRangeQueryConfig.h(22): warning C4091: 'typedef ': ignored on left of 'dstruct::paged::QueryType::QueryTypes' when no variable is declared
+D:\skola\dstruct/paged/queryprocessing/cDbfsLevel.h(42): warning C4101: 'size': unreferenced local variable
+D:\skola\dstruct/paged/core/cNodeCache.h(329): warning C4244: 'initializing': conversion from 'common::ullong' to 'unsigned int', possible loss of data
+D:\skola\dstruct/paged/core/cNodeCache.h(400): warning C4018: '>': signed/unsigned mismatch
+D:\skola\dstruct/paged/core/cNodeCache.h(566): warning C4244: 'initializing': conversion from 'common::llong' to 'unsigned int', possible loss of data
+D:\skola\dstruct/paged/core/cNodeCache.h(606): warning C4244: '=': conversion from 'common::llong' to 'unsigned int', possible loss of data
+D:\skola\dstruct/paged/core/cNodeCache.h(723): warning C4244: 'argument': conversion from 'common::llong' to 'unsigned int', possible loss of data
+D:\skola\dstruct/paged/core/cNodeCache.h(725): warning C4244: 'argument': conversion from 'common::llong' to 'unsigned int', possible loss of data
+D:\skola\dstruct/paged/core/cNodeCache.h(787): warning C4244: 'argument': conversion from 'common::llong' to 'unsigned int', possible loss of data
+D:\skola\dstruct/paged/core/cNodeCache.h(789): warning C4244: 'argument': conversion from 'common::llong' to 'unsigned int', possible loss of data
+D:\skola\dstruct/paged/rtree/cRTreeConst.h(27): warning C4091: 'typedef ': ignored on left of 'cQueryType::QueryType' when no variable is declared
+D:\skola\dstruct/paged/rtree/cRTreeConst.h(32): warning C4091: 'typedef ': ignored on left of 'Find::FindMBR' when no variable is declared
+D:\skola\dstruct/paged/rtree/cRTreeConst.h(38): warning C4091: 'typedef ': ignored on left of 'Compression::Comp' when no variable is declared
+D:\skola\dstruct/paged/rtree/cRTreeConst.h(44): warning C4091: 'typedef ': ignored on left of 'Reduction::Reduce' when no variable is declared
+D:\skola\dstruct/paged/rtree/cRTreeConst.h(50): warning C4091: 'typedef ': ignored on left of 'Split::Splits' when no variable is declared
+D:\skola\common/datatype/tuple/cMBRectangle.h(51): warning C4091: 'typedef ': ignored on left of 'common::datatype::tuple::Processing::Compare' when no variable is declared
+D:\skola\common/data/cDataCollection.h(16): warning C4091: 'typedef ': ignored on left of 'cCollection::Collect' when no variable is declared
+D:\skola\common/data/cDataCollection.h(21): warning C4091: 'typedef ': ignored on left of 'Computer::Collect' when no variable is declared
+d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(284): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(323): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(371): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(407): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(13): warning C4042: 'INMEMCACHE_SIZE': has bad storage class
+  d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(16): note: see reference to class template instantiation 'cCompleteRTree<TKey>' being compiled
+d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(14): warning C4042: 'INMEMCACHE_SIZE': has bad storage class
+d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(18): warning C4042: 'inMemCacheSize': has bad storage class
+d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(24): warning C4042: 'INMEMCACHE_SIZE': has bad storage class
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(52): warning C4042: 'inMemCacheSize': has bad storage class
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(53): warning C4042: 'inMemCacheSize': has bad storage class
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(54): warning C4042: 'inMemCacheSize': has bad storage class
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(70): warning C4042: 'inMemCacheSize': has bad storage class
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(152): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(201): warning C4018: '<=': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(237): warning C4018: '<=': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(265): warning C4042: 'inMemCacheSize': has bad storage class
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(267): warning C4101: 'keyPosition': unreferenced local variable
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(492): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(541): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+rtree.cpp(23): warning C4244: 'initializing': conversion from 'double' to 'common::uint', possible loss of data
+rtree.cpp(263): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+rtree.cpp(268): warning C4244: '=': conversion from 'double' to 'common::uint', possible loss of data
+rtree.cpp(324): warning C4474: 'printf' : too many arguments passed for format string
+  rtree.cpp(324): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+rtree.cpp(351): warning C4476: 'fprintf' : unknown type field character ';' in format specifier
+rtree.cpp(487): warning C4476: 'printf' : unknown type field character '!' in format specifier
+rtree.cpp(487): warning C4474: 'printf' : too many arguments passed for format string
+  rtree.cpp(487): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+rtree.cpp(780): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+rtree.cpp(807): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+rtree.cpp(1010): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\skola\common/memorystructures/cArray.h(137): warning C4018: '<': signed/unsigned mismatch
+  D:\skola\common/memorystructures/cArray.h(136): note: while compiling class template member function 'const char cArray<char>::operator [](const int) const'
+  D:\skola\common/cString.h(119): note: see reference to function template instantiation 'const char cArray<char>::operator [](const int) const' being compiled
+  D:\skola\common/cString.h(109): note: see reference to class template instantiation 'cArray<char>' being compiled
+D:\skola\common/memorystructures/cArray.h(121): warning C4018: '<': signed/unsigned mismatch
+  D:\skola\common/memorystructures/cArray.h(120): note: while compiling class template member function 'char &cArray<char>::operator [](const int)'
+  D:\skola\common/cString.h(114): note: see reference to function template instantiation 'char &cArray<char>::operator [](const int)' being compiled
+D:\skola\dstruct/paged/core/cBulkLoad.h(95): warning C4244: '=': conversion from 'float' to 'common::uint', possible loss of data
+  D:\skola\dstruct/paged/core/cBulkLoad.h(86): note: while compiling class template member function 'common::data::cBulkLoad<RTree,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>,TKey,dstruct::paged::rtree::cRTreeHeader<TKey>,tDomain>::cBulkLoad(THeader *,TTree *,float,float,common::uint,common::uint,common::uint,common::datatype::tuple::cSpaceDescriptor *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple,
+              THeader=dstruct::paged::rtree::cRTreeHeader<common::datatype::tuple::cTuple>,
+              TTree=RTree
+          ]
+  rtree.cpp(1010): note: see reference to function template instantiation 'common::data::cBulkLoad<RTree,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>,TKey,dstruct::paged::rtree::cRTreeHeader<TKey>,tDomain>::cBulkLoad(THeader *,TTree *,float,float,common::uint,common::uint,common::uint,common::datatype::tuple::cSpaceDescriptor *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple,
+              THeader=dstruct::paged::rtree::cRTreeHeader<common::datatype::tuple::cTuple>,
+              TTree=RTree
+          ]
+  rtree.cpp(1010): note: see reference to class template instantiation 'common::data::cBulkLoad<RTree,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>,TKey,dstruct::paged::rtree::cRTreeHeader<TKey>,tDomain>' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+D:\skola\dstruct/paged/core/cBulkLoad.h(96): warning C4244: '=': conversion from 'float' to 'common::uint', possible loss of data
+D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(1614): warning C4101: 'c1': unreferenced local variable
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(1604): note: while compiling class template member function 'dstruct::paged::core::cTreeItemStream<TKey> *dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>::RangeQuery(const TKey &,const TKey &,dstruct::paged::cQueryProcStat *,int,unsigned int,dstruct::paged::core::cTreeItemStream<TKey> *,char *,bool *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(1082): note: see reference to function template instantiation 'dstruct::paged::core::cTreeItemStream<TKey> *dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>::RangeQuery(const TKey &,const TKey &,dstruct::paged::cQueryProcStat *,int,unsigned int,dstruct::paged::core::cTreeItemStream<TKey> *,char *,bool *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(956): note: while compiling class template member function 'dstruct::paged::bptree::cBpTreeNode<TKey> *dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>::SearchForRightOrderInInnerNode(const dstruct::paged::tNodeIndex,const dstruct::paged::tNodeIndex,unsigned int &,int &,dstruct::paged::tNodeIndex *,int *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/b+tree/cB+Tree.h(31): note: see reference to class template instantiation 'dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cSignatureStorage.h(143): note: see reference to class template instantiation 'dstruct::paged::bptree::cBpTree<common::datatype::tuple::cTuple>' being compiled
+D:\skola\common/memorystructures/cHashTable.h(232): warning C4800: 'unsigned int': forcing value to bool 'true' or 'false' (performance warning)
+  D:\skola\common/memorystructures/cHashTable.h(216): note: while compiling class template member function 'bool common::memorystructures::cHashTable<TKey,cCharString>::Find(const TKey &,char *&) const'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(1077): note: see reference to function template instantiation 'bool common::memorystructures::cHashTable<TKey,cCharString>::Find(const TKey &,char *&) const' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(1077): note: see reference to class template instantiation 'common::memorystructures::cHashTable<TKey,cCharString>' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(1066): note: while compiling class template member function 'bool dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>::PointQuery(const TKey &,char *,dstruct::paged::cQueryProcStat *,int)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cSignatureStorage.h(169): note: see reference to function template instantiation 'bool dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>::PointQuery(const TKey &,char *,dstruct::paged::cQueryProcStat *,int)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(26): error C2661: 'dstruct::paged::rtree::cRTreeHeader<TKey>::cRTreeHeader': no overloaded function takes 9 arguments
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(30): error C2039: 'SetInMemCacheSize': is not a member of 'dstruct::paged::rtree::cRTreeHeader<TKey>'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(10): note: see declaration of 'dstruct::paged::rtree::cRTreeHeader<TKey>'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(26): error C2661: 'dstruct::paged::rtree::cRTreeHeader<TKey>::cRTreeHeader': no overloaded function takes 9 arguments
+          with
+          [
+              TKey=common::datatype::tuple::cHNTuple
+          ]
+d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(30): error C2039: 'SetInMemCacheSize': is not a member of 'dstruct::paged::rtree::cRTreeHeader<TKey>'
+          with
+          [
+              TKey=common::datatype::tuple::cHNTuple
+          ]
+  d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(10): note: see declaration of 'dstruct::paged::rtree::cRTreeHeader<TKey>'
+          with
+          [
+              TKey=common::datatype::tuple::cHNTuple
+          ]
+D:\skola\common/data/cTuplesGenerator.h(486): warning C4018: '<': signed/unsigned mismatch
+  D:\skola\common/data/cTuplesGenerator.h(477): note: while compiling class template member function 'tKey *common::data::cTuplesGenerator<tDomain,tKey>::GetNextTupleFromFile(void)'
+  D:\skola\common/data/cTuplesGenerator.h(416): note: see reference to function template instantiation 'tKey *common::data::cTuplesGenerator<tDomain,tKey>::GetNextTupleFromFile(void)' being compiled
+  D:\skola\common/data/cTuplesGenerator.h(169): note: while compiling class template member function 'common::data::cTuplesGenerator<tDomain,tKey>::cTuplesGenerator(common::uint,common::uint,common::uint,bool,bool)'
+  rtree.cpp(434): note: see reference to function template instantiation 'common::data::cTuplesGenerator<tDomain,tKey>::cTuplesGenerator(common::uint,common::uint,common::uint,bool,bool)' being compiled
+  rtree.cpp(380): note: see reference to class template instantiation 'common::data::cTuplesGenerator<tDomain,tKey>' being compiled
+D:\skola\common/data/cTuplesGenerator.h(481): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\skola\common/data/cTuplesGenerator.h(356): warning C4018: '<': signed/unsigned mismatch
+  D:\skola\common/data/cTuplesGenerator.h(354): note: while compiling class template member function 'bool common::data::cTuplesGenerator<tDomain,tKey>::HasNextTuple(void)'
+  D:\skola\common/data/cTuplesGenerator.h(454): note: see reference to function template instantiation 'bool common::data::cTuplesGenerator<tDomain,tKey>::HasNextTuple(void)' being compiled

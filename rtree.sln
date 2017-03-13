@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtree", "rtree.vcxproj", "{4873C408-5BB8-4608-88EC-077B1F0D9A87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug CUDA|x64 = Debug CUDA|x64
+		Debug CUDA|x86 = Debug CUDA|x86
+		Debug SSE AVX|x64 = Debug SSE AVX|x64
+		Debug SSE AVX|x86 = Debug SSE AVX|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release CUDA|x64 = Release CUDA|x64
+		Release CUDA|x86 = Release CUDA|x86
+		Release SSE AVX|x64 = Release SSE AVX|x64
+		Release SSE AVX|x86 = Release SSE AVX|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug CUDA|x64.ActiveCfg = Debug CUDA|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug CUDA|x64.Build.0 = Debug CUDA|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug CUDA|x86.ActiveCfg = Debug CUDA|Win32
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug CUDA|x86.Build.0 = Debug CUDA|Win32
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug SSE AVX|x64.ActiveCfg = Debug SSE AVX|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug SSE AVX|x64.Build.0 = Debug SSE AVX|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug SSE AVX|x86.ActiveCfg = Debug SSE AVX|Win32
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug SSE AVX|x86.Build.0 = Debug SSE AVX|Win32
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug|x64.ActiveCfg = Debug|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug|x64.Build.0 = Debug|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug|x86.ActiveCfg = Debug|Win32
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Debug|x86.Build.0 = Debug|Win32
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release CUDA|x64.ActiveCfg = Release CUDA|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release CUDA|x64.Build.0 = Release CUDA|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release CUDA|x86.ActiveCfg = Release CUDA|Win32
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release CUDA|x86.Build.0 = Release CUDA|Win32
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release SSE AVX|x64.ActiveCfg = Release SSE AVX|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release SSE AVX|x64.Build.0 = Release SSE AVX|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release SSE AVX|x86.ActiveCfg = Release SSE AVX|Win32
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release SSE AVX|x86.Build.0 = Release SSE AVX|Win32
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release|x64.ActiveCfg = Release|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release|x64.Build.0 = Release|x64
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release|x86.ActiveCfg = Release|Win32
+		{4873C408-5BB8-4608-88EC-077B1F0D9A87}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

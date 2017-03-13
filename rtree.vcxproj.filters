@@ -56,6 +56,9 @@
     <Filter Include="Source Files\dstruct\paged\cuda">
       <UniqueIdentifier>{a8b3ffb5-102c-4347-9680-031b42977647}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\My Code">
+      <UniqueIdentifier>{53505feb-64eb-457b-9cd7-37b3092f0045}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\common\datatype\tuple\cSpaceDescriptor.cpp">
@@ -674,6 +677,24 @@
     </ClInclude>
     <ClInclude Include="..\..\..\dstruct\paged\rtree\cCommonRTree_Delete.h">
       <Filter>Source Files\dstruct\paged\rtree</Filter>
+    </ClInclude>
+    <ClInclude Include="cColumn.h">
+      <Filter>Source Files\My Code</Filter>
+    </ClInclude>
+    <ClInclude Include="cTable.h">
+      <Filter>Source Files\My Code</Filter>
+    </ClInclude>
+    <ClInclude Include="cTranslatorCreate.h">
+      <Filter>Source Files\My Code</Filter>
+    </ClInclude>
+    <ClInclude Include="cTranslatorIndex.h">
+      <Filter>Source Files\My Code</Filter>
+    </ClInclude>
+    <ClInclude Include="cTypeOfTranslator.h">
+      <Filter>Source Files\My Code</Filter>
+    </ClInclude>
+    <ClInclude Include="cCompleteRTree.h">
+      <Filter>Source Files\My Code</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
