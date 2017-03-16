@@ -102,12 +102,13 @@ inline bool cTable::CreateTable(string query, cQuickDB *quickDB, const unsigned 
 		}
 		else
 		{
+			
 			cNTuple tp(keySD, 12);
 			unsigned int v1 = tp.GetSize(keySD);
 			unsigned int v2 = keySD->GetSize();
 
 
-			cCompleteRTree<cHNTuple>*index = new cCompleteRTree<cHNTuple>(tableName.c_str(), translator->keyPosition, BLOCK_SIZE, keySD, tp.GetSize(keySD), keySD->GetSize(), true, DSMODE, cDStructConst::BTREE, compressionRatio, codeType, runtimeMode, histograms, inMemCacheSize, quickDB);
+			cCompleteRTree<cHNTuple>*index = new cCompleteRTree<cHNTuple>(tableName.c_str(), translator->keyPosition, BLOCK_SIZE, keySD, tp.GetSize(keySD), keySD->GetSize(), true, DSMODE, cDStructConst::RTREE, compressionRatio, codeType, runtimeMode, histograms, inMemCacheSize, quickDB);
 			
 			if (index != NULL)
 			{
@@ -193,6 +194,7 @@ inline bool cTable::CreateIndex(string query, cQuickDB * quickDB, const unsigned
 
 	if (varlenIndex == false)
 	{
+	
 		cCompleteRTree<cTuple> *index = new cCompleteRTree<cTuple>(indexName.c_str(), indexColumnPosition, BLOCK_SIZE, indexSD, indexSD->GetTypeSize(), indexSD->GetSize(), false, DSMODE, cDStructConst::RTREE, compressionRatio, codeType, runtimeMode, histograms, inMemCacheSize, quickDB);
 
 
@@ -221,6 +223,7 @@ inline bool cTable::CreateIndex(string query, cQuickDB * quickDB, const unsigned
 	}
 	else
 	{
+	/*
 		cNTuple tp(indexSD, 12);
 		unsigned int v1 = tp.GetSize(indexSD);
 		unsigned int v2 = indexSD->GetSize();
@@ -256,7 +259,7 @@ inline bool cTable::CreateIndex(string query, cQuickDB * quickDB, const unsigned
 			return false;
 		}
 		
-		return true;
+		return true;*/
 	}
 	
 	
@@ -267,7 +270,7 @@ inline bool cTable::CreateClusteredIndex(cTranslatorCreate *translator, cQuickDB
 	int keyPosition;
 	if (translator->varlen)
 	{
-		cCompleteRTree<cHNTuple>*index = new cCompleteRTree<cHNTuple>(tableName.c_str(), translator->keyPosition, BLOCK_SIZE, translator->SD, translator->SD->GetTypeSize(), translator->SD->GetSize(), true, DSMODE, cDStructConst::RTREE, compressionRatio, codeType, runtimeMode, histograms, inMemCacheSize, quickDB);
+		/*cCompleteRTree<cHNTuple>*index = new cCompleteRTree<cHNTuple>(tableName.c_str(), translator->keyPosition, BLOCK_SIZE, translator->SD, translator->SD->GetTypeSize(), translator->SD->GetSize(), true, DSMODE, cDStructConst::RTREE, compressionRatio, codeType, runtimeMode, histograms, inMemCacheSize, quickDB);
 
 
 		if (index != NULL)
@@ -275,7 +278,7 @@ inline bool cTable::CreateClusteredIndex(cTranslatorCreate *translator, cQuickDB
 			indexesVarLen->push_back(index);
 			//indexesFixLen->push_back(index);
 			return true;
-		}
+		}*/
 
 	}
 	else if(translator->varlen==false)
@@ -481,11 +484,6 @@ inline cTuple * cTable::TransportItemFixLen(cTuple *sourceTuple, cSpaceDescripto
 	{
 		float key = sourceTuple->GetFloat(columnPosition, SD);
 		destTuple->SetValue(0, key, mSd);
-	}
-	else if (mType->GetCode() == 'n')//varchar,neodzkoušeno
-	{
-		cNTuple varcharTuple = sourceTuple->GetTuple(columnPosition, SD);
-		destTuple->SetValue(0, *varcharTuple, SD);
 	}
 	else if (mType->GetCode() == 'c')//char(nejasny Get)
 	{

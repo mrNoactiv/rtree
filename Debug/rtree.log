@@ -40,10 +40,12 @@ D:\skola\dstruct/paged/rtree/cRTreeConst.h(50): warning C4091: 'typedef ': ignor
 D:\skola\common/datatype/tuple/cMBRectangle.h(51): warning C4091: 'typedef ': ignored on left of 'common::datatype::tuple::Processing::Compare' when no variable is declared
 D:\skola\common/data/cDataCollection.h(16): warning C4091: 'typedef ': ignored on left of 'cCollection::Collect' when no variable is declared
 D:\skola\common/data/cDataCollection.h(21): warning C4091: 'typedef ': ignored on left of 'Computer::Collect' when no variable is declared
-d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(284): warning C4018: '<': signed/unsigned mismatch
-d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(323): warning C4018: '<': signed/unsigned mismatch
-d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(371): warning C4018: '<': signed/unsigned mismatch
-d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(407): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(279): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(318): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(326): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(351): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(380): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTranslatorCreate.h(417): warning C4018: '<': signed/unsigned mismatch
 d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(13): warning C4042: 'INMEMCACHE_SIZE': has bad storage class
   d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(16): note: see reference to class template instantiation 'cCompleteRTree<TKey>' being compiled
@@ -54,13 +56,12 @@ d:\skola\bakalarka\pokusy\rtree_test\cTable.h(52): warning C4042: 'inMemCacheSiz
 d:\skola\bakalarka\pokusy\rtree_test\cTable.h(53): warning C4042: 'inMemCacheSize': has bad storage class
 d:\skola\bakalarka\pokusy\rtree_test\cTable.h(54): warning C4042: 'inMemCacheSize': has bad storage class
 d:\skola\bakalarka\pokusy\rtree_test\cTable.h(70): warning C4042: 'inMemCacheSize': has bad storage class
-d:\skola\bakalarka\pokusy\rtree_test\cTable.h(152): warning C4018: '<': signed/unsigned mismatch
-d:\skola\bakalarka\pokusy\rtree_test\cTable.h(201): warning C4018: '<=': signed/unsigned mismatch
-d:\skola\bakalarka\pokusy\rtree_test\cTable.h(237): warning C4018: '<=': signed/unsigned mismatch
-d:\skola\bakalarka\pokusy\rtree_test\cTable.h(265): warning C4042: 'inMemCacheSize': has bad storage class
-d:\skola\bakalarka\pokusy\rtree_test\cTable.h(267): warning C4101: 'keyPosition': unreferenced local variable
-d:\skola\bakalarka\pokusy\rtree_test\cTable.h(492): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
-d:\skola\bakalarka\pokusy\rtree_test\cTable.h(541): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(153): warning C4018: '<': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(203): warning C4018: '<=': signed/unsigned mismatch
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(268): warning C4042: 'inMemCacheSize': has bad storage class
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(270): warning C4101: 'keyPosition': unreferenced local variable
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(490): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+d:\skola\bakalarka\pokusy\rtree_test\cTable.h(539): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
 rtree.cpp(23): warning C4244: 'initializing': conversion from 'double' to 'common::uint', possible loss of data
 rtree.cpp(263): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
 rtree.cpp(268): warning C4244: '=': conversion from 'double' to 'common::uint', possible loss of data
@@ -149,36 +150,6 @@ D:\skola\common/memorystructures/cHashTable.h(232): warning C4800: 'unsigned int
           [
               TKey=common::datatype::tuple::cTuple
           ]
-d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(26): error C2661: 'dstruct::paged::rtree::cRTreeHeader<TKey>::cRTreeHeader': no overloaded function takes 9 arguments
-          with
-          [
-              TKey=common::datatype::tuple::cTuple
-          ]
-d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(30): error C2039: 'SetInMemCacheSize': is not a member of 'dstruct::paged::rtree::cRTreeHeader<TKey>'
-          with
-          [
-              TKey=common::datatype::tuple::cTuple
-          ]
-  d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(10): note: see declaration of 'dstruct::paged::rtree::cRTreeHeader<TKey>'
-          with
-          [
-              TKey=common::datatype::tuple::cTuple
-          ]
-d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(26): error C2661: 'dstruct::paged::rtree::cRTreeHeader<TKey>::cRTreeHeader': no overloaded function takes 9 arguments
-          with
-          [
-              TKey=common::datatype::tuple::cHNTuple
-          ]
-d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(30): error C2039: 'SetInMemCacheSize': is not a member of 'dstruct::paged::rtree::cRTreeHeader<TKey>'
-          with
-          [
-              TKey=common::datatype::tuple::cHNTuple
-          ]
-  d:\skola\bakalarka\pokusy\rtree_test\cCompleteRTree.h(10): note: see declaration of 'dstruct::paged::rtree::cRTreeHeader<TKey>'
-          with
-          [
-              TKey=common::datatype::tuple::cHNTuple
-          ]
 D:\skola\common/data/cTuplesGenerator.h(486): warning C4018: '<': signed/unsigned mismatch
   D:\skola\common/data/cTuplesGenerator.h(477): note: while compiling class template member function 'tKey *common::data::cTuplesGenerator<tDomain,tKey>::GetNextTupleFromFile(void)'
   D:\skola\common/data/cTuplesGenerator.h(416): note: see reference to function template instantiation 'tKey *common::data::cTuplesGenerator<tDomain,tKey>::GetNextTupleFromFile(void)' being compiled
@@ -186,6 +157,548 @@ D:\skola\common/data/cTuplesGenerator.h(486): warning C4018: '<': signed/unsigne
   rtree.cpp(434): note: see reference to function template instantiation 'common::data::cTuplesGenerator<tDomain,tKey>::cTuplesGenerator(common::uint,common::uint,common::uint,bool,bool)' being compiled
   rtree.cpp(380): note: see reference to class template instantiation 'common::data::cTuplesGenerator<tDomain,tKey>' being compiled
 D:\skola\common/data/cTuplesGenerator.h(481): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\skola\common/data/cTuplesGenerator.h(501): warning C4101: 'nmbr': unreferenced local variable
 D:\skola\common/data/cTuplesGenerator.h(356): warning C4018: '<': signed/unsigned mismatch
   D:\skola\common/data/cTuplesGenerator.h(354): note: while compiling class template member function 'bool common::data::cTuplesGenerator<tDomain,tKey>::HasNextTuple(void)'
   D:\skola\common/data/cTuplesGenerator.h(454): note: see reference to function template instantiation 'bool common::data::cTuplesGenerator<tDomain,tKey>::HasNextTuple(void)' being compiled
+D:\skola\dstruct/paged/core/cTreeItemStream.h(149): warning C4244: 'initializing': conversion from 'common::llong' to 'unsigned int', possible loss of data
+  D:\skola\dstruct/paged/core/cTreeItemStream.h(148): note: while compiling class template member function 'bool dstruct::paged::core::cTreeItemStream<TKey>::Add(const char *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(1699): note: see reference to function template instantiation 'bool dstruct::paged::core::cTreeItemStream<TKey>::Add(const char *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(1604): note: while compiling class template member function 'dstruct::paged::core::cTreeItemStream<TKey> *dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>::RangeQuery(const TKey &,const TKey &,dstruct::paged::cQueryProcStat *,int,unsigned int,dstruct::paged::core::cTreeItemStream<TKey> *,char *,bool *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(1082): note: see reference to function template instantiation 'dstruct::paged::core::cTreeItemStream<TKey> *dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>::RangeQuery(const TKey &,const TKey &,dstruct::paged::cQueryProcStat *,int,unsigned int,dstruct::paged::core::cTreeItemStream<TKey> *,char *,bool *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeNode.h(1126): warning C4018: '>=': signed/unsigned mismatch
+  d:\skola\dstruct\paged\rtree\cRTreeNode.h(1097): note: while compiling class template member function 'bool dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::FindMbr_Ordered(const common::datatype::tuple::cTuple &,unsigned int &,const dstruct::paged::rtree::cRTreeOrderIndex<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/rtree/cCommonRTree_Insert.h(224): note: see reference to function template instantiation 'bool dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::FindMbr_Ordered(const common::datatype::tuple::cTuple &,unsigned int &,const dstruct::paged::rtree::cRTreeOrderIndex<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeNode.h(359): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::UpdateMbr(unsigned int,const char *)'
+  D:\skola\dstruct/paged/rtree/cCommonRTree_Insert.h(533): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::UpdateMbr(unsigned int,const char *)' being compiled
+  D:\skola\dstruct/paged/rtree/cCommonRTree.h(340): note: see reference to class template instantiation 'dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>' being compiled
+  D:\skola\dstruct/paged/rtree/cCommonRTree.h(301): note: while compiling class template member function 'bool dstruct::paged::rtree::cCommonRTree<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>,TKey,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>>::Create(dstruct::paged::rtree::cRTreeHeader<TKey> *,dstruct::paged::core::cQuickDB *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  rtree.cpp(458): note: see reference to function template instantiation 'bool dstruct::paged::rtree::cCommonRTree<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>,TKey,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>>::Create(dstruct::paged::rtree::cRTreeHeader<TKey> *,dstruct::paged::core::cQuickDB *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/rtree/cRTree.h(37): note: see reference to class template instantiation 'dstruct::paged::rtree::cCommonRTree<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>,TKey,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>>' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\bakalarka\pokusy\rtree_test\cTable.h(213): note: see reference to class template instantiation 'dstruct::paged::rtree::cRTree<TKey>' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeNode.h(276): warning C4101: 'nodeIndex': unreferenced local variable
+  d:\skola\dstruct\paged\rtree\cRTreeNode.h(275): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::DeleteScan(int &,const common::datatype::tuple::cTuple &)'
+  D:\skola\dstruct/paged/rtree/cCommonRTree_Delete.h(35): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::DeleteScan(int &,const common::datatype::tuple::cTuple &)' being compiled
+d:\skola\dstruct\paged\rtree\cRTreeNode.h(1474): warning C4018: '<': signed/unsigned mismatch
+  d:\skola\dstruct\paged\rtree\cRTreeNode.h(1463): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::InsertTupleOrder(dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>> *,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>> *,char *,const dstruct::paged::tNodeIndex &,dstruct::paged::rtree::cRTreeNodeHeader<TMbr> *)'
+          with
+          [
+              TMbr=common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>
+          ]
+  D:\skola\dstruct/paged/rtree/cCommonRTree_Insert.h(332): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::InsertTupleOrder(dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>> *,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>> *,char *,const dstruct::paged::tNodeIndex &,dstruct::paged::rtree::cRTreeNodeHeader<TMbr> *)' being compiled
+          with
+          [
+              TMbr=common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeNode.h(1485): warning C4018: '<': signed/unsigned mismatch
+d:\skola\dstruct\paged\core\cBulkLoadArray.h(648): warning C4018: '>': signed/unsigned mismatch
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(632): note: while compiling class template member function 'void cBulkLoadArray<TKey>::IntrosortL(common::uint,common::uint,int)'
+          with
+          [
+              TKey=tKey
+          ]
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(384): note: see reference to function template instantiation 'void cBulkLoadArray<TKey>::IntrosortL(common::uint,common::uint,int)' being compiled
+          with
+          [
+              TKey=tKey
+          ]
+  D:\skola\dstruct/paged/core/cBulkLoad.h(329): note: while compiling class template member function 'void common::data::cBulkLoad<RTree,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>,TKey,dstruct::paged::rtree::cRTreeHeader<TKey>,tDomain>::CreateRTreeInnerNodes(common::uint)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/core/cBulkLoad.h(324): note: see reference to function template instantiation 'void common::data::cBulkLoad<RTree,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>,TKey,dstruct::paged::rtree::cRTreeHeader<TKey>,tDomain>::CreateRTreeInnerNodes(common::uint)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/core/cBulkLoad.h(86): note: while compiling class template member function 'common::data::cBulkLoad<RTree,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>,TKey,dstruct::paged::rtree::cRTreeHeader<TKey>,tDomain>::cBulkLoad(THeader *,TTree *,float,float,common::uint,common::uint,common::uint,common::datatype::tuple::cSpaceDescriptor *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple,
+              THeader=dstruct::paged::rtree::cRTreeHeader<common::datatype::tuple::cTuple>,
+              TTree=RTree
+          ]
+  rtree.cpp(1010): note: see reference to function template instantiation 'common::data::cBulkLoad<RTree,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>,TKey,dstruct::paged::rtree::cRTreeHeader<TKey>,tDomain>::cBulkLoad(THeader *,TTree *,float,float,common::uint,common::uint,common::uint,common::datatype::tuple::cSpaceDescriptor *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple,
+              THeader=dstruct::paged::rtree::cRTreeHeader<common::datatype::tuple::cTuple>,
+              TTree=RTree
+          ]
+d:\skola\dstruct\paged\core\cBulkLoadArray.h(653): warning C4018: '<': signed/unsigned mismatch
+d:\skola\dstruct\paged\core\cBulkLoadArray.h(682): warning C4018: '>': signed/unsigned mismatch
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(665): note: while compiling class template member function 'void cBulkLoadArray<TKey>::IntrosortH(common::uint,common::uint,int)'
+          with
+          [
+              TKey=tKey
+          ]
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(387): note: see reference to function template instantiation 'void cBulkLoadArray<TKey>::IntrosortH(common::uint,common::uint,int)' being compiled
+          with
+          [
+              TKey=tKey
+          ]
+d:\skola\dstruct\paged\core\cBulkLoadArray.h(687): warning C4018: '<': signed/unsigned mismatch
+d:\skola\dstruct\paged\core\cBulkLoadArray.h(717): warning C4018: '>': signed/unsigned mismatch
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(700): note: while compiling class template member function 'void cBulkLoadArray<TKey>::IntrosortZ(common::uint,common::uint,int)'
+          with
+          [
+              TKey=tKey
+          ]
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(390): note: see reference to function template instantiation 'void cBulkLoadArray<TKey>::IntrosortZ(common::uint,common::uint,int)' being compiled
+          with
+          [
+              TKey=tKey
+          ]
+d:\skola\dstruct\paged\core\cBulkLoadArray.h(722): warning C4018: '<': signed/unsigned mismatch
+d:\skola\dstruct\paged\core\cBulkLoadArray.h(752): warning C4018: '>': signed/unsigned mismatch
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(735): note: while compiling class template member function 'void cBulkLoadArray<TKey>::IntrosortT(common::uint,common::uint,int)'
+          with
+          [
+              TKey=tKey
+          ]
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(393): note: see reference to function template instantiation 'void cBulkLoadArray<TKey>::IntrosortT(common::uint,common::uint,int)' being compiled
+          with
+          [
+              TKey=tKey
+          ]
+d:\skola\dstruct\paged\core\cBulkLoadArray.h(757): warning C4018: '<': signed/unsigned mismatch
+d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(333): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(330): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::Split_DivideMbr(dstruct::paged::rtree::cRTreeLeafNode<TKey> &,dstruct::paged::core::cNodeBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(262): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::Split_DivideMbr(dstruct::paged::rtree::cRTreeLeafNode<TKey> &,dstruct::paged::core::cNodeBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(1564): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::CreateMbr(char *,char *,dstruct::paged::core::cNodeBuffers<TKey> *) const'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/rtree/cCommonRTree_Insert.h(104): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::CreateMbr(char *,char *,dstruct::paged::core::cNodeBuffers<TKey> *) const' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/rtree/cCommonRTree_Insert.h(72): note: while compiling class template member function 'void dstruct::paged::rtree::cCommonRTree<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>,TKey,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>>::SplitLeafNode(TLeafNode *,const TKey &,dstruct::paged::tNodeIndex &,char *,dstruct::paged::rtree::cInsertBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple,
+              TLeafNode=dstruct::paged::rtree::cRTreeLeafNode<common::datatype::tuple::cTuple>
+          ]
+  D:\skola\dstruct/paged/rtree/cCommonRTree_Insert.h(475): note: see reference to function template instantiation 'void dstruct::paged::rtree::cCommonRTree<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>,TKey,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>>::SplitLeafNode(TLeafNode *,const TKey &,dstruct::paged::tNodeIndex &,char *,dstruct::paged::rtree::cInsertBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple,
+              TLeafNode=dstruct::paged::rtree::cRTreeLeafNode<common::datatype::tuple::cTuple>
+          ]
+  D:\skola\dstruct/paged/rtree/cRTree.h(52): note: while compiling class template member function 'dstruct::paged::rtree::cRTree<TKey>::cRTree(void)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  rtree.cpp(457): note: see reference to function template instantiation 'dstruct::paged::rtree::cRTree<TKey>::cRTree(void)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\core\cBulkLoadArray.h(777): warning C4018: '>': signed/unsigned mismatch
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(770): note: while compiling class template member function 'void cBulkLoadArray<TKey>::Heapsort(common::uint,common::uint)'
+          with
+          [
+              TKey=tKey
+          ]
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(640): note: see reference to function template instantiation 'void cBulkLoadArray<TKey>::Heapsort(common::uint,common::uint)' being compiled
+          with
+          [
+              TKey=tKey
+          ]
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(632): note: while compiling class template member function 'void cBulkLoadArray<TKey>::IntrosortL(common::uint,common::uint,int)'
+          with
+          [
+              TKey=tKey
+          ]
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(384): note: see reference to function template instantiation 'void cBulkLoadArray<TKey>::IntrosortL(common::uint,common::uint,int)' being compiled
+          with
+          [
+              TKey=tKey
+          ]
+D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(721): warning C4018: '>=': signed/unsigned mismatch
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(545): note: while compiling class template member function 'bool dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>::Insert(const TKey &,char *,unsigned int)'
+          with
+          [
+              TKey=cUInt
+          ]
+  D:\skola\dstruct/paged/rtree/cRTreeOrderIndex.h(247): note: see reference to function template instantiation 'bool dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>::Insert(const TKey &,char *,unsigned int)' being compiled
+          with
+          [
+              TKey=cUInt
+          ]
+  D:\skola\dstruct/paged/b+tree/cB+Tree.h(38): note: while compiling class template member function 'dstruct::paged::bptree::cBpTree<cUInt>::cBpTree(void)'
+  D:\skola\dstruct/paged/rtree/cRTreeOrderIndex.h(145): note: see reference to function template instantiation 'dstruct::paged::bptree::cBpTree<cUInt>::cBpTree(void)' being compiled
+  D:\skola\dstruct/paged/rtree/cRTreeOrderIndex.h(145): note: see reference to class template instantiation 'dstruct::paged::bptree::cBpTree<cUInt>' being compiled
+  D:\skola\dstruct/paged/rtree/cRTreeOrderIndex.h(135): note: while compiling class template member function 'bool dstruct::paged::rtree::cRTreeOrderIndex<TKey>::Create(dstruct::paged::rtree::cRTreeHeader<TKey> *,dstruct::paged::core::cQuickDB *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/rtree/cCommonRTree.h(332): note: see reference to function template instantiation 'bool dstruct::paged::rtree::cRTreeOrderIndex<TKey>::Create(dstruct::paged::rtree::cRTreeHeader<TKey> *,dstruct::paged::core::cQuickDB *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/rtree/cCommonRTree.h(283): note: see reference to class template instantiation 'dstruct::paged::rtree::cRTreeOrderIndex<TKey>' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/rtree/cCommonRTree.h(255): note: while compiling class template member function 'bool dstruct::paged::rtree::cCommonRTree<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>,TKey,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>>::Open(dstruct::paged::rtree::cRTreeHeader<TKey> *,dstruct::paged::core::cQuickDB *,bool)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  rtree.cpp(562): note: see reference to function template instantiation 'bool dstruct::paged::rtree::cCommonRTree<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>,TKey,dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>,dstruct::paged::rtree::cRTreeLeafNode<TKey>>::Open(dstruct::paged::rtree::cRTreeHeader<TKey> *,dstruct::paged::core::cQuickDB *,bool)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeNode.h(1253): warning C4018: '<=': signed/unsigned mismatch
+  d:\skola\dstruct\paged\rtree\cRTreeNode.h(1145): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::Find2DisjMbrs(char *,int)'
+  d:\skola\dstruct\paged\rtree\cRTreeNode.h(444): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::Find2DisjMbrs(char *,int)' being compiled
+  d:\skola\dstruct\paged\rtree\cRTreeNode.h(434): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::SplitDisMbrs(dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>> &)'
+  d:\skola\dstruct\paged\rtree\cRTreeNode.h(382): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::SplitDisMbrs(dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>> &)' being compiled
+  d:\skola\dstruct\paged\rtree\cRTreeNode.h(375): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::Split(dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>> &)'
+  D:\skola\dstruct/paged/rtree/cCommonRTree_Insert.h(320): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>>::Split(dstruct::paged::rtree::cRTreeNode<common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>> &)' being compiled
+d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(690): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(684): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::BuildTwoDisjNodes(dstruct::paged::rtree::cRTreeLeafNode<TKey> &,dstruct::paged::rtree::cRTreeLeafNode<TKey> &,char *,char *,dstruct::paged::core::cNodeBuffers<TKey> *,unsigned int,unsigned int)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(318): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::BuildTwoDisjNodes(dstruct::paged::rtree::cRTreeLeafNode<TKey> &,dstruct::paged::rtree::cRTreeLeafNode<TKey> &,char *,char *,dstruct::paged::core::cNodeBuffers<TKey> *,unsigned int,unsigned int)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(305): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::Split_CutLongest(dstruct::paged::rtree::cRTreeLeafNode<TKey> &,char *,char *,dstruct::paged::core::cNodeBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(253): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::Split_CutLongest(dstruct::paged::rtree::cRTreeLeafNode<TKey> &,char *,char *,dstruct::paged::core::cNodeBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(575): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(569): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::BuildTwoDisjNodes_ri(dstruct::paged::rtree::cRTreeLeafNode<TKey> &,dstruct::paged::rtree::cRTreeLeafNode<TKey> &,dstruct::paged::core::cNodeBuffers<TKey> *,dstruct::paged::core::cNodeBuffers<TKey> *,common::uint,common::uint)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(291): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::BuildTwoDisjNodes_ri(dstruct::paged::rtree::cRTreeLeafNode<TKey> &,dstruct::paged::rtree::cRTreeLeafNode<TKey> &,dstruct::paged::core::cNodeBuffers<TKey> *,dstruct::paged::core::cNodeBuffers<TKey> *,common::uint,common::uint)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(1139): warning C4244: '-=': conversion from 'float' to 'unsigned int', possible loss of data
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(1123): note: while compiling class template member function 'bool dstruct::paged::rtree::cRTreeLeafNode<TKey>::DivideMbr(char *,char *,unsigned int,dstruct::paged::core::cNodeBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(344): note: see reference to function template instantiation 'bool dstruct::paged::rtree::cRTreeLeafNode<TKey>::DivideMbr(char *,char *,unsigned int,dstruct::paged::core::cNodeBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(485): warning C4305: 'initializing': truncation from 'double' to 'float'
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(467): note: while compiling class template member function 'bool dstruct::paged::rtree::cRTreeLeafNode<TKey>::Split(char *,char *,unsigned int,unsigned int,common::datatype::tuple::tMbrSideSizeOrder *,char *,char *,char *,char *,dstruct::paged::core::cNodeBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(317): note: see reference to function template instantiation 'bool dstruct::paged::rtree::cRTreeLeafNode<TKey>::Split(char *,char *,unsigned int,unsigned int,common::datatype::tuple::tMbrSideSizeOrder *,char *,char *,char *,char *,dstruct::paged::core::cNodeBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(486): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(504): warning C4305: '-=': truncation from 'double' to 'float'
+d:\skola\dstruct\paged\core\cBulkLoadArray.h(823): warning C4018: '<=': signed/unsigned mismatch
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(819): note: while compiling class template member function 'void cBulkLoadArray<TKey>::HeapsortDown(common::uint,common::uint)'
+          with
+          [
+              TKey=tKey
+          ]
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(781): note: see reference to function template instantiation 'void cBulkLoadArray<TKey>::HeapsortDown(common::uint,common::uint)' being compiled
+          with
+          [
+              TKey=tKey
+          ]
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(456): note: while compiling class template member function 'int cBulkLoadArray<TKey>::PartitionL(common::uint,common::uint)'
+          with
+          [
+              TKey=tKey
+          ]
+  d:\skola\dstruct\paged\core\cBulkLoadArray.h(647): note: see reference to function template instantiation 'int cBulkLoadArray<TKey>::PartitionL(common::uint,common::uint)' being compiled
+          with
+          [
+              TKey=tKey
+          ]
+d:\skola\dstruct\paged\core\cBulkLoadArray.h(841): warning C4018: '<': signed/unsigned mismatch
+D:\skola\dstruct/paged/core/cTreeNode_ri.h(147): warning C4244: 'initializing': conversion from 'double' to 'common::ushort', possible loss of data
+  D:\skola\dstruct/paged/core/cTreeNode_ri.h(143): note: while compiling class template member function 'char *dstruct::paged::core::cTreeNode<TKey>::CreateSubNode(const char *,common::ushort,common::ushort)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/core/cTreeNode_ri.h(912): note: see reference to function template instantiation 'char *dstruct::paged::core::cTreeNode<TKey>::CreateSubNode(const char *,common::ushort,common::ushort)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+D:\skola\dstruct/paged/core/cTreeNode_ri.h(1092): warning C4800: 'dstruct::paged::core::sItemBuffers *': forcing value to bool 'true' or 'false' (performance warning)
+  D:\skola\dstruct/paged/core/cTreeNode_ri.h(1035): note: while compiling class template member function 'void dstruct::paged::core::cTreeNode<TKey>::ConsistencyTest(dstruct::paged::core::sItemBuffers *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/core/cTreeNode_ri.h(943): note: see reference to function template instantiation 'void dstruct::paged::core::cTreeNode<TKey>::ConsistencyTest(dstruct::paged::core::sItemBuffers *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(902): warning C4800: 'dstruct::paged::core::sItemBuffers *': forcing value to bool 'true' or 'false' (performance warning)
+  D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(881): note: while compiling class template member function 'char *dstruct::paged::core::cTreeNode<TKey>::Rebuild(common::ushort,const char *,dstruct::paged::core::cNodeBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/core/cTreeNode_ri.h(880): note: see reference to function template instantiation 'char *dstruct::paged::core::cTreeNode<TKey>::Rebuild(common::ushort,const char *,dstruct::paged::core::cNodeBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(951): warning C4800: 'dstruct::paged::core::sItemBuffers *': forcing value to bool 'true' or 'false' (performance warning)
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(960): warning C4018: '>=': signed/unsigned mismatch
+D:\skola\dstruct/paged/core/cTreeItemStream.h(113): warning C4244: 'initializing': conversion from 'common::llong' to 'unsigned int', possible loss of data
+  D:\skola\dstruct/paged/core/cTreeItemStream.h(112): note: while compiling class template member function 'bool dstruct::paged::core::cTreeItemStream<TKey>::Add(const TKey &,const char *)'
+          with
+          [
+              TKey=cUInt
+          ]
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(1117): note: see reference to function template instantiation 'bool dstruct::paged::core::cTreeItemStream<TKey>::Add(const TKey &,const char *)' being compiled
+          with
+          [
+              TKey=cUInt
+          ]
+  D:\skola\dstruct/paged/b+tree/cCommonB+Tree.h(1104): note: while compiling class template member function 'dstruct::paged::core::cTreeItemStream<TKey> *dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>::PointQuery(const TKey &,dstruct::paged::cQueryProcStat *,dstruct::paged::core::cTreeItemStream<TKey> *)'
+          with
+          [
+              TKey=cUInt
+          ]
+  D:\skola\dstruct/paged/rtree/cRTreeOrderIndex.h(275): note: see reference to function template instantiation 'dstruct::paged::core::cTreeItemStream<TKey> *dstruct::paged::bptree::cCommonBpTree<dstruct::paged::bptree::cBpTreeNode<TKey>,dstruct::paged::bptree::cBpTreeNode<TKey>,TKey>::PointQuery(const TKey &,dstruct::paged::cQueryProcStat *,dstruct::paged::core::cTreeItemStream<TKey> *)' being compiled
+          with
+          [
+              TKey=cUInt
+          ]
+D:\skola\common/datatype/tuple/cMBRectangle.h(745): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+  D:\skola\common/datatype/tuple/cMBRectangle.h(722): note: while compiling class template member function 'double common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>::VolumeNTuple(const char *,const char *,const common::datatype::tuple::cSpaceDescriptor *)'
+  D:\skola\common/datatype/tuple/cMBRectangle.h(710): note: see reference to function template instantiation 'double common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>::VolumeNTuple(const char *,const char *,const common::datatype::tuple::cSpaceDescriptor *)' being compiled
+  D:\skola\common/datatype/tuple/cMBRectangle.h(216): note: while compiling class template member function 'common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>::~cMBRectangle(void)'
+  rtree.cpp(1038): note: see reference to function template instantiation 'common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>::~cMBRectangle(void)' being compiled
+  D:\skola\common/datatype/tuple/cMBRectangle.h(348): note: while compiling class template member function 'void common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>::Resize(const common::datatype::tuple::cSpaceDescriptor *)'
+  D:\skola\common/datatype/tuple/cMBRectangle.h(221): note: see reference to function template instantiation 'void common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>::Resize(const common::datatype::tuple::cSpaceDescriptor *)' being compiled
+  D:\skola\common/datatype/tuple/cMBRectangle.h(220): note: while compiling class template member function 'common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>::cMBRectangle(const common::datatype::tuple::cSpaceDescriptor *)'
+  d:\skola\dstruct\paged\rtree\cRTreeHeader.h(181): note: see reference to function template instantiation 'common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>::cMBRectangle(const common::datatype::tuple::cSpaceDescriptor *)' being compiled
+  D:\skola\common/datatype/tuple/cMBRectangle.h(298): note: while compiling class template member function 'common::datatype::tuple::cTuple *common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>::GetLoTuple(void)'
+  D:\skola\dstruct/paged/rtree/cCommonRTree_Insert.h(432): note: see reference to function template instantiation 'common::datatype::tuple::cTuple *common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>::GetLoTuple(void)' being compiled
+  d:\skola\dstruct\paged\rtree\cRTreeHeader.h(116): note: see reference to class template instantiation 'common::datatype::tuple::cMBRectangle<common::datatype::tuple::cTuple>' being compiled
+  d:\skola\dstruct\paged\rtree\cRTreeHeader.h(114): note: while compiling class template member function 'dstruct::paged::rtree::cRTreeHeader<TKey>::cRTreeHeader(common::datatype::tuple::cSpaceDescriptor *,const common::uint,bool,common::uint,common::uint,common::uint)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  rtree.cpp(380): note: see reference to function template instantiation 'dstruct::paged::rtree::cRTreeHeader<TKey>::cRTreeHeader(common::datatype::tuple::cSpaceDescriptor *,const common::uint,bool,common::uint,common::uint,common::uint)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  rtree.cpp(380): note: see reference to class template instantiation 'dstruct::paged::rtree::cRTreeHeader<TKey>' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(837): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(835): note: while compiling class template member function 'bool dstruct::paged::rtree::cRTreeLeafNode<TKey>::FindTwoDisjMbrs(char *,char *,char *,char *,unsigned int,unsigned int,unsigned int,float,dstruct::paged::core::cNodeBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(495): note: see reference to function template instantiation 'bool dstruct::paged::rtree::cRTreeLeafNode<TKey>::FindTwoDisjMbrs(char *,char *,char *,char *,unsigned int,unsigned int,unsigned int,float,dstruct::paged::core::cNodeBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(439): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::SplitDivideMbr_pre(common::memdatstruct::cMemoryBlock **,char **,char **,char **)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(338): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::SplitDivideMbr_pre(common::memdatstruct::cMemoryBlock **,char **,char **,char **)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(850): warning C4244: '-=': conversion from 'float' to 'unsigned int', possible loss of data
+D:\skola\dstruct/paged/core/cTreeNode_ri.h(321): warning C4018: '>=': signed/unsigned mismatch
+  D:\skola\dstruct/paged/core/cTreeNode_ri.h(320): note: while compiling class template member function 'char *dstruct::paged::core::cTreeNode<TKey>::Replacement(common::ushort,short)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/core/cTreeNode_ri.h(182): note: see reference to function template instantiation 'char *dstruct::paged::core::cTreeNode<TKey>::Replacement(common::ushort,short)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(676): warning C4800: 'dstruct::paged::core::sItemBuffers *': forcing value to bool 'true' or 'false' (performance warning)
+  D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(667): note: while compiling class template member function 'void dstruct::paged::core::cTreeNode<TKey>::Rebuild(char *,const char *,char *,common::uint,dstruct::paged::core::cNodeBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(624): note: see reference to function template instantiation 'void dstruct::paged::core::cTreeNode<TKey>::Rebuild(char *,const char *,char *,common::uint,dstruct::paged::core::cNodeBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(759): warning C4800: 'dstruct::paged::core::sItemBuffers *': forcing value to bool 'true' or 'false' (performance warning)
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1385): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+  D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1379): note: while compiling class template member function 'int dstruct::paged::core::cTreeNode<TKey>::Rebuild_FindTwoDisjMbrs(common::uint,common::uint,common::uint,common::uint,float,dstruct::paged::core::cNodeBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1346): note: see reference to function template instantiation 'int dstruct::paged::core::cTreeNode<TKey>::Rebuild_FindTwoDisjMbrs(common::uint,common::uint,common::uint,common::uint,float,dstruct::paged::core::cNodeBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1397): warning C4244: '-=': conversion from 'float' to 'unsigned int', possible loss of data
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1444): warning C4018: '<': signed/unsigned mismatch
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1444): warning C4018: '>=': signed/unsigned mismatch
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1272): warning C4244: 'argument': conversion from 'double' to 'common::ushort', possible loss of data
+  D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1266): note: while compiling class template member function 'void dstruct::paged::core::cTreeNode<TKey>::Rebuild_ComputeMasks(dstruct::paged::core::cNodeBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1074): note: see reference to function template instantiation 'void dstruct::paged::core::cTreeNode<TKey>::Rebuild_ComputeMasks(dstruct::paged::core::cNodeBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1123): warning C4244: 'argument': conversion from 'double' to 'common::ushort', possible loss of data
+  D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1103): note: while compiling class template member function 'void dstruct::paged::core::cTreeNode<TKey>::Rebuild_Rtree(dstruct::paged::core::cNodeBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(1079): note: see reference to function template instantiation 'void dstruct::paged::core::cTreeNode<TKey>::Rebuild_Rtree(dstruct::paged::core::cNodeBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(2062): warning C4018: '<=': signed/unsigned mismatch
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(2032): note: while compiling class template member function 'bool dstruct::paged::rtree::cRTreeLeafNode<TKey>::ScanLeafNode_Batch_ri(dstruct::paged::sBatchRQ *,cArray<cBitString_item> *,dstruct::paged::core::cTreeItemStream<TKey> *,common::uint,common::uint *,dstruct::paged::core::cNodeBuffers<TKey> *,dstruct::paged::cQueryProcStat *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(1906): note: see reference to function template instantiation 'bool dstruct::paged::rtree::cRTreeLeafNode<TKey>::ScanLeafNode_Batch_ri(dstruct::paged::sBatchRQ *,cArray<cBitString_item> *,dstruct::paged::core::cTreeItemStream<TKey> *,common::uint,common::uint *,dstruct::paged::core::cNodeBuffers<TKey> *,dstruct::paged::cQueryProcStat *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(1289): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::DivideMbr_pre(common::memdatstruct::cMemoryBlock **,char **,char **,char **,char **)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(1133): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::DivideMbr_pre(common::memdatstruct::cMemoryBlock **,char **,char **,char **,char **)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(2113): warning C4018: '<': signed/unsigned mismatch
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(2105): note: while compiling class template member function 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::ScanLeafNode_Cartesian(dstruct::paged::sBatchRQ *,cArray<cBitString_item> **,dstruct::paged::core::cTreeItemStream<TKey> *,dstruct::paged::core::cNodeBuffers<TKey> *,dstruct::paged::cQueryProcStat *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  d:\skola\dstruct\paged\rtree\cRTreeLeafNode.h(1912): note: see reference to function template instantiation 'void dstruct::paged::rtree::cRTreeLeafNode<TKey>::ScanLeafNode_Cartesian(dstruct::paged::sBatchRQ *,cArray<cBitString_item> **,dstruct::paged::core::cTreeItemStream<TKey> *,dstruct::paged::core::cNodeBuffers<TKey> *,dstruct::paged::cQueryProcStat *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(589): warning C4018: '<': signed/unsigned mismatch
+  D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(514): note: while compiling class template member function 'common::memorystructures::cLinkedList<dstruct::paged::core::sCoverRecord> *dstruct::paged::core::cTreeNode<TKey>::SplitToSubNodes(common::memorystructures::cLinkedList<dstruct::paged::core::sCoverRecord> *,common::uint,common::uint,dstruct::paged::core::cNodeBuffers<TKey> *)'
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+  D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(730): note: see reference to function template instantiation 'common::memorystructures::cLinkedList<dstruct::paged::core::sCoverRecord> *dstruct::paged::core::cTreeNode<TKey>::SplitToSubNodes(common::memorystructures::cLinkedList<dstruct::paged::core::sCoverRecord> *,common::uint,common::uint,dstruct::paged::core::cNodeBuffers<TKey> *)' being compiled
+          with
+          [
+              TKey=common::datatype::tuple::cTuple
+          ]
+D:\skola\dstruct/paged/core/cTreeNode_rebuild.h(591): warning C4018: '>': signed/unsigned mismatch
+d:\skola\dstruct\paged\queryprocessing\cdbfslevel.h(103): warning C4172: returning address of local variable or temporary: idx
+  rtree.vcxproj -> D:\skola\bakalarka\pokusy\rtree_test\Debug\rtree.exe
+  rtree.vcxproj -> Debug\rtree.pdb (Full PDB)

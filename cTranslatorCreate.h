@@ -39,6 +39,7 @@ public:
 	cSpaceDescriptor* CreateVarSpaceDescriptor();
 	cSpaceDescriptor* CreateFixKeySpaceDescriptor();
 	cSpaceDescriptor* CreateVarKeySpaceDescriptor();
+	cSpaceDescriptor* CreateColumnSpaceDescriptor(cDataType* type, int columnSize);
 	
 	
 
@@ -155,21 +156,7 @@ inline void cTranslatorCreate::TranlateCreate(string input)
 				varlen = true;
 			}
 
-			if (column->cType->GetCode() == 'n')//pokud je typ tuple(VARCHAR)
-			{
-				cDataType ** ptr;
-				ptr = new cDataType*[column->size];
-
-				for (int i = 0; i < column->size; i++)
-				{
-					ptr[i] = new cChar();
-				}
-				column->columnSD = new cSpaceDescriptor(column->size, new cNTuple(), ptr, false);//SD varchar tuplu				
-			}
-			else
-			{
-				column->columnSD = NULL;
-			}
+			column->columnSD = CreateColumnSpaceDescriptor(column->cType, column->size);
 			position++;
 		}
 		else
@@ -237,16 +224,24 @@ inline void cTranslatorCreate::TranlateCreate(string input)
 		typeOfCreate = RTREE;
 
 	
+
+
 	if (keyVarlen)
 	{
-		//CreateVarSpaceDescriptor();
-		CreateFixSpaceDescriptor();
 		CreateVarKeySpaceDescriptor();
+	}
+	else
+		CreateFixKeySpaceDescriptor();
+
+
+	if (keyVarlen)
+	{
+		CreateVarSpaceDescriptor();
 	}
 	else
 	{
 		CreateFixSpaceDescriptor();
-		CreateFixKeySpaceDescriptor();
+
 	}
 	
 }
@@ -327,6 +322,14 @@ inline cSpaceDescriptor * cTranslatorCreate::CreateVarSpaceDescriptor()
 
 		//ptr[i] = new cInt();// cBasicType<cDataType*>::GetType("INT");
 		SD = new cSpaceDescriptor(columns->size(), new cHNTuple(), ptr, false);//SD tuplu
+		
+		for (int i = 0; i < columns->size(); i++)
+		{
+			if (columns->at(i)->columnSD != NULL)
+			{
+				SD->SetDimSpaceDescriptor(i, columns->at(i)->columnSD);
+			}
+		}
 	}
 	else
 	{
@@ -344,7 +347,13 @@ inline cSpaceDescriptor * cTranslatorCreate::CreateVarSpaceDescriptor()
 		SD = new cSpaceDescriptor(columns->size()+1, new cTuple(), ptr, false);//SD tuplu
 		*/
 
-		SD = new cSpaceDescriptor(columns->size(), new cHNTuple(), columns->at(0)->cType, false);//SD tuplu
+		SD = new cSpaceDescriptor(columns->size(), new cTuple(), columns->at(0)->cType, false);//SD tuplu
+		for (int i = 0; i < columns->size(); i++)
+		{
+				SD->SetDimSpaceDescriptor(i, columns->at(i)->columnSD);
+		}
+
+
 	}
 	return SD;
 }
@@ -403,6 +412,7 @@ inline cSpaceDescriptor * cTranslatorCreate::CreateVarKeySpaceDescriptor()
 	cDataType ** ptr;
 	ptr = new cDataType*[2];
 
+	cSpaceDescriptor* columnSD;
 
 	for (int i = 0; i < columns->size(); i++)
 	{
@@ -410,16 +420,49 @@ inline cSpaceDescriptor * cTranslatorCreate::CreateVarKeySpaceDescriptor()
 		{
 			keyType = columns->at(i)->cType;
 			ptr[0] = keyType;
+			columnSD = columns->at(i)->columnSD;
 		}
 	}
 
 	ptr[1] = new cInt();
 	keySD = new cSpaceDescriptor(2, new cHNTuple(), ptr, false);
+	keySD->SetDimSpaceDescriptor(0, columnSD);
 
 
 	return keySD;
 }
+inline cSpaceDescriptor * cTranslatorCreate::CreateColumnSpaceDescriptor(cDataType* type, int columnSize)
+{
+	if (type->GetCode() == 'n')//pokud je typ tuple(VARCHAR)
+	{
+		cDataType ** ptr;
+		ptr = new cDataType*[columnSize];
 
+		for (int i = 0; i < columnSize; i++)
+		{
+			ptr[i] = new cChar();
+		}
+		return new cSpaceDescriptor(columnSize, new cNTuple(), ptr, false);//SD varchar tuplu				
+	}
+	else
+		return NULL;
+
+	if (type->GetCode() == 'c')//pokud je typ tuple char
+	{
+		cDataType ** ptr;
+		ptr = new cDataType*[columnSize];
+
+		for (int i = 0; i < columnSize; i++)
+		{
+			ptr[i] = new cChar();
+		}
+		return new cSpaceDescriptor(columnSize, new cNTuple(), ptr, false);//SD varchar tuplu
+
+	}
+
+
+
+}
 
 
 

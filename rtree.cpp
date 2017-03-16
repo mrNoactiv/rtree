@@ -152,7 +152,7 @@ int main(int argc, char *argv[])
 	/**/
 
 	/*my code*/
-
+	/*
 	mQuickDB = new cQuickDB();
 	if (!mQuickDB->Create(dbPath, CACHE_SIZE, MAX_NODE_INMEM_SIZE, BLOCK_SIZE))
 	{
@@ -168,7 +168,7 @@ int main(int argc, char *argv[])
 
 
 
-
+	*/
 	/*zdroj*/
 	ParseCommandLineArguments(argc, argv);
 	if (COLLECTION == cCollection::RANDOM && collectionFile == NULL && queryFile == NULL)
@@ -578,7 +578,7 @@ cHNTuple * CreateComplexTuple(cSpaceDescriptor* hnSD, cSpaceDescriptor* lnSD)
 {
 	cHNTuple *tuple = new cHNTuple();
 
-	for (unsigned int j = 0; j < DIMENSION; j++)
+	for (unsigned int j = 0; j < DIMENSION; j++)//každá dimenze nastavena na cLNTuple,nemá se nastavit jen ta dimenze, kde bude cLNTuple-cNTuple?
 	{
 		hnSD->SetDimSpaceDescriptor(j, lnSD);
 		hnSD->SetDimensionType(j, new cLNTuple());
