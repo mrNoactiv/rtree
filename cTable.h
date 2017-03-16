@@ -223,7 +223,7 @@ inline bool cTable::CreateIndex(string query, cQuickDB * quickDB, const unsigned
 	}
 	else
 	{
-	/*
+	
 		cNTuple tp(indexSD, 12);
 		unsigned int v1 = tp.GetSize(indexSD);
 		unsigned int v2 = indexSD->GetSize();
@@ -259,7 +259,7 @@ inline bool cTable::CreateIndex(string query, cQuickDB * quickDB, const unsigned
 			return false;
 		}
 		
-		return true;*/
+		return true;
 	}
 	
 	
@@ -270,7 +270,7 @@ inline bool cTable::CreateClusteredIndex(cTranslatorCreate *translator, cQuickDB
 	int keyPosition;
 	if (translator->varlen)
 	{
-		/*cCompleteRTree<cHNTuple>*index = new cCompleteRTree<cHNTuple>(tableName.c_str(), translator->keyPosition, BLOCK_SIZE, translator->SD, translator->SD->GetTypeSize(), translator->SD->GetSize(), true, DSMODE, cDStructConst::RTREE, compressionRatio, codeType, runtimeMode, histograms, inMemCacheSize, quickDB);
+		cCompleteRTree<cHNTuple>*index = new cCompleteRTree<cHNTuple>(tableName.c_str(), translator->keyPosition, BLOCK_SIZE, translator->SD, translator->SD->GetTypeSize(), translator->SD->GetSize(), true, DSMODE, cDStructConst::RTREE, compressionRatio, codeType, runtimeMode, histograms, inMemCacheSize, quickDB);
 
 
 		if (index != NULL)
@@ -278,7 +278,7 @@ inline bool cTable::CreateClusteredIndex(cTranslatorCreate *translator, cQuickDB
 			indexesVarLen->push_back(index);
 			//indexesFixLen->push_back(index);
 			return true;
-		}*/
+		}
 
 	}
 	else if(translator->varlen==false)
@@ -289,7 +289,6 @@ inline bool cTable::CreateClusteredIndex(cTranslatorCreate *translator, cQuickDB
 		if (index != NULL)
 		{
 			indexesFixLen->push_back(index);
-			//indexesFixLen->push_back(index);
 			return true;
 		}
 	}
